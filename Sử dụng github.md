@@ -18,4 +18,3 @@
 <img src="https://imgur.com/jPbS3Ah.png">
 - Step 11: Quá trình push origin thành công, bạn hãy chọn View on Github để kiểm tra bài viết của mình trên Github.
 <img src="https://imgur.com/Hiyeg7b.png">
-Step 12: 
