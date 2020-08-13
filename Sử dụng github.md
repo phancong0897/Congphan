@@ -16,9 +16,7 @@
 <img src="https://imgur.com/VFmzkjX.png">
 - Step 7: Click chuột phải chọn new file ở Visua studio code để tạo một bản ghi.
 <img src="https://imgur.com/PE67Z9f.png">
-- Step 8 : bạn hãy viết một vài vấn đề gì đấy.
-- Step 9: lưu bài biết bạn vừa tao, sau đó bản chuyển sang github desktop, ở phía dưới góc trái màn hình chon commit to master.
-- Step 10: Click chọn Push origin
+- Step 10 : Click chọn Push origin
 <img src="https://imgur.com/jPbS3Ah.png">
 - Step 11: Quá trình push origin thành công, bạn hãy chọn View on Github để kiểm tra bài viết của mình trên Github.
 <img src="https://imgur.com/Hiyeg7b.png">
