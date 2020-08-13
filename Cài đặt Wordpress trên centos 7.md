@@ -5,7 +5,8 @@
 3. [Tạo Swap](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/C%C3%A0i%20%C4%91%E1%BA%B7t%20Wordpress%20tr%C3%AAn%20centos%207.md#3-t%E1%BA%A1o-swap)
 4. [Điều chỉnh giá trị Swappiness](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/C%C3%A0i%20%C4%91%E1%BA%B7t%20Wordpress%20tr%C3%AAn%20centos%207.md#4--%C4%91i%E1%BB%81u-ch%E1%BB%89nh-gi%C3%A1-tr%E1%BB%8B-swappiness)
 5. [Xóa Swap](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/C%C3%A0i%20%C4%91%E1%BA%B7t%20Wordpress%20tr%C3%AAn%20centos%207.md#5-x%C3%B3a-swap)
-   [Nguồn tham khảo]()
+6. [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/C%C3%A0i%20%C4%91%E1%BA%B7t%20Wordpress%20tr%C3%AAn%20centos%207.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
+
 ## 1. Giới thiệu Swap
 
 - Swap hay còn được gọi là RAM ảo được sử dụng để hỗ trợ lưu trữ dữ liệu khi bộ nhớ vật lý (RAM) đã đầy. Đôi khi SWAP cũng được dùng song song để tăng dung lượng bộ nhớ đệm. SWAP thường dùng trên các hệ điều hành Linux, Ubuntu hoặc CentOS.
@@ -117,7 +118,7 @@
 
 Nếu nó không xuất hiện gì thì bạn đã xóa thành công.
 
-## Nguồn tham khảo
+## 6. Nguồn tham khảo
 
  https://blog.hostvn.net/chia-se/huong-dan-tao-swap-tren-centos-7.html
 
