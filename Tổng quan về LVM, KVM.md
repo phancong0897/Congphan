@@ -2,17 +2,27 @@
 
 # Mục lục
 
-[1. Giới thiệu về LVM.]()
-[1.1 Khái niệm.]()
-[1.2 Ưu điểm và nhược điểm của KVM.]()
-[1.3 Các thành phần trong KVM.]()
-[2. Tổng quan về KVM.]()
-[2.1 Khái niệm và vai trò.]() 
-[2.2 Cấu trúc của KVM.]()
-[2.3 Mô hình vận hành.]()
-[2.4 Cơ chế hoạt động.]()
-[2.5 Tính năng.]()
-[Nguồn tham khảo]()
+[1. Giới thiệu về LVM.](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20LVM%2C%20KVM.md#1-gi%E1%BB%9Bi-thi%E1%BB%87u-v%E1%BB%81-lvm)
+
+[1.1 Khái niệm.](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20LVM%2C%20KVM.md#11-kh%C3%A1i-ni%E1%BB%87m)
+
+[1.2 Ưu điểm và nhược điểm của KVM.](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20LVM%2C%20KVM.md#12-%C6%B0u-%C4%91i%E1%BB%83m-v%C3%A0-nh%C6%B0%E1%BB%A3c-%C4%91i%E1%BB%83m-c%E1%BB%A7a-lvm)
+
+[1.3 Các thành phần trong KVM.](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20LVM%2C%20KVM.md#13-nh%E1%BB%AFng-th%C3%A0nh-ph%E1%BA%A7n-trong-lvm)
+
+[2. Tổng quan về KVM.](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20LVM%2C%20KVM.md#2-t%E1%BB%95ng-quan-v%E1%BB%81-kvm)
+
+[2.1 Khái niệm và vai trò.](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20LVM%2C%20KVM.md#21-kh%C3%A1i-ni%E1%BB%87m-v%C3%A0-vai-tr%C3%B2) 
+
+[2.2 Cấu trúc của KVM.](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20LVM%2C%20KVM.md#22-c%E1%BA%A5u-tr%C3%BAc-c%E1%BB%A7a-kvm)
+
+[2.3 Mô hình vận hành.](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20LVM%2C%20KVM.md#23-m%C3%B4-h%C3%ACnh-v%E1%BA%ADn-h%C3%A0nh)
+
+[2.4 Cơ chế hoạt động.](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20LVM%2C%20KVM.md#24-c%C6%A1-ch%E1%BA%BF-ho%E1%BA%A1t-%C4%91%E1%BB%99ng)
+
+[2.5 Tính năng.](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20LVM%2C%20KVM.md#25-t%C3%ADnh-n%C4%83ng)
+
+[Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20LVM%2C%20KVM.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
 
 
 
