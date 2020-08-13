@@ -15,6 +15,8 @@
 - Step 6: Click vào Open Visual studio code.
 <img src="https://imgur.com/VFmzkjX.png">
 - Step 7: Click chuột phải chọn new file ở Visua studio code để tạo một bản ghi.
+- Step 8:
+- Step 9: 
 <img src="https://imgur.com/PE67Z9f.png">
 - Step 10 : Click chọn Push origin
 <img src="https://imgur.com/jPbS3Ah.png">
