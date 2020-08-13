@@ -2,9 +2,9 @@
 # Mục lục
 1. [Tạo tài khoản Github](https://github.com/phancong0897/Congphan/blob/master/S%E1%BB%AD%20d%E1%BB%A5ng%20github.md#1-taojjfhgjdfhgd)
 
-2. [Tạo mới reposility](#B)
+2. [Tạo mới reposility](https://github.com/phancong0897/Congphan/blob/master/S%E1%BB%AD%20d%E1%BB%A5ng%20github.md#2-s%E1%BB%AD-d%E1%BB%A5ng-github-desktop)
 
-3. [Sử dụng Visual studio code](#C)
+3. [Sử dụng Visual studio code](https://github.com/phancong0897/Congphan/blob/master/S%E1%BB%AD%20d%E1%BB%A5ng%20github.md#3-s%E1%BB%AD-d%E1%BB%A5ng-visual-studio-code)
 
 ## 1. Tạo tài khoản Github
 
