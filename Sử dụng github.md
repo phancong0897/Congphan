@@ -14,7 +14,6 @@
 <img src="https://imgur.com/f9exYrU.png">
 - Step 5: Chọn đúng tên mình vừa tạo repository ở step 3 và nhấn clone.
 <img src="https://imgur.com/f9exYrU.jpg">
-## 3. Sử dụng visual studio code <a name="C"></a>
 - Step 6: Click vào Open Visual studio code.
 <img src="https://imgur.com/VFmzkjX.png">
 - Step 7: Click chuột phải chọn new file ở Visua studio code để tạo một bản ghi.
