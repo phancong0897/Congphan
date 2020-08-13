@@ -5,7 +5,7 @@
 3. [Tạo Swap](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/C%C3%A0i%20%C4%91%E1%BA%B7t%20Wordpress%20tr%C3%AAn%20centos%207.md#3-t%E1%BA%A1o-swap)
 4. [Điều chỉnh giá trị Swappiness](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/C%C3%A0i%20%C4%91%E1%BA%B7t%20Wordpress%20tr%C3%AAn%20centos%207.md#4--%C4%91i%E1%BB%81u-ch%E1%BB%89nh-gi%C3%A1-tr%E1%BB%8B-swappiness)
 5. [Xóa Swap](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/C%C3%A0i%20%C4%91%E1%BA%B7t%20Wordpress%20tr%C3%AAn%20centos%207.md#5-x%C3%B3a-swap)
-6. [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/C%C3%A0i%20%C4%91%E1%BA%B7t%20Wordpress%20tr%C3%AAn%20centos%207.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
+6. [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/C%C3%A0i%20%C4%91%E1%BA%B7t%20Wordpress%20tr%C3%AAn%20centos%207.md#6-ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
 
 ## 1. Giới thiệu Swap
 
