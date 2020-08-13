@@ -1,10 +1,10 @@
 # Tài liệu tạo sửa xóa Swap trên Centos 7
 # Mục lục 
-1. [Giới thiệu về Swap]()
-2. [Kiếm tra Swap]()
-3. [Tạo Swap]()
-4. [Điều chỉnh giá trị Swappiness]()
-5. [Xóa Swap]
+1. [Giới thiệu về Swap](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/C%C3%A0i%20%C4%91%E1%BA%B7t%20Wordpress%20tr%C3%AAn%20centos%207.md#1-gi%E1%BB%9Bi-thi%E1%BB%87u-swap)
+2. [Kiếm tra Swap](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/C%C3%A0i%20%C4%91%E1%BA%B7t%20Wordpress%20tr%C3%AAn%20centos%207.md#2-ki%E1%BA%BFm-tra-swap)
+3. [Tạo Swap](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/C%C3%A0i%20%C4%91%E1%BA%B7t%20Wordpress%20tr%C3%AAn%20centos%207.md#3-t%E1%BA%A1o-swap)
+4. [Điều chỉnh giá trị Swappiness](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/C%C3%A0i%20%C4%91%E1%BA%B7t%20Wordpress%20tr%C3%AAn%20centos%207.md#4--%C4%91i%E1%BB%81u-ch%E1%BB%89nh-gi%C3%A1-tr%E1%BB%8B-swappiness)
+5. [Xóa Swap](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/C%C3%A0i%20%C4%91%E1%BA%B7t%20Wordpress%20tr%C3%AAn%20centos%207.md#5-x%C3%B3a-swap)
    [Nguồn tham khảo]()
 ## 1. Giới thiệu Swap
 
@@ -93,7 +93,7 @@
 
      vi/usr/lib/tuned/virtual-guest/tuned.conf
 
-     <img src="https://imgur.com/3pLtCAt.png">
+<img src="https://imgur.com/3pLtCAt.png">
 
 ## 5. Xóa Swap
 
@@ -116,5 +116,11 @@
      swapon-- show
 
 Nếu nó không xuất hiện gì thì bạn đã xóa thành công.
+
+## Nguồn tham khảo
+
+ https://blog.hostvn.net/chia-se/huong-dan-tao-swap-tren-centos-7.html
+
+ https://wiki.matbao.net/swap-la-gi-moi-thong-tin-can-biet-ve-ram-ao-swap/
 
 
