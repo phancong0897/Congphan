@@ -1,5 +1,7 @@
 ## Tài liệu sử dụng github
+1. [Tạo tài khoản Github]
 - Step 1: Vào trang chủ của Github để đăng ký account. Đăng ký thành công, bạn tiến hành đăng nhập vào github.
+2. [Tạo mới reposility]
 - Step 2: Click vào dấu cộng ở phía trên góc trái màn hình, chọn new repository.
 <img src="https://imgur.com/j1pHgUI.png">
 - Step 3: Điền các thông tin tương ứng click chọn Initialize this repository with a README và chon create repository.
@@ -8,6 +10,7 @@
 <img src="https://imgur.com/f9exYrU.png">
 - Step 5: Chọn đúng tên mình vừa tạo repository ở step 3 và nhấn clone.
 <img src="https://imgur.com/f9exYrU.jpg">
+3. [Sử dụng Visual studi code]
 - Step 6: Click vào Open Visual studio code.
 <img src="https://imgur.com/VFmzkjX.png">
 - Step 7: Click chuột phải chọn new file ở Visua studio code để tạo một bản ghi.
