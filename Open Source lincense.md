@@ -105,12 +105,12 @@ Một số lớn các dự án xây dựng phần mềm nguồn mở, bao gồm 
 Tích hợp mã nguồn được cấp phép theo chế độ giấy phép BSD vào các ứng dụng thương mại và việc khá đơn giản. Ngay Microsoft trước đây cũng đã từng sử dụng một số mã BSD trong phần kết nối mạng của mã nguồn Window. Nhiều công ty đưa cả phần mềm máy chủ Apache vào trong gói phần mềm thương mại mà họ cung cấp cho khách hàng.
 ### 3.3 Giấy phép MIT
 #### 3.3.1 Nhà phát hành:
-MIT là một giấy phép phần mềm tự do được phát hành bởi Học viện Công nghệ Massachusetts (Massachusetts Institute of Technology – MIT), được hội đồng MIT X sử dụng.
+- MIT là một giấy phép phần mềm tự do được phát hành bởi Học viện Công nghệ Massachusetts (Massachusetts Institute of Technology – MIT), được hội đồng MIT X sử dụng.
 
-Theo Tổ chức phần mềm tự do, giấy phép MIT nên được gọi chính xác hơn là giấy phép X11, do Học viện Massachusetts đã từng dùng nhiều loại giấy phép khác nữa, và do giấy phép này ban đầu được soạn thảo cho X Window System (dự án tạo giao diện đồ họa cho người dùng ở các máy tính kết nối mạng vào năm 1984).
+- Theo Tổ chức phần mềm tự do, giấy phép MIT nên được gọi chính xác hơn là giấy phép X11, do Học viện Massachusetts đã từng dùng nhiều loại giấy phép khác nữa, và do giấy phép này ban đầu được soạn thảo cho X Window System (dự án tạo giao diện đồ họa cho người dùng ở các máy tính kết nối mạng vào năm 1984).
 
 #### 3.3.2 Nội dung chính:
-MIT là một giấy phép dạng “permissive”, nghĩa là nó cho phép tái sự dụng các phần mềm độc quyền nhưng với điều kiện giấy phép MIT đã được phân phối kèm phần mềm đó. Giấy phép MIT cũng tương thích GLP, nghĩa là GPL cho phép tổng hợp và tái phân phối các phần mềm sử dụng giấy phép MIT.
+- MIT là một giấy phép dạng “permissive”, nghĩa là nó cho phép tái sự dụng các phần mềm độc quyền nhưng với điều kiện giấy phép MIT đã được phân phối kèm phần mềm đó. Giấy phép MIT cũng tương thích GLP, nghĩa là GPL cho phép tổng hợp và tái phân phối các phần mềm sử dụng giấy phép MIT.
 
 - Các quyền lợi của người sử dụng giấy phép vẫn tương tự như ở giấy phép GNU. Tuy nhiên MIT loại bỏ thuộc tính virus khỏi giấy phép, tức không bắt buộc các chương trình sử dụng tài nguyên có dùng giấy phép MIT cũng phải sử dụng giấy phép MIT.
 
@@ -172,15 +172,15 @@ So với giấy phép BSD, Apache có nội dung chặt chẽ hơn trong các đ
  ``` 
 
 #### 3.4.1 Các phần mềm sử dụng giấy phép Apache:
-Mặc dù có nhiều phần mềm không phải do ASF phát hành cũng mang giấy phép Apache, song nổi tiếng và được sử dụng nhiều nhất vẫn là Apache Server, phần mềm giao tiếp dành cho máy chủ. Ngay từ khi ra đời Apache đã có thể cạnh tranh với chương trình máy chủ của Nescape, và tới nay thì Apache chiếm khoảng hơn 60% thị phần máy chủ thế giới.
+- Mặc dù có nhiều phần mềm không phải do ASF phát hành cũng mang giấy phép Apache, song nổi tiếng và được sử dụng nhiều nhất vẫn là Apache Server, phần mềm giao tiếp dành cho máy chủ. Ngay từ khi ra đời Apache đã có thể cạnh tranh với chương trình máy chủ của Nescape, và tới nay thì Apache chiếm khoảng hơn 60% thị phần máy chủ thế giới.
 
-Bên cạnh Apache Server, còn có những phần mềm khác sử dụng giấy phép Apache như:
+- Bên cạnh Apache Server, còn có những phần mềm khác sử dụng giấy phép Apache như:
 
-Apache Cocoon — một chương trình nền cho ứng dụng web
+  - Apache Cocoon — một chương trình nền cho ứng dụng web
 
-XAMPP — gói ứng dụng web gồm Apache và MySQL
+  - XAMPP — gói ứng dụng web gồm Apache và MySQL
 
-Apache Axis2 – Chương tình nền cho dịch vụ web (xử lí được cả ngôn ngữ Java & C)
+  - Apache Axis2 – Chương tình nền cho dịch vụ web (xử lí được cả ngôn ngữ Java & C)
 
 # 4. Kết luận
 - GPL : Một khi sử dụng và phân phối , bắt buộc phải sử dụng giấy phép GPL , không được phép đóng mã nguồn và thay đổi giấy phép .
