@@ -1,12 +1,12 @@
 # Tài liệu sử dụng github
 # Mục lục
-1. [Tạo tài khoản Github](#A)
+1. [Tạo tài khoản Github](https://github.com/phancong0897/Congphan/blob/master/S%E1%BB%AD%20d%E1%BB%A5ng%20github.md#1-taojjfhgjdfhgd-)
 
 2. [Tạo mới reposility](#B)
 
 3. [Sử dụng Visual studio code](#C)
 
-## 1. taojjfhgjdfhgd <a name="#A"></a>
+## 1. taojjfhgjdfhgd
 
 - Step 1: Vào trang chủ của Github để đăng ký account. Đăng ký thành công, bạn tiến hành đăng nhập vào github.
 
