@@ -1,18 +1,15 @@
 # Tổng quan về các giấy phép mã nguồn mở
 # Mục lục
-1. [Khái niệm](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#1-kh%C3%A1i-ni%E1%BB%87m-1).
+1. [Khái niệm](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#1-kh%C3%A1i-ni%E1%BB%87m).
 
-2. [Phân loại giấy phép mã nguồn mở](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#2-ph%C3%A2n-lo%E1%BA%A1i-gi%E1%BA%A5y-ph%C3%A9p-m%C3%A3-ngu%E1%BB%93n-m%E1%BB%9F-1).
+2. [Phân loại giấy phép mã nguồn mở](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#2-ph%C3%A2n-lo%E1%BA%A1i-gi%E1%BA%A5y-ph%C3%A9p-m%C3%A3-ngu%E1%BB%93n-m%E1%BB%9F).
 
 3. [Các loại giấy phép mã nguồn mở](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#3-c%C3%A1c-lo%E1%BA%A1i-gi%E1%BA%A5y-ph%C3%A9p-m%C3%A3-ngu%E1%BB%93n-m%E1%BB%9F-th%C3%B4ng-d%E1%BB%A5ng).
 
-4. [Kết luận](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#4-k%E1%BA%BFt-lu%E1%BA%ADn-1).
+4. [Kết luận](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#4-k%E1%BA%BFt-lu%E1%BA%ADn).
 
 [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o).
 
-https://news.cloud365.vn/cac-loai-giay-phep-ma-nguon-mo-open-source-licences/
-
-https://thaiduynguyen.wordpress.com/2009/10/30/tim-hieu-ve-osl/
 
 ## 1. Khái niệm
 
@@ -196,3 +193,8 @@ Apache Axis2 – Chương tình nền cho dịch vụ web (xử lí được c�
 - Khi sử dụng có phải đưa mã nguồn ra thành mã nguồn mở?
   - BSD , LGPL , MPL : Không
   - GPL : Có.
+
+  ## Nguồn tham khảo
+  https://news.cloud365.vn/cac-loai-giay-phep-ma-nguon-mo-open-source-licences/
+
+  https://thaiduynguyen.wordpress.com/2009/10/30/tim-hieu-ve-osl/
