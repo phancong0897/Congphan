@@ -6,13 +6,13 @@
 
 3. [Các loại giấy phép mã nguồn mở](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#3-c%C3%A1c-lo%E1%BA%A1i-gi%E1%BA%A5y-ph%C3%A9p-m%C3%A3-ngu%E1%BB%93n-m%E1%BB%9F-th%C3%B4ng-d%E1%BB%A5ng).
 
- 3.1. [Giấy phép GNU](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#31-gi%E1%BA%A5y-ph%C3%A9p-gnu)
+   3.1. [Giấy phép GNU](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#31-gi%E1%BA%A5y-ph%C3%A9p-gnu)
 
- 3.2. [Giấy phép BSD](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#32-gi%E1%BA%A5y-ph%C3%A9p-bsd)
+   3.2. [Giấy phép BSD](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#32-gi%E1%BA%A5y-ph%C3%A9p-bsd)
 
- 3.3. [Giấy phép MIT](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#33-gi%E1%BA%A5y-ph%C3%A9p-mit)
+   3.3. [Giấy phép MIT](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#33-gi%E1%BA%A5y-ph%C3%A9p-mit)
 
- 3.4. [Giấy phép Apache](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#34-gi%E1%BA%A5y-ph%C3%A9p-apache)
+   3.4. [Giấy phép Apache](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#34-gi%E1%BA%A5y-ph%C3%A9p-apache)
 
 4. [Kết luận](https://github.com/phancong0897/Congphan/blob/Open-Suorce-lincense/Open%20Source%20lincense.md#4-k%E1%BA%BFt-lu%E1%BA%ADn).
 
