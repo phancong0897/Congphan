@@ -2,23 +2,23 @@
 
 # Mục lục
 
-[Khái niệm.](A)
+[Khái niệm.](https://github.com/phancong0897/Congphan/blob/master/Open%20Source%20lincense.md#1-kh%C3%A1i-ni%E1%BB%87m--)
 
-[Phân loại giấy phép mã nguồn mở.](B)
+[Phân loại giấy phép mã nguồn mở.](https://github.com/phancong0897/Congphan/blob/master/Open%20Source%20lincense.md#2-ph%C3%A2n-lo%E1%BA%A1i-gi%E1%BA%A5y-ph%C3%A9p-m%C3%A3-ngu%E1%BB%93n-m%E1%BB%9F-)
 
-[Các loại giấy phép mã nguồn mở.](C)
+[Các loại giấy phép mã nguồn mở.](https://github.com/phancong0897/Congphan/blob/master/Open%20Source%20lincense.md#3-c%C3%A1c-lo%E1%BA%A1i-gi%E1%BA%A5y-ph%C3%A9p-m%C3%A3-ngu%E1%BB%93n-m%E1%BB%9F-th%C3%B4ng-d%E1%BB%A5ng-)
 
-[Kết luận.](D)
+[Kết luận.](https://github.com/phancong0897/Congphan/blob/master/Open%20Source%20lincense.md#4-k%E1%BA%BFt-lu%E1%BA%ADn-)
 
-[Nguồn tham khảo](E)
+[Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/Open%20Source%20lincense.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o-)
 
-## 1. Khái niệm <a src="A"> </a>
+## 1. Khái niệm
 
 - Phần mềm nguồn mở ( Open Source ) là những phần mềm được cung cấp dưới cả dạng mã và nguồn , không chỉ là miễn phí về giá mua mà chủ yếu là miễn phí về bản quyền : người dùng có quyền sửa đổi , cải tiến , phát triển , nâng cấp theo một số nguyên tắc chung quy định trong giấy phép phần mềm nguồn mở mà không cần xin phép ai , điều mà họ không được phép làm đối với các phần mềm nguồn đóng ( tức là phần mềm thương mại ) .
 
 - Tính pháp lý của Giấy phép mã nguồn mở: Giấy phép mã nguồn mở vẫn duy trì xác nhận về bản quyền của tác giả gốc đối với phần mềm, tuy nhiên được đưa thêm các điều khoản để các hành vi phân phối, sửa đổi, sao chép… các phần mềm này trở thành hợp pháp. Vì vậy giấy phép này và các điều quy định trong nó có giá trị về mặt pháp lý (luật pháp được nhắc đến ở đây là luật của Hoa Kì).
 
-## 2. Phân loại giấy phép mã nguồn mở <a name="B"></a>
+## 2. Phân loại giấy phép mã nguồn mở
 
 - Những giấy phép không quy định bất cứ sự hạn chế nào trong việc sử dụng mã nguồn (còn có thể gọi là các giấy phép không bảo hộ vì chúng không bảo vệ mã nguồn mở khỏi việc bị sử dụng trong các phần mềm không phải là mã nguồn mở)
 
@@ -32,7 +32,7 @@
 
 - Người giữ bản quyền mã nguồn khi sử dụng loại giấy phép có bảo hộ giữ lại bản quyền của họ đối với mã nguồn, và cấp cho người được cấp bản quyền tất cả các quyền thuộc về bản quyền của mã nguồn đó, nhưng có ít nhất một điều kiện, thông thường là việc phân phối lại phần mềm/mã nguồn đó, dù đã được sửa đổi hay chưa, đều phải sử dụng cùng loại giấy phép ban đầu.
 
-## 3. Các loại giấy phép mã nguồn mở thông dụng <a name="C"></a>
+## 3. Các loại giấy phép mã nguồn mở thông dụng
 ### 3.1 Giấy phép GNU
 #### 3.1.1 Nhà phát hành:
 
@@ -182,7 +182,7 @@ XAMPP — gói ứng dụng web gồm Apache và MySQL
 
 Apache Axis2 – Chương tình nền cho dịch vụ web (xử lí được cả ngôn ngữ Java & C)
 
-# 4. Kết luận <a name="D"></a>
+# 4. Kết luận
 - GPL : Một khi sử dụng và phân phối , bắt buộc phải sử dụng giấy phép GPL , không được phép đóng mã nguồn và thay đổi giấy phép .
 - LGPL : là giấy phép tự do “ít ràng buộc” hơn, là giấy phép sửa đổi của GPL , được sử dụng cho một số thư viện phần mềm ( các thư viện dùng ngôn ngữ C thường áp dụng giấy phép này )
 - MPL : MPL dung hoà giữa BSD và GPL . MPL cho phép dùng MPL software để tạo ra một sản phẩm khác ( thương mại hoặc không ) , tuy nhiên nếu thay đổi MPL software thì phải được đưa miễn phí lên Internet .
@@ -195,7 +195,7 @@ Apache Axis2 – Chương tình nền cho dịch vụ web (xử lí được c�
   - BSD , LGPL , MPL : Không
   - GPL : Có
 
-  ## Nguồn tham khảo <a name="E"></a>
+  ## Nguồn tham khảo
   
   https://news.cloud365.vn/
   cac-loai-giay-phep-ma-nguon-mo-open-source-licences/
