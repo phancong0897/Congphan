@@ -6,9 +6,11 @@
 
 3. [Sử dụng Visual studio code](#C)
 
-## 1. taojjfhgjdfhgd
+## 1. Tạo tài khoản Github
 
 - Step 1: Vào trang chủ của Github để đăng ký account. Đăng ký thành công, bạn tiến hành đăng nhập vào github.
+
+## 2. Sử dụng Github Desktop 
 
 - Step 2: Click vào dấu cộng ở phía trên góc trái màn hình, chọn new repository.
 
@@ -24,6 +26,8 @@
 
 - Step 5: Chọn đúng tên mình vừa tạo repository ở step 3 và nhấn clone.
 <img src="https://imgur.com/f9exYrU.jpg">
+
+## 3. Sử dụng Visual Studio code
 
 - Step 6: Click vào Open Visual studio code.
 
