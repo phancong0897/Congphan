@@ -112,7 +112,7 @@
 
 <img src="https://imgur.com/09kFerR.png">
 
-    - Sau đó sử dụng lênh vi /etc/fstab để gắn kết
+- Sau đó sử dụng lênh vi /etc/fstab để gắn kết
 
 <img src="https://imgur.com/ThWVJBQ.png">
 
