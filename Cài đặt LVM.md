@@ -104,6 +104,20 @@
 
 - Kiểm tra bằng lệnh df -h
 
+- Các phân vùng gắn kết của chúng ta là tạm thời. Nếu hệ điều hành được khởi động lại, các thư mục được gắn kết này sẽ bị mất. Vì vậy, chúng ta cần phải gắn kết vĩnh viễn. Để thực hiện gắn kết vĩnh viễn phải nhập trong tệp /etc/fstab.
+
+    - Để lấy UUID của các phân vùng chúng ta thực hiện như sau:
+    
+         blkid  /dev/vg-demo1/lv-demo1
+
+<img src="https://imgur.com/09kFerR">
+
+    - Sau đó sử dụng lênh vi /etc/fstab để gắn kết
+
+<img src="https://imgur.com/ThWVJBQ">
+
 ## Nguồn tham khảo
 
 https://news.cloud365.vn/lvm-gioi-thieu-ve-logical-volume-manager/
+
+https://blogd.net/linux/quan-ly-phan-vung-dia-cung-tren-linux/
