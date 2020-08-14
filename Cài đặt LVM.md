@@ -2,17 +2,17 @@
 
 # Mục lục
 
-[ Cấu hình ]()
+[ Cấu hình ](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#c%E1%BA%A5u-h%C3%ACnh)
 
-[Tạo các partion]()
+[Tạo các partion](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#t%E1%BA%A1o-c%C3%A1c-partion)
 
-[ Tạo Physical Volume]()
+[ Tạo Physical Volume](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#t%E1%BA%A1o-physical-volume-)
 
-[ Tạo Volume Group]()
+[ Tạo Volume Group](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#t%E1%BA%A1o-volum-groupe-)
 
-[ Tạo Logical Volume]()
+[ Tạo Logical Volume](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#t%E1%BA%A1o-logical-volume)
 
-[ Mount và sử dụng]()
+[ Mount và sử dụng](phancong0897)
 
 [Nguồn tham khảo]()
 
@@ -32,7 +32,7 @@
 
     - fdisk /dev/sdb
 
-<img src="https://imgur.com/undefined.png">
+<img src="https://imgur.com/Ur6Hy80.png">
 
 - Trong đó :
 
@@ -46,7 +46,7 @@
     - Sau khi hoàn thành ấn w để lưu và thoát
 – Tương tự tạo thêm các partition primary từ sdb ,sdc,sdd.
 
-<img src="https://imgur.com/undefined.png">
+<img src="https://imgur.com/VspLewq.png">
 
 ## Tạo Physical Volume :
 
@@ -59,7 +59,7 @@
 
 - Kiểm tra bằng lệnh pvs hoặc pvdisplay xem các physical volume đã được tạo chưa :
 
-<img src="https://imgur.com/undefined.png">
+<img src="https://imgur.com/fwPazcP.png">
 
 ## Tạo Volum groupe :
 - Sau khi tạo các Physical Volume ta gộp các PV đó thành 1 Volume Group bằng lệnh sau :
@@ -68,7 +68,7 @@
 
 - Dùng các lệnh vgs hoặc vgdisplay để kiểm tra :
 
-<img src="https://imgur.com/undefined,png">
+<img src="https://imgur.com/ua783j5.png">
 
 ## Tạo Logical Volume:
 
@@ -84,7 +84,7 @@
 
     - Kiểm tra bằng lệnh lvs hoặc lvdisplay
 
-<img src="https://imgur.com/undefined.png">
+<img src="https://imgur.com/LsaQrrs.png">
 
 - Định dạng Logical Volume:
 
@@ -104,6 +104,6 @@
 
 - Kiểm tra bằng lệnh df -h
 
-Nguồn tham khảo
+## Nguồn tham khảo
 
 https://news.cloud365.vn/lvm-gioi-thieu-ve-logical-volume-manager/
