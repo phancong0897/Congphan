@@ -14,7 +14,7 @@
 
 [ Mount và sử dụng](phancong0897)
 
-[Nguồn tham khảo]()
+[Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
 
 ##  Cấu hình
 
