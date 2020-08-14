@@ -110,11 +110,11 @@
     
          blkid  /dev/vg-demo1/lv-demo1
 
-<img src="https://imgur.com/09kFerR">
+<img src="https://imgur.com/09kFerR.png">
 
     - Sau đó sử dụng lênh vi /etc/fstab để gắn kết
 
-<img src="https://imgur.com/ThWVJBQ">
+<img src="https://imgur.com/ThWVJBQ.png">
 
 ## Nguồn tham khảo
 
