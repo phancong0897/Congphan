@@ -16,6 +16,8 @@
 
 ## [3.2 Truy cập Virt-manager để cấu hình VM](https://github.com/phancong0897/Congphan/blob/master/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#32-truy-c%E1%BA%ADp-virt-manager-%C4%91%E1%BB%83-c%E1%BA%A5u-h%C3%ACnh-vm-1)
 
+## [4. Sử dụng lệnh Virsh với KVM](https://github.com/phancong0897/Congphan/blob/master/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#4-s%E1%BB%AD-d%E1%BB%A5ng-l%E1%BB%87nh-virsh-v%E1%BB%9Bi-kvm)
+
 ## [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o-1)
 
 
@@ -31,7 +33,7 @@
 
 - Để kiểm tra máy có hỗ trợ ảo hóa hay không
 
-   - egrep -c "svm|vmx" /proc/cpuinfo
+   - ` egrep -c "svm|vmx" /proc/cpuinfo `
 
 <img src="https://imgur.com/1BjTLr5.png">
 
@@ -45,7 +47,7 @@ Nếu trên VMware, ta bật hỗ trợ ảo hóa trong Virtual Machine Settings
 
 - Ban đầu chúng ta sẽ cài đặt gói qemu-kvm và qemu-img . Các gói này cung cấp KVM cấp người dùng và trình quản lý hình ảnh đĩa.
 
-    - yum install qemu-kvm qemu-img
+    - ` yum install qemu-kvm qemu-img `
 
 - Bây giờ, bạn có yêu cầu tối thiểu để triển khai nền tảng ảo trên máy chủ của mình, nhưng chúng tôi vẫn có các công cụ hữu ích để quản trị nền tảng của mình như:
 
@@ -59,15 +61,15 @@ Nếu trên VMware, ta bật hỗ trợ ảo hóa trong Virtual Machine Settings
 
 - Hãy cài đặt các công cụ trên bằng lệnh sau:
 
-    - yum install virt-manager libvirt libvirt-python libvirt-client
+    - ` yum install virt-manager libvirt libvirt-python libvirt-client `
 
-    - yum groupinstall virtualization-client virtualization-platform virtualization-tools
+    - ` yum groupinstall virtualization-client virtualization-platform virtualization-tools `
 
 - Khởi động lại libvirtd và kiểm tra trạng thái của libvirtd
 
-    - systemctl restart libvirtd
+    - ` systemctl restart libvirtd `
 
-    - systemctl status libvirtd  
+    - ` systemctl status libvirtd  ` 
 
 
 ## 3. Sử dụng công cụ Virt-manager để cài VM
@@ -76,25 +78,25 @@ Nếu trên VMware, ta bật hỗ trợ ảo hóa trong Virtual Machine Settings
 
 - Download và lưu file ISO bản Minimal vào thư mục /var/lib/libvirt/file-iso/
 
-     - cd /var/lib/libvirt
+     -  `cd /var/lib/libvirt `
      
-     - mkdir file-iso
+     -  ` mkdir file-iso `
      
-     - cd file-iso
+     -  ` cd file-iso `
 
 - Nếu bạn có sắn file Iso, hay dũng winscp để tải lên thư mục vừa tạo, hoặc bạn có thể dowload trên internet bằng câu lệnh:
 
-     - wget http://repos-va.psychz.net/centos/7.6.1810/isos/x86_64/CentOS-7-x86_64-Minimal-1810.iso
+     -  ` wget http://repos-va.psychz.net/centos/7.6.1810/isos/x86_64/CentOS-7-x86_64-Minimal-1810.iso `
 
 - Đối với bản Minimal thì để sử dụng công cụ đồ họa Virt-manager, ta cần cài gói X-window
 
-     - yum install "@X Window System" xorg-x11-xauth xorg-x11-fonts-* xorg-x11-utils -y
+     -  ` yum install "@X Window System" xorg-x11-xauth xorg-x11-fonts-* xorg-x11-utils -y `
 
 ### 3.2 Truy cập Virt-manager để cấu hình VM
 
 - Truy cập Virt-manager ta chạy lệnh sau :
 
-     - virt-manager
+     - ` virt-manager `
 
 - Giao diện Virt-manager sẽ hiện ra :
 
@@ -143,19 +145,19 @@ Nếu trên VMware, ta bật hỗ trợ ảo hóa trong Virtual Machine Settings
 
 - Khởi động máy ảo:
 
-    virsh start centos7.0
+    ` virsh start centos7.0 `
 
 - Tắt máy ảo :
     
-    virsh shutdown cwntos7.0
+     ` virsh shutdown cwntos7.0 `
 
 - Khởi động lại máy ảo :
 
-    virsh reboot centos7.0
+    ` virsh reboot centos7.0 ` 
 
 - Suspend máy ảo :
     
-    virsh suspend centos7.0
+    ` virsh suspend centos7.0 `
 
 - Chỉnh sửa thông số máy ảo :
 
@@ -163,17 +165,17 @@ Nếu trên VMware, ta bật hỗ trợ ảo hóa trong Virtual Machine Settings
 
 - Sau khi chỉnh sửa , cập nhật lại cấu hình :
 
-    virsh define /etc/libvirt/qemu/centos7.0.xml
+     ` virsh define /etc/libvirt/qemu/centos7.0.xml `
 
 - Xóa máy ảo :
 
-    virsh destroy centos7.0
+     ` virsh destroy centos7.0 `
 
-    virsh undefine /etc/libvirt/qemu/centos7.0.xml
+     ` virsh undefine /etc/libvirt/qemu/centos7.0.xml `
 
 - Sau khi xóa máy ảo, ta có thể tùy chọn có xóa image không . Nếu xóa image : 
 
-    rm -rf /var/  lib/libvirt/images/centos7.0.qcow2
+     ` rm -rf /var/  lib/libvirt/images/centos7.0.qcow2 `
 
 - Các thao tác Clone
 
@@ -181,38 +183,41 @@ Trước khi clone cần SHUTDOWN máy ảo trước!
 
   - Clone tự động :
 
-        virt-clone --original=centos7.0 --auto-clone
+     ` virt-clone --original=centos7.0 --auto-clone `
+ 
   - Clone custom tên máy clone :
 
-        virt-clone --original=centos7.0 --name=CentOS7-03 --auto-clone
+     ` virt-clone --original=centos7.0 --name=CentOS7-03 --auto-clone `
 
   - Clone custom tên máy clone và disk image :
 
-        virt-clone --original=CentOS7-01 --name=CentOS7-04 --file=/var/lib/libvirt/images/centos7-04.qcow2
+     ` virt-clone --original=CentOS7-01 --name=CentOS7-04 --file=/var/lib/libvirt/images/centos7-04.qcow2 `
 
 - Các thao tác Snapshot:
 
   - Tạo snapshot :
 
-        virsh snapshot-create-as --domain centos7.0 --name "Begin" --description "ban khoi tao"
+     ` virsh snapshot-create-as --domain centos7.0 --name "Begin" --description "ban khoi tao" ` 
   
   - Show các bản snapshot đã tạo :
 
-        virsh snapshot-list centos7.0
+     ` virsh snapshot-list centos7.0 `
 
   - Reverse lại 1 bản snapshot đã tạo :
     
-        virsh snapshot-revert CentOS7-01 --snapshotname "Begin"
+     ` virsh snapshot-revert CentOS7-01 --snapshotname "Begin" `
   
   - Xóa một bản snapshot đã tạo :
 
-        virsh snapshot-delete CentOS7-01 --snapshotname "Begin"
+     ` virsh snapshot-delete CentOS7-01 --snapshotname "Begin" `
 
 ## Nguồn tham khảo
 
 https://news.cloud365.vn/kvm-huong-dan-cai-dat-kvm-tren-centos-7/
 
 https://www.tecmint.com/install-and-configure-kvm-in-linux/
+
+https://news.cloud365.vn/su-dung-lenh-virsh-voi-kvm/
 
 
 
