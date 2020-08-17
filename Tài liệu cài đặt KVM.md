@@ -134,6 +134,79 @@ Nếu trên VMware, ta bật hỗ trợ ảo hóa trong Virtual Machine Settings
 
 <img src="https://imgur.com/wpAyvDO.png">
 
+## 4. Sử dụng lệnh virsh với KVM
+### Các lệnh cơ bản với virsh
+
+- Show tất cả các máy ảo đã được cài đặt :
+
+<img src="https://imgur.com/9kXHvG8.png">
+
+- Khởi động máy ảo:
+
+    virsh start centos7.0
+
+- Tắt máy ảo :
+    
+    virsh shutdown cwntos7.0
+
+- Khởi động lại máy ảo :
+
+    virsh reboot centos7.0
+
+- Suspend máy ảo :
+    
+    virsh suspend centos7.0
+
+- Chỉnh sửa thông số máy ảo :
+
+<img src="https://imgur.com/WaSRYa6.png">
+
+- Sau khi chỉnh sửa , cập nhật lại cấu hình :
+
+    virsh define /etc/libvirt/qemu/centos7.0.xml
+
+- Xóa máy ảo :
+
+    virsh destroy centos7.0
+
+    virsh undefine /etc/libvirt/qemu/centos7.0.xml
+
+- Sau khi xóa máy ảo, ta có thể tùy chọn có xóa image không . Nếu xóa image : 
+
+    rm -rf /var/  lib/libvirt/images/centos7.0.qcow2
+
+- Các thao tác Clone
+
+Trước khi clone cần SHUTDOWN máy ảo trước!
+
+  - Clone tự động :
+
+        virt-clone --original=centos7.0 --auto-clone
+  - Clone custom tên máy clone :
+
+        virt-clone --original=centos7.0 --name=CentOS7-03 --auto-clone
+
+  - Clone custom tên máy clone và disk image :
+
+        virt-clone --original=CentOS7-01 --name=CentOS7-04 --file=/var/lib/libvirt/images/centos7-04.qcow2
+
+- Các thao tác Snapshot:
+
+  - Tạo snapshot :
+
+        virsh snapshot-create-as --domain centos7.0 --name "Begin" --description "ban khoi tao"
+  
+  - Show các bản snapshot đã tạo :
+
+        virsh snapshot-list centos7.0
+
+  - Reverse lại 1 bản snapshot đã tạo :
+    
+        virsh snapshot-revert CentOS7-01 --snapshotname "Begin"
+  
+  - Xóa một bản snapshot đã tạo :
+
+        virsh snapshot-delete CentOS7-01 --snapshotname "Begin"
 
 ## Nguồn tham khảo
 
