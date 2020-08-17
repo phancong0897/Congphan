@@ -78,17 +78,16 @@
 ## Tạo Volum groupe :
 - Sau khi tạo các Physical Volume ta gộp các PV đó thành 1 Volume Group bằng lệnh sau :
 
-    - vgcreate vg-demo1 /dev/sdb1 /dev/sdc1 /dev/sdd1
+    - vgcreate vg0 /dev/sdb1 /dev/sdc1
 
 - Dùng các lệnh vgs hoặc vgdisplay để kiểm tra :
 
-<img src="https://imgur.com/ua783j5.png">
 
 ### 2.3 Tạo Logical Volume:
 
 - Từ một Volume group , ta tạo các Logical Volume để sử dụng bằng lệnh sau :
 
-    - lvcreate -L 1G -n lv-demo1 vg-demo1
+    - lvcreate -n projects -L 10G vg0
 
 - Trong đó :
 
@@ -98,7 +97,6 @@
 
     - Kiểm tra bằng lệnh lvs hoặc lvdisplay
 
-<img src="https://imgur.com/LsaQrrs.png">
 
 - Định dạng Logical Volume:
 
