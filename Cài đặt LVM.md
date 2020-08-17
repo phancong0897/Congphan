@@ -2,27 +2,27 @@
 
 # Mục lục
 
-[1. Cấu hình ](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#c%E1%BA%A5u-h%C3%ACnh)
+[1. Cấu hình ](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#1-c%E1%BA%A5u-h%C3%ACnh)
 
-[2. Cài đặt]()
+[2. Cài đặt](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#2-c%C3%A0i-%C4%91%E1%BA%B7t)
 
-[2.1 Tạo các partion](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#t%E1%BA%A1o-c%C3%A1c-partion)
+[2.1 Tạo các partion](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#21-t%E1%BA%A1o-c%C3%A1c-partion)
 
-[2.2 Tạo Physical Volume](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#t%E1%BA%A1o-physical-volume-)
+[2.2 Tạo Physical Volume](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#22-t%E1%BA%A1o-physical-volume-)
 
-[2.3 Tạo Logical Volume](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#t%E1%BA%A1o-logical-volume)
+[2.3 Tạo Logical Volume](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#23-t%E1%BA%A1o-logical-volume)
 
-[2.4 Mở rộng Volume Group và thay đổi kích thước các Logical Volume ]()
+[2.4 Mở rộng Volume Group và thay đổi kích thước các Logical Volume ](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#24-m%E1%BB%9F-r%E1%BB%99ng-volume-group-v%C3%A0-thay-%C4%91%E1%BB%95i-k%C3%ADch-th%C6%B0%E1%BB%9Bc-c%C3%A1c-logical-volume)
 
-[2.5 Giảm kích cỡ Logical Volume]()
+[2.5 Giảm kích cỡ Logical Volume](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#25-gi%E1%BA%A3m-k%C3%ADch-c%E1%BB%A1-logical-volume)
 
-[2.6  Mount và sử dụng]()
+[2.6  Mount và sử dụng](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#26-mount-v%C3%A0-s%E1%BB%AD-d%E1%BB%A5ng)
 
-[3. Snapshot và restore của Logical Volume ]()
+[3. Snapshot và restore của Logical Volume ](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#3-snapshots-v%C3%A0-restore-c%E1%BB%A7a-logical-volume)
 
-[3.1 Snapshot Logical Volume]()
+[3.1 Snapshot Logical Volume](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#31-snapshots)
 
-[3.2 Restore logical volume]()
+[3.2 Restore logical volume](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#32-restore-logical-volume)
 
 
 [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
@@ -191,7 +191,7 @@ Kiểm tra dung lượng của Logical Volume và kiểm tra file system trướ
 
  - Bước 5: Để đảm bảo an toàn, bây giờ kiểm tra lỗi file system đã giảm
 
-<img src="https://imgur.com/undefined.png">
+<img src="https://imgur.com/aC7nc6F.png">
 
  - Bước 6: Gắn kết file system và kiểm tra kích thước của nó.
 
