@@ -2,19 +2,31 @@
 
 # Mục lục
 
-[ Cấu hình ](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#c%E1%BA%A5u-h%C3%ACnh)
+[1. Cấu hình ](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#c%E1%BA%A5u-h%C3%ACnh)
 
-[Tạo các partion](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#t%E1%BA%A1o-c%C3%A1c-partion)
+[2. Cài đặt]()
 
-[ Tạo Physical Volume](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#t%E1%BA%A1o-physical-volume-)
+[2.1 Tạo các partion](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#t%E1%BA%A1o-c%C3%A1c-partion)
 
-[ Tạo Volume Group](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#t%E1%BA%A1o-volum-groupe-)
+[2.2 Tạo Physical Volume](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#t%E1%BA%A1o-physical-volume-)
 
-[ Tạo Logical Volume](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#t%E1%BA%A1o-logical-volume)
+[2.3 Tạo Logical Volume](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#t%E1%BA%A1o-logical-volume)
 
-[ Mount và sử dụng](phancong0897)
+[2.4 Mở rộng Volume Group và thay đổi kích thước các Logical Volume ]()
+
+[2.5 Giảm kích cỡ Logical Volume]()
+
+[2.6  Mount và sử dụng]()
+
+[3. Snapshot và restore của Logical Volume ]()
+
+[3.1 Snapshot Logical Volume]()
+
+[3.2 Restore logical volume]()
+
 
 [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/C%C3%A0i%20%C4%91%E1%BA%B7t%20LVM.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
+
 
 ## 1. Cấu hình
 
@@ -292,4 +304,4 @@ Kiểm tra dung lượng của Logical Volume và kiểm tra file system trướ
 
 https://news.cloud365.vn/lvm-gioi-thieu-ve-logical-volume-manager/
 
-https://blogd.net/linux/quan-ly-phan-vung-dia-cung-tren-linux/
+https://blogd.net/linux/tao-va-quan-ly-lvm-trong-linux/#2-4-mounting-logical-volume
