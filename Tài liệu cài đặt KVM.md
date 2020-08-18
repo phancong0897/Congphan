@@ -18,6 +18,8 @@
 
 ## [4. Sử dụng lệnh Virsh với KVM](https://github.com/phancong0897/Congphan/blob/master/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#4-s%E1%BB%AD-d%E1%BB%A5ng-l%E1%BB%87nh-virsh-v%E1%BB%9Bi-kvm-1)
 
+## [5. Tạo card Bridge cho VM](https://github.com/phancong0897/Congphan/blob/master/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#5-t%E1%BA%A1o-card-birdge-%E1%BA%A3o-tr%C3%AAn-kvm)
+
 ## [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o-1)
 
 
