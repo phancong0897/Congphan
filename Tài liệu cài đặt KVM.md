@@ -211,6 +211,45 @@ Trước khi clone cần SHUTDOWN máy ảo trước!
 
      ` virsh snapshot-delete CentOS7-01 --snapshotname "Begin" `
 
+## 5. Tạo card birdge ảo trên KVM
+
+- Cấu hình card br0
+
+<img src="https://imgur.com/j0TJHgD.png">
+
+- Chỉnh sửa card mạng ens33, them dòng ` BRIDGE=bridge `
+
+<img src="https://imgur.com/8Rtb6r4.png">
+
+- Khởi động lại card mạng và reboot lại máy
+   
+   - ` service network restart `
+
+   - ` reboot `
+
+- Mở virt-manager
+
+<img src="https://imgur.com/GtfAAal.png">
+
+- Click vào VM, chọn show virtual hardware details
+
+<img src="https://imgur.com/XOl7hh4.png">
+
+- Click chọn hardware --> Network 
+   
+   - Netwrok sourec: specify shared device name
+   
+   - Bridge name: br0( tên card mạng mình vừa tạo trên VM)
+
+
+<img src="https://imgur.com/z7UKqSm.png">
+
+- Sau đó reboot lại máy và đặt ip tĩnh cho VM. Kiểm tra ip Vm bằng câu lệnh 
+
+   - ` ip a `
+
+<img src="https://imgur.com/WaoqDlo.png">
+
 ## Nguồn tham khảo
 
 https://news.cloud365.vn/kvm-huong-dan-cai-dat-kvm-tren-centos-7/
