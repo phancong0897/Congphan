@@ -2,23 +2,25 @@
 
 # Mục Lục
 
-## [1. Tổng quan về CSF]()
+## [1. Tổng quan về CSF](https://github.com/phancong0897/Congphan/blob/master/T%C3%ACm%20hi%E1%BB%83u%20s%E1%BB%AD%20d%E1%BB%A5ng%20CSF%20v%C3%A0%20Fail2ban.md#1-t%E1%BB%95ng-quan-v%E1%BB%81-csf-1)
 
-## [1.1 Khái niệm]()
+## [1.1 Khái niệm](https://github.com/phancong0897/Congphan/blob/master/T%C3%ACm%20hi%E1%BB%83u%20s%E1%BB%AD%20d%E1%BB%A5ng%20CSF%20v%C3%A0%20Fail2ban.md#11-kh%C3%A1i-ni%E1%BB%87m-1)
 
-## [1.2 Cài đặt CSF]()
+## [1.2 Cài đặt CSF](https://github.com/phancong0897/Congphan/blob/master/T%C3%ACm%20hi%E1%BB%83u%20s%E1%BB%AD%20d%E1%BB%A5ng%20CSF%20v%C3%A0%20Fail2ban.md#12-c%C3%A0i-%C4%91%E1%BA%B7t-csf-1)
 
-## [1.3 Những file cấu hình CSF]()
+## [1.3 Những file cấu hình CSF](https://github.com/phancong0897/Congphan/blob/master/T%C3%ACm%20hi%E1%BB%83u%20s%E1%BB%AD%20d%E1%BB%A5ng%20CSF%20v%C3%A0%20Fail2ban.md#13-nh%E1%BB%AFng-file-c%E1%BA%A5u-h%C3%ACnh-csf-1)
 
-## [1.4 Một số lệnh thường dùng]()
+## [1.4 Một số lệnh thường dùng](https://github.com/phancong0897/Congphan/blob/master/T%C3%ACm%20hi%E1%BB%83u%20s%E1%BB%AD%20d%E1%BB%A5ng%20CSF%20v%C3%A0%20Fail2ban.md#14-m%E1%BB%99t-s%E1%BB%91-l%E1%BB%87nh-th%C6%B0%E1%BB%9Dng-d%C3%B9ng-1)
 
-## [1.5 Xóa CSF]()
+## [1.5 Xóa CSF](https://github.com/phancong0897/Congphan/blob/master/T%C3%ACm%20hi%E1%BB%83u%20s%E1%BB%AD%20d%E1%BB%A5ng%20CSF%20v%C3%A0%20Fail2ban.md#15-x%C3%B3a-csf-1)
 
-## [2.1 Khái niệm]()
+## [2.1 Khái niệm](https://github.com/phancong0897/Congphan/blob/master/T%C3%ACm%20hi%E1%BB%83u%20s%E1%BB%AD%20d%E1%BB%A5ng%20CSF%20v%C3%A0%20Fail2ban.md#2-t%E1%BB%95ng-quan-v%E1%BB%81-fail2ban)
 
-## [2.2 Cài đặt Fai2ban]()
+## [2.2 Cài đặt Fai2ban](https://github.com/phancong0897/Congphan/blob/master/T%C3%ACm%20hi%E1%BB%83u%20s%E1%BB%AD%20d%E1%BB%A5ng%20CSF%20v%C3%A0%20Fail2ban.md#22-c%C3%A0i-%C4%91%E1%BA%B7t-fail2ban)
 
-## [2.3 Cấu hình Fail2ban cho Ssh]()
+## [2.3 Cấu hình Fail2ban cho Ssh](https://github.com/phancong0897/Congphan/blob/master/T%C3%ACm%20hi%E1%BB%83u%20s%E1%BB%AD%20d%E1%BB%A5ng%20CSF%20v%C3%A0%20Fail2ban.md#23-c%E1%BA%A5u-h%C3%ACnh-fail2ban-cho-ssh-1)
+
+## [Nguồn tham khảo]
 ## 1. Tổng quan về CSF
 
 ## 1.1 Khái niệm
@@ -125,7 +127,7 @@ Trong trường hợp bạn quên những lệnh trên, hãy sử dụng csf s�
 
 ## 2. Tổng quan về Fail2ban
 
-## 2.1 Đinh nghĩa
+## 2.1 Khái niệm
 
 - Fail2ban là ứng dụng theo dõi các file log, phát hiện và ngăn chặn kết nối từ những địa chỉ IP có những dấu hiệu độc hại như đăng nhập sai mật khẩu SSH nhiều lần, sử dụng iptables firewall để block địa chỉ IP trong một thời gian nhất định.
 
@@ -210,3 +212,9 @@ Trong trường hợp bạn quên những lệnh trên, hãy sử dụng csf s�
     - ` fail2ban-client set sshd unbanip IP-Bị-Block `
 
 <img src="https://imgur.com/hUIozLv.png">
+
+## Nguồn tham khảo
+
+https://news.cloud365.vn/cach-su-dung-fail2ban-de-bao-mat-may-chu-centos/
+
+https://blog.hostvn.net/chia-se/cai-dat-fail2ban-tren-centos-7-chong-bruteforce-attack.html
