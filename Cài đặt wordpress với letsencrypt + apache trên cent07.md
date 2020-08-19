@@ -78,7 +78,7 @@
 
 ## 4. Cài đặt wordpress
 
-### Tạo cơ sở dữ liệu và tài khoản cho WordPress:
+- Tạo cơ sở dữ liệu và tài khoản cho WordPress:
 
     - ` mysql -u root -p `
 
