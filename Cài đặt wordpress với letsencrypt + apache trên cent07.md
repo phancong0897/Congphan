@@ -29,7 +29,7 @@
 
     - ` systemctl status httpd `
 
-<img src=" https://imgur.com/A5Gtj6E.png ">
+<img src="https://imgur.com/A5Gtj6E.png">
 
 - Nếu bạn sử dụng hệ điều hành trên máy ảo, bạn có thể tắt firewall để có thể truy cập trên browser của máy thực:
 
@@ -134,7 +134,7 @@
 
     - ` vi wp-config.php ` 
 
-<img src=" https://imgur.com/CEqioTw.png">
+<img src="https://imgur.com/CEqioTw.png">
 
 - Hoàn tất phần cài đặt giao diện ,trên trình duyệt, gõ địa chỉ ip server trên thành url, trình duyệt sẽ xuất hiện như sau:
 
