@@ -107,8 +107,6 @@
     </Directory>
 </VirtualHost>
 ```
-<img src="https://imgur.com/XGySv38.png">
-
 - Sau đó restart lại apache và kiểm tra bằng cách truy cập máy chủ web.
 
 
