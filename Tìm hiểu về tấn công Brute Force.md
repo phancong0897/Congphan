@@ -10,7 +10,7 @@
 
 ## [4. Sử dụng tools medusa tấn công brute force](https://github.com/phancong0897/Congphan/blob/master/T%C3%ACm%20hi%E1%BB%83u%20v%E1%BB%81%20t%E1%BA%A5n%20c%C3%B4ng%20Brute%20Force.md#4-s%E1%BB%AD-d%E1%BB%A5ng-tools-medusa-t%E1%BA%A5n-c%C3%B4ng-brute-force-1)
 
-## [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/T%C3%ACm%20hi%E1%BB%83u%20v%E1%BB%81%20t%E1%BA%A5n%20c%C3%B4ng%20Brute%20Force.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
+## [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/T%C3%ACm%20hi%E1%BB%83u%20v%E1%BB%81%20t%E1%BA%A5n%20c%C3%B4ng%20Brute%20Force.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o-1)
 
 
 ## 1. Tấn công Brute Force là gì?
