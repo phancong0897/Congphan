@@ -2,9 +2,9 @@
 
 # Mục lục
 
-## [1. Phân tích gói 4 bản tin DHCP bằng wirshark]()
+## [1. Phân tích gói 4 bản tin DHCP bằng wirshark](https://github.com/phancong0897/Congphan/blob/master/DHCP/Ph%C3%A2n%20t%C3%ADch%20g%C3%B3i%20tin%20DHCP%20b%E1%BA%B1ng%20wireshark%20v%C3%A0%20tcpdump.md#1--ph%C3%A2n-t%C3%ADch-g%C3%B3i-4-b%E1%BA%A3n-tin-dhcp-b%E1%BA%B1ng-wirshark)
 
-## [2. Phân tích gói tin DHCP bằng TCP dump]
+## [2. Phân tích gói tin DHCP bằng TCP dump]()
 
 ## 1.  Phân tích gói 4 bản tin DHCP bằng wirshark
 
