@@ -6,8 +6,13 @@
 
 ## [2. Phân tích gói tin DHCP bằng TCP dump]()
 
-## 1.  Phân tích gói 4 bản tin DHCP bằng wirshark
+## 1.  Phân tích gói 4 bản tin DHCP bằng wireshark
 
+### Giới thiệu wireshark
+
+- Wireshark, hay còn gọi là Ethereal, công cụ này có lẽ không quá xa lạ với phần lớn người sử dụng chúng ta, vốn được xem là 1 trong những ứng dụng phân tích dữ liệu hệ thống mạng, với khả năng theo dõi, giám sát các gói tin theo thời gian thực, hiển thị chính xác báo cáo cho người dùng qua giao diện khá đơn giản và thân thiện. Trong bài viết dưới đây, chúng tôi sẽ giới thiệu với các bạn một số đặc điểm cơ bản cũng như cách dùng, phân tích và kiểm tra hệ thống mạng bằng Wireshark.
+
+- Sau đây là một ví dụ sử dụng wireshark để bắt gói tin DHCP
 
 <img src="https://imgur.com/Cna5vtR.png">
 
@@ -51,3 +56,48 @@
 - DHCP ACK
 
     <img src="https://imgur.com/9RhP3qk.png">
+
+## 2. Phân tích gói tin DHCP bằng TCPDUMP
+
+### Giới thiệu
+
+- TCPDUMP thực chất là công cụ được phát triển nhằm mục đích nhận diện và phân tích các gói dữ liệu mạng theo dòng lệnh. TCPDUMP cho phép khách hàng chặn và hiển thị các gói tin được truyền đi hoặc được nhận trên một mạng có sự tham gia của máy tính.
+
+- Hiểu đơn giản, TCPDUMP là phần mềm bắt gói tin trong mạng làm việc trên hầu hết các phiên bản hệ điều hành unix/linux. Tcpdump cho phép bắt và lưu lại những gói tin bắt được, từ đó chúng ta có thể sử dụng để phân tích.
+
+- TCPDUMP được xem là trụ cột trong việc gỡ rối và kiểm tra vấn đề kết nối mạng và bảo mật.
+
+- Các tùy chọn thường sử dụng trong tcpdump:
+
+    - -X : Hiển thị nội dung của gói theo định dạng ASCII và HEX
+
+    - -XX : Tương tự -X, hiển thị giao diện ethernet
+
+    - -D : Liệt kê các giao diện mạng có sẵn
+
+    - -l : Đầu ra có thể đọc được dòng (để xem khi bạn lưu hoặc gửi đến các lệnh khác)
+
+    - -t : Cung cấp đầu ra dấu thời gian có thể đọc được của con người
+
+    - -q : Ít dài dòng hơn với đầu ra
+
+    - -tttt : Cung cấp đầu ra dấu thời gian tối đa có thể đọc được của con người
+
+    - -i : Bắt lưu lượng của một giao diện cụ thể
+
+    - -vv : Đầu ra cụ thể và chi tiết hơn (nhiều v hơn cho đầu ra nhiều hơn)
+
+    - s : Xác định snaplength(kích thước) của gói tin theo byte. Sử dụng -s0 để có được mọi thứ. Nếu không set size packet dump thành unlimit, thì khi tcpdump ra nó bị phân mảnh
+
+    - -c : Chỉ nhận được x số gói và sau đó dừng lại
+
+    - -S : In số thứ tự tuyệt đối
+
+    - -e : Nhận tiêu đề ethernet
+
+    - -q : Hiển thị ít thông tin giao thức
+
+    - -E : Giải mã lưu lượng IPSEC bằng cách cung cấp khóa mã hóa
+
+
+
