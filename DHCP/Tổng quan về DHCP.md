@@ -2,9 +2,11 @@
 
 # Mục lục
 
-## [1. Khái niệm]()
+## [1. Khái niệm](https://blog.cloud365.vn/ccna/dhcp-tong-quan/)
 
-## [2. Nguyên lý hoạt động của DHCP]()
+## [2. Nguyên lý hoạt động của DHCP](https://github.com/phancong0897/Congphan/blob/master/DHCP/T%E1%BB%95ng%20quan%20v%E1%BB%81%20DHCP.md#2-nguy%C3%AAn-l%C3%BD-ho%E1%BA%A1t-%C4%91%E1%BB%99ng-c%E1%BB%A7a-dhcp-1)
+
+## [ Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/DHCP/T%E1%BB%95ng%20quan%20v%E1%BB%81%20DHCP.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
 
 ## 1. Khái niệm
 
