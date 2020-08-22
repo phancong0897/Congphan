@@ -2,13 +2,13 @@
 
 # Mục lục
 
-## [1. Log là gì?]()
+## [1. Log là gì?](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20Syslog%2C%20Rsyslog%2C%20Apache%20log.md#1-log-l%C3%A0-g%C3%AC-1)
 
-## [2. Tổng quan về Syslog]()
+## [2. Tổng quan về Syslog](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20Syslog%2C%20Rsyslog%2C%20Apache%20log.md#2-t%E1%BB%95ng-quan-syslog)
 
-## [3. Rsyslog]()
+## [3. Rsyslog](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20Syslog%2C%20Rsyslog%2C%20Apache%20log.md#3-rsyslog-1)
 
-## [4. Apache log]()
+## [4. Apache log](https://github.com/phancong0897/Congphan/blob/master/T%E1%BB%95ng%20quan%20v%E1%BB%81%20Syslog%2C%20Rsyslog%2C%20Apache%20log.md#4-apache-log-1)
 
 ## 1. Log là gì?
 
@@ -140,4 +140,4 @@
 
         - [pid 11438]: Mã id
 
-        [Selinux....]: mô tả chi tiết log.
+        - [Selinux....]: mô tả chi tiết log.
