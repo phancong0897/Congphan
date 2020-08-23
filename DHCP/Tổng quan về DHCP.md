@@ -52,21 +52,13 @@
     
     <img src="https://imgur.com/1rexBMa.png">
 
-    - Bước 1: Khi muốn có địa chỉ IP để truy cập vào internet thì client sẽ tạo ra bản tin DISCOVERY để yêu cầu cấp phát địa chỉ IP
+    -  Đầu tiên máy client sẽ gửi đi 1 gói tin quảng bá tên là DHCP discover, nhằm yêu cầu cho việc lấy các thông tin cấu hình IP address, subnet mask, defaut getway, preferred DNS ….. lúc này, vì clinet chưa có địa chỉ ip cho nên nó sẽ dùng một địa chỉ source (nguồn) là 0.0.0.0, đồng thời cũng không biết một địa chỉ broadcast là 255.255.255.255 và sau đó gói tin DHCP Discover này sẽ quảng bá đi toàn mạng. gói tin này chứa một địa chỉ MAC  (là địa chỉ mà mỗi một card mạng được nhà sản xuất cấp cho là mã để phân biệt các card mạng với nhau). Ngoài ra nó còn chứa tên của máy client để server có thể biết được client nào gởi yêu cầu đến.
 
-    - Bước 2: Client chưa biết địa chỉ chính xác của Server cấp phát địa chỉ cho mình do đó nó sẽ gửi bản tin này dưới dạng broadcast.
+    - – Sau khi nhận được gói tin DHCP Discover của client, nếu có một DHCP server hợp lệ (nghĩa là nó có khả năng cung cấp địa chỉ IP cho client) thì nó sẽ trả lời lại bằng một goí tin DHCP offer. gói tin này chứa một địa chỉ ip đề nghị cho thuê trong một khoảng thời gian nhất định (mặc định là 8 ngày, sau một khoảng thời gian 50% tức 4 ngày, nó sẽ tự thu hồi IP address đã cấp nếu như client không sử dụng) kèm theo là địa chỉ MAC của client được cấp, một subnet mask và địa chỉ IP của DHCP server đã cấp phát. trong thời gian này server sẽ không cấp phát địa chỉ IP vừa đề nghị cho một client nào khác. 
+    
+    Máy client sau khi nhận được những lời đề nghị là gói tin DHCP Offer trên mạng ( trường hợp trong mạng có nhiều hơn 1 DHCP server) sẽ tiến hành chọn lọc một gói tin phù hợp và sau đó phản hồi lại bằng một gói tin là DHCP Request (bao gồm thông tin về DHCP server cấp phát địa chỉ cho nó) để chấp nhận lời đề nghị đó. Điều này giúp cho việc các gói tin còn lại không được chấp nhận sẽ được các server rút lại và dùng để cấp phát cho client khác.
 
-    - Bước 3: Server sẽ nhận bản tin DISCOVERY của client. Sau khi biết client muốn được cấp địa chỉ IP nó sẽ kiểm tra xem địa chỉ IP nào phù hợp để cấp cho client sử dụng
-
-    - Bước 4: Server tạo bản tin OFFER. Gói tin này sẽ lưu trữ thông tin về IP và các thông số cấu hình khác mà client yêu cầu để có thể sử dụng để truy cập internet
-
-    - Bước 5: Tất cả các server sẽ gửi bản OFFER dưới dạng broadcast
-
-    - Bước 6: Client nhận gói OFFER và nó sẽ chọn ra bản OFFER đầu tiên mà nó nhận được. Nếu không nhận được OFFER nào trong một khoảng thời gian nào đó thì nó sẽ gửi lại DISCOVERY một lần nữa
-
-    - Bước 7: Client tạo ra gói REQUEST. Và gửi dưới dạng broadcast tới tất cả các server. Server nào được nhận OFFER sẽ mang ý nghĩa là nó đồng ý nhận IP. Server nào không được nhận OFFER thì thông báo là không nhận OFFER đó
-
-    - Bước 8: Server nhận bản tin REQEST. Các server không được nhận OFFER sẽ bỏ qua gói tin này. Gói tin nào được nhận OFFER sẽ nhận và xử lý nó. Nó sẽ kiểm tra sem IP này còn sử dụng được hay không. Nếu còn sử dụng được thì nó sẽ ghi lại thông tin và gửi lại gói tin PACK cho client. Còn nếu không thì nó sẽ gửi lại PNAK để quay lại bước 1.
+    -  Khi DHCP server nhận được DHCP request, nó sẽ trả lời lại DHCP client bằng gói tin là DHCP Ack nhằm mục đích thông báo là đã chấp nhận cho DHCP client đó thuê địa chỉ IP. Gói tin này bao gồm địa chỉ IP và các thông tin cấu hình khác (DNS server, Wins server….) cuối cùng client nhận được gói DHCP Ack thì cũng có nghĩa là kết thúc quá trình thuê và cấp phát địa chỉ IP và địa chỉ IP này chính thức được client sử dụng
 
 ## Nguồn tham khảo:
 
