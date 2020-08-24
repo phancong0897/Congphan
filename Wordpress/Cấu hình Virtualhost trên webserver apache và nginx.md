@@ -2,9 +2,9 @@
 
 # Mục lục
 
-## [1. Cấu hình Virtualhost trên NginX](https://github.com/phancong0897/Congphan/blob/master/Wordpress/C%E1%BA%A5u%20h%C3%ACnh%20Virtualhost%20tr%C3%AAn%20webserver%20apache%20v%C3%A0%20nginx.md#1-c%E1%BA%A5u-h%C3%ACnh-virtualhost-tr%C3%AAn-nginx-1)
+### [1. Cấu hình Virtualhost trên NginX](https://github.com/phancong0897/Congphan/blob/master/Wordpress/C%E1%BA%A5u%20h%C3%ACnh%20Virtualhost%20tr%C3%AAn%20webserver%20apache%20v%C3%A0%20nginx.md#1-c%E1%BA%A5u-h%C3%ACnh-virtualhost-tr%C3%AAn-nginx-1)
 
-## [2. Cấu hình Virtualhost trên Apache](https://github.com/phancong0897/Congphan/blob/master/Wordpress/C%E1%BA%A5u%20h%C3%ACnh%20Virtualhost%20tr%C3%AAn%20webserver%20apache%20v%C3%A0%20nginx.md#2-c%E1%BA%A5u-h%C3%ACnh-virtualhost-tr%C3%AAn-apache-1)
+### [2. Cấu hình Virtualhost trên Apache](https://github.com/phancong0897/Congphan/blob/master/Wordpress/C%E1%BA%A5u%20h%C3%ACnh%20Virtualhost%20tr%C3%AAn%20webserver%20apache%20v%C3%A0%20nginx.md#2-c%E1%BA%A5u-h%C3%ACnh-virtualhost-tr%C3%AAn-apache-1)
 
 ## 1. Cấu hình Virtualhost trên NginX
 
