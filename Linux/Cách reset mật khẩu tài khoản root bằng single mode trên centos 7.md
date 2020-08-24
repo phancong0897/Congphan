@@ -2,6 +2,14 @@
 
 ## Mục lục
 
+### [1. khởi động lại hệ thống, chỉnh sửa ‘grub2’]( https://github.com/phancong0897/Congphan/blob/master/Linux/C%C3%A1ch%20reset%20m%E1%BA%ADt%20kh%E1%BA%A9u%20t%C3%A0i%20kho%E1%BA%A3n%20root%20b%E1%BA%B1ng%20single%20mode%20tr%C3%AAn%20centos%207.md#1-kh%E1%BB%9Fi-%C4%91%E1%BB%99ng-l%E1%BA%A1i-h%E1%BB%87-th%E1%BB%91ng-ch%E1%BB%89nh-s%E1%BB%ADa-grub2)
+
+### [2. Chỉnh thông số entry cần thiết](https://github.com/phancong0897/Congphan/blob/master/Linux/C%C3%A1ch%20reset%20m%E1%BA%ADt%20kh%E1%BA%A9u%20t%C3%A0i%20kho%E1%BA%A3n%20root%20b%E1%BA%B1ng%20single%20mode%20tr%C3%AAn%20centos%207.md#2-b%C6%B0%E1%BB%9Bc-2-ch%E1%BB%89nh-th%C3%B4ng-s%E1%BB%91-entry-c%E1%BA%A7n-thi%E1%BA%BFt)
+
+### [3. Remount filesystem và chuyển chế độ chroot](https://github.com/phancong0897/Congphan/blob/master/Linux/C%C3%A1ch%20reset%20m%E1%BA%ADt%20kh%E1%BA%A9u%20t%C3%A0i%20kho%E1%BA%A3n%20root%20b%E1%BA%B1ng%20single%20mode%20tr%C3%AAn%20centos%207.md#3-b%C6%B0%E1%BB%9Bc-3-remount-filesystem-v%C3%A0-chuy%E1%BB%83n-ch%E1%BA%BF-%C4%91%E1%BB%99-chroot)
+
+### [Nguồn tham khảo] ()
+
 ## 1. khởi động lại hệ thống, chỉnh sửa ‘grub2’
 
 - Khởi động lại hệ thống và tinh chỉnh chế độ GRUB2 ở màn hình boot GRUB2.
@@ -10,7 +18,7 @@
 
 <img src="https://imgur.com/0K0c9h2.png">
 
-## 2. Bước 2: chỉnh thông số entry cần thiết
+## 2. Chỉnh thông số entry cần thiết
 
 - Xoá 2 thông số “rhgb quiet” để kích hoạt log message hệ thống khi thực hiện đổi mật khẩu root, sau đó thêm vào dòng init=/bin/bash/
 
@@ -18,7 +26,7 @@
 
 - Sau đó Ctrl X để lưu và tự động boot vào môi trường initramfs.
 
-## 3. Bước 3: remount filesystem và chuyển chế độ chroot
+## 3. Remount filesystem và chuyển chế độ chroot
 
 - Hệ thống filesystem hiện tại đang ở chế độ “read only” được mount ở thư mục /sysroot/, để thực hiện khôi phục mật khẩu root thì ta cần thêm quyền ghi (write) trên filesystem. Ta sẽ tiến hành remount lại filesystem /sysroot/ với quyền đọc-ghi (read-write).
 
@@ -53,3 +61,10 @@
     - ` exec /sbin/reboot `
  
 - Bạn sẽ thấy hệ thống reboot và chậm hơn bình thường , do hệ thống đang tiến hành hoạt động SELINUX relabel. Sau khi boot vào hệ thống prompt console thành công thì bạn có thể đăng nhập bằng mật khẩu mới.
+
+## Nguồn tham khảo
+
+https://news.cloud365.vn/huong-dan-reset-password-bang-single-mode-tren-linux-1/
+
+https://cuongquach.com/khoi-phuc-mat-khau-root-tren-centos7-rhel7.html
+
