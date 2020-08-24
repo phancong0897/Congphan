@@ -99,5 +99,9 @@
 
     - -E : Giải mã lưu lượng IPSEC bằng cách cung cấp khóa mã hóa
 
+### Dùng TCPDUMP bắt gói tin DHCP
+
+<img src ="https://imgur.com/C8ASYyV.png">
+
 
 
