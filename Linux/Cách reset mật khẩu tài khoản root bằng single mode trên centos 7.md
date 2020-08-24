@@ -4,11 +4,11 @@
 
 ### [1. khởi động lại hệ thống, chỉnh sửa ‘grub2’]( https://github.com/phancong0897/Congphan/blob/master/Linux/C%C3%A1ch%20reset%20m%E1%BA%ADt%20kh%E1%BA%A9u%20t%C3%A0i%20kho%E1%BA%A3n%20root%20b%E1%BA%B1ng%20single%20mode%20tr%C3%AAn%20centos%207.md#1-kh%E1%BB%9Fi-%C4%91%E1%BB%99ng-l%E1%BA%A1i-h%E1%BB%87-th%E1%BB%91ng-ch%E1%BB%89nh-s%E1%BB%ADa-grub2)
 
-### [2. Chỉnh thông số entry cần thiết](https://github.com/phancong0897/Congphan/blob/master/Linux/C%C3%A1ch%20reset%20m%E1%BA%ADt%20kh%E1%BA%A9u%20t%C3%A0i%20kho%E1%BA%A3n%20root%20b%E1%BA%B1ng%20single%20mode%20tr%C3%AAn%20centos%207.md#2-b%C6%B0%E1%BB%9Bc-2-ch%E1%BB%89nh-th%C3%B4ng-s%E1%BB%91-entry-c%E1%BA%A7n-thi%E1%BA%BFt)
+### [2. Chỉnh thông số entry cần thiết](https://github.com/phancong0897/Congphan/blob/master/Linux/C%C3%A1ch%20reset%20m%E1%BA%ADt%20kh%E1%BA%A9u%20t%C3%A0i%20kho%E1%BA%A3n%20root%20b%E1%BA%B1ng%20single%20mode%20tr%C3%AAn%20centos%207.md#2-ch%E1%BB%89nh-th%C3%B4ng-s%E1%BB%91-entry-c%E1%BA%A7n-thi%E1%BA%BFt-1)
 
-### [3. Remount filesystem và chuyển chế độ chroot](https://github.com/phancong0897/Congphan/blob/master/Linux/C%C3%A1ch%20reset%20m%E1%BA%ADt%20kh%E1%BA%A9u%20t%C3%A0i%20kho%E1%BA%A3n%20root%20b%E1%BA%B1ng%20single%20mode%20tr%C3%AAn%20centos%207.md#3-b%C6%B0%E1%BB%9Bc-3-remount-filesystem-v%C3%A0-chuy%E1%BB%83n-ch%E1%BA%BF-%C4%91%E1%BB%99-chroot)
+### [3. Remount filesystem và chuyển chế độ chroot](https://github.com/phancong0897/Congphan/blob/master/Linux/C%C3%A1ch%20reset%20m%E1%BA%ADt%20kh%E1%BA%A9u%20t%C3%A0i%20kho%E1%BA%A3n%20root%20b%E1%BA%B1ng%20single%20mode%20tr%C3%AAn%20centos%207.md#3-remount-filesystem-v%C3%A0-chuy%E1%BB%83n-ch%E1%BA%BF-%C4%91%E1%BB%99-chroot-1)
 
-### [Nguồn tham khảo] ()
+### [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/Linux/C%C3%A1ch%20reset%20m%E1%BA%ADt%20kh%E1%BA%A9u%20t%C3%A0i%20kho%E1%BA%A3n%20root%20b%E1%BA%B1ng%20single%20mode%20tr%C3%AAn%20centos%207.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
 
 ## 1. khởi động lại hệ thống, chỉnh sửa ‘grub2’
 
