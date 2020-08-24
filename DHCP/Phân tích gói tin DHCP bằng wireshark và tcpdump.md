@@ -101,7 +101,33 @@
 
 ### Dùng TCPDUMP bắt gói tin DHCP
 
-<img src ="https://imgur.com/C8ASYyV.png">
+- Trước tiên ta cần ccó hai máy centos để test. Một máy cài đặt TCPDUMP, và máy còn lại để xin cấp DHCP.
+
+- Cài đặt TCPDUMP bằng câu lệnh sau:
+
+    - ` yum install tcpdump `
+
+- Sau khi cài đặt xong, chạy lệnh sau để bắt gói tin DHCP
+
+    - ` tcpdump -nni ens33 -n port 67 and port 68 `
+
+<img src="https://imgur.com/lh0hRVE.png">
+
+- Từ hình trên ta có thể thấy Tcpdump bắt được 4 gói tin:
+
+    - Client gửi gói tin DHCP Discover ra toàn mạng, do chưa có địa chỉ IP nên client dùng địa chỉ nguồn 0.0.0.0 ra toàn mạng. Gói tin này có chưa địa chỉ MAC của client.
+
+    - DHCP server nhận được gói tin DHCP Discover, DHCP server sẽ gửi cho client 1 gói tin DHCP offer, gói tin này chưa địa chỉ IP cho thuê một khoảng thời gian nhất định.
+
+    - Client nhận được gói tin DHCP offer, client sẽ gửi trả một gói tin DHCP requet để thông báo cho DHCP server sẽ nhận địa chỉ IP này.
+
+    - DHCP server nhận được gói tin DHCP request, DHCP sẽ gửi gói tin DHCP ACK nhằm thông báo chấp nhận client sử dụng địa chỉ Ip vừa cấp.
+
+    ## Nguồn tham khảo
+
+    https://itforvn.com/tu-hoc-mcsa-mcse-2016-lab-4-cau-hinh-dhcp-server-va-backup-restore/
+
+
 
 
 
