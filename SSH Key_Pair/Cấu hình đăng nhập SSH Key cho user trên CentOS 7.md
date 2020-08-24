@@ -2,6 +2,12 @@
 
 # Mục lục
 
+## [1. Thực hiện cấu hình trên Server](https://github.com/phancong0897/Congphan/blob/master/SSH%20Key_Pair/C%E1%BA%A5u%20h%C3%ACnh%20%C4%91%C4%83ng%20nh%E1%BA%ADp%20SSH%20Key%20cho%20user%20tr%C3%AAn%20CentOS%207.md#1-th%E1%BB%B1c-hi%E1%BB%87n-c%E1%BA%A5u-h%C3%ACnh-tr%C3%AAn-server)
+
+## [2. Thực hiện cài đặt phía Client trên window](https://github.com/phancong0897/Congphan/blob/master/SSH%20Key_Pair/C%E1%BA%A5u%20h%C3%ACnh%20%C4%91%C4%83ng%20nh%E1%BA%ADp%20SSH%20Key%20cho%20user%20tr%C3%AAn%20CentOS%207.md#2-th%E1%BB%B1c-hi%C3%AAn-c%C3%A0i-%C4%91%E1%BA%B7t-ph%C3%ADa-client-window)
+
+## [ Nguồn tham khảo]()
+
 ## 1. Thực hiện cấu hình trên Server
 
 - SSH vào server bằng user root và thực hiện như sau:
@@ -42,10 +48,7 @@ mv /root/.ssh/id_rsa.pub /root/.ssh/authorized_keys
 
     - PasswordAuthentication yes , đổi yes thành no.
 
-    - UsePAM yes, đổi yes thành no
-
-<img src="https://imgur.com/undefined.png">
-
+<img src="https://imgur.com/GiRINCt.png">
 
 
 - Khởi động lại dịch vụ ssh
@@ -58,7 +61,7 @@ mv /root/.ssh/id_rsa.pub /root/.ssh/authorized_keys
 
     - ` /root/.ssh/id_rsa `
 
-## 2. Thực hiên cài đặt phía Client window
+## 2. Thực hiên cài đặt phía Client trên window
 
 - Sau khi copy key phía server, sử dụng trình soan thảo văn bản hoặc sử dụng công cụ editor để lưu lại. Key được lưu trong file có phần mở rộng là .ppk
 
@@ -99,4 +102,8 @@ mv /root/.ssh/id_rsa.pub /root/.ssh/authorized_keys
     <img src="https://imgur.com/Ks6nh0p.png">
 
     Nếu màn hình hiển thi như ảnh ở trên thì bạn đã cấu hình thành công SSHkey
+
+## Nguồn tham khảo
+
+https://news.cloud365.vn/ssh-phan-2-cau-hinh-dang-nhap-ssh-key-cho-user-tren-centos-7/
 
