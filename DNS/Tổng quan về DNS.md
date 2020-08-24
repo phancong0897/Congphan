@@ -24,9 +24,9 @@
 
 - Primary DNS Server (PDS)
 
-Primary DNS Server (PDS) là nguồn xác thực thông tin chính thức cho các tên miền mà nó được phép quản lý. Thông tin về một tên miền do PDS được phân cấp quản lý thì được lưu trữ tại đây và sau đó có thể được chuyển sang các Secondary DNS Server (SDS).
+    - Primary DNS Server (PDS) là nguồn xác thực thông tin chính thức cho các tên miền mà nó được phép quản lý. Thông tin về một tên miền do PDS được phân cấp quản lý thì được lưu trữ tại đây và sau đó có thể được chuyển sang các Secondary DNS Server (SDS).
 
-Các tên miền do PDS quản lý thì được tạo, và sửa đổi tại PDS và sau đó được cập nhật đến các SDS .
+    - Các tên miền do PDS quản lý thì được tạo, và sửa đổi tại PDS và sau đó được cập nhật đến các SDS .
 
 - Secondary DNS Server (SDS)
 
