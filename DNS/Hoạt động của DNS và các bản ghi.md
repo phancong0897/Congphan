@@ -2,15 +2,15 @@
 
 ## Mục lục
 
-### [1. Cơ chết hoạt động của DNS]()
+### [1. Cơ chết hoạt động của DNS](https://github.com/phancong0897/Congphan/blob/master/DNS/Ho%E1%BA%A1t%20%C4%91%E1%BB%99ng%20c%E1%BB%A7a%20DNS%20v%C3%A0%20c%C3%A1c%20b%E1%BA%A3n%20ghi.md#1-c%C6%A1-ch%E1%BA%BFt-ho%E1%BA%A1t-%C4%91%E1%BB%99ng-c%E1%BB%A7a-dns-1)
 
-### [2. Các loại bản ghi DNS]()
+### [2. Các loại bản ghi DNS](https://github.com/phancong0897/Congphan/blob/master/DNS/Ho%E1%BA%A1t%20%C4%91%E1%BB%99ng%20c%E1%BB%A7a%20DNS%20v%C3%A0%20c%C3%A1c%20b%E1%BA%A3n%20ghi.md#2-c%C3%A1c-lo%E1%BA%A1i-b%E1%BA%A3n-ghi)
 
-### [ Nguồn tham khảo]()
+### [ Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/DNS/Ho%E1%BA%A1t%20%C4%91%E1%BB%99ng%20c%E1%BB%A7a%20DNS%20v%C3%A0%20c%C3%A1c%20b%E1%BA%A3n%20ghi.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
 
 ## 1. Cơ chết hoạt động của DNS
 
-- <img src="https://imgur.com/iE8EAtR.png">
+<img src="https://imgur.com/iE8EAtR.png">
 
 - Trước hết chương trình trên máy người sử dụng gửi yêu cầu tìm kiếm địa chỉ IP ứng với tên miền beta.example.com tới máy chủ quản lý tên miền cục bộ(Local DNS Server hay Local Name Server) thuộc mạng của nó.
 
