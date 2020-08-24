@@ -2,11 +2,11 @@
 
 ## Mục lục
 
-### [1. Giới thiệu]()
+### [1. Giới thiệu](https://github.com/phancong0897/Congphan/blob/master/Wordpress/C%C3%A0i%20%C4%91%E1%BA%B7t%20PHP.md#1-gi%E1%BB%9Bi-thi%C3%AAu)
 
-### [2.Cài đặt]()
+### [2.Cài đặt](https://github.com/phancong0897/Congphan/blob/master/Wordpress/C%C3%A0i%20%C4%91%E1%BA%B7t%20PHP.md#2-c%C3%A0i-%C4%91%E1%BA%B7t)
 
-### [ Nguồn tham khảo]()
+### [ Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/Wordpress/C%C3%A0i%20%C4%91%E1%BA%B7t%20PHP.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
 
 ## 1. Giới thiêu
 
