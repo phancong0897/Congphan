@@ -37,6 +37,7 @@
     - ` vi /etc/httpd/conf.d/phpMyAdmin.conf `
 
     - Bạn hãy thêm "# trước 2 dòng"
+    
         ` # Require ip 127.0.0.1 `
         
         ` # Require ip ::1 `
