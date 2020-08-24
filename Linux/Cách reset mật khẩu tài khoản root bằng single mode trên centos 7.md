@@ -10,7 +10,7 @@
 
 ### [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/Linux/C%C3%A1ch%20reset%20m%E1%BA%ADt%20kh%E1%BA%A9u%20t%C3%A0i%20kho%E1%BA%A3n%20root%20b%E1%BA%B1ng%20single%20mode%20tr%C3%AAn%20centos%207.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o-1)
 
-## 1. khởi động lại hệ thống, chỉnh sửa ‘grub2’
+## 1. Khởi động lại hệ thống, chỉnh sửa ‘grub2’
 
 - Khởi động lại hệ thống và tinh chỉnh chế độ GRUB2 ở màn hình boot GRUB2.
 
