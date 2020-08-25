@@ -181,11 +181,11 @@
 
 - Để cài đặt certbot, trước tiên chúng ta cần đảm bảo rằng chúng ta đã bật kho lưu trữ EPEL, để thực hiện điều đó, hãy thực hiện lệnh sau:
 
-    - ` yum -y cài đặt epel-release `
+    - ` yum -y install epel-release `
 
 - Đảm bảo rằng yum-utils đã được cài đặt:
 
-    - ` yum -y cài đặt yum-utils `
+    - ` yum -y install yum-utils `
 
 - Sau đó cài đặt certbot cho Apache:
 
