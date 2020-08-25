@@ -155,14 +155,21 @@
         ` nano /etc/httpd/conf.d/congphan.xyz.conf `
 
     ```
-    
+
 <VirtualHost *:80>
+
     ServerAdmin admin@test.com
+
     DocumentRoot "/var/www/html"
+
     ServerName congphan.xyz
+
     ServerAlias congphan.xyz
+
     ErrorLog "/var/log/httpd/test.error_log"
+
     CustomLog "/var/log/httpd/test.access_log" common
+
 </VirtualHost>
 
     ```
