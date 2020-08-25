@@ -27,5 +27,26 @@
 | Mã trạng thái    | Cụm từ chỉ lý do     | Giải thích lỗi        |
 |------------------|----------------------|-----------------------|
 |   100 | Continue | Yêu cầu đã được hoàn thành và phần còn lại của tiến trình có thể tiếp tục |
-||||
-||||
+| 101|Switching Protocols|Khi yêu cầu một trang, trình duyệt có thể nhận được mã trạng thái 101, theo sau là header "Upgrade", cho thấy máy chủ đang thay đổi sang phiên bản HTTP khác.|
+|102|Processing||
+| 200|OK|Phản hồi tiêu chuẩn cho các yêu cầu HTTP thành công.|
+|201|Created|Khi các trang mới được tạo bởi dữ liệu biểu mẫu đã đăng hoặc bởi tiến trình CGI, đây là dấu hiệu xác nhận rằng trang đó đã hoạt động|
+|202|Accepted|Yêu cầu của client đã được chấp nhận, nhưng chưa được xử lý.|
+|203|Non-Authoritative Information|Thông tin chứa trong tiêu đề thực thể không phải từ trang web gốc, mà là từ máy chủ của bên thứ ba.|
+|204|No Content|Nếu nhấp vào một liên kết không có URL mục tiêu, phản hồi này được máy chủ suy ra và không cảnh báo người dùng về bất cứ điều gì.|
+|205|Partial Content|Các file được yêu cầu không được tải xuống hoàn toàn. Ví dụ, mã trạng thái này xuất hiện khi người dùng nhấn nút dừng trước khi trang được load.|
+|207|Multi-Status||
+|300|Multiple Choices|Nếu máy chủ được thiết lập đúng cách, nó sẽ tự động chuyển hướng người đọc đến vị trí mới của file.|
+|302|Found|Trang đã được di chuyển tạm thời và URL mới có sẵn. Bạn sẽ được máy chủ điều hướng đến đó.|
+|303|See Other|Nếu header yêu cầu bao gồm tham số 'if modified since', mã trạng thái này sẽ được trả về, trong trường hợp file không thay đổi kể từ ngày đó.|
+|305|Use Proxy|Người nhận dự kiến sẽ lặp lại yêu cầu thông qua proxy.|
+|307|Temporary Redirect||
+|308|Permanent Redirect||
+|400|Bad Request|Có một lỗi cú pháp trong yêu cầu và yêu cầu bị từ chối.|
+|403|Forbidden|Client không được phép xem một file nhất định. Mã trạng thái này cũng được trả lại vào những thời điểm mà máy chủ không muốn có thêm khách truy cập.|
+|404|Not Found|Các file được yêu cầu không có trên máy chủ. Có thể bởi vì những file này đã bị xóa, hoặc chưa từng tồn tại trước đây. Nguyên nhân thường là do lỗi chính tả trong URL.|
+|408|Request Time-out|Máy chủ mất quá nhiều thời gian để xử lý yêu cầu. Lỗi này thường gây ra bởi lưu lượng truy cập mạng cao.|
+|501|Not Implemented|Yêu cầu không thể được máy chủ thực hiện.|
+|502|Bad Gateway|Máy chủ cố truy cập đang gửi lại lỗi.|
+|503|Service Unavailable|Service hoặc file đang được yêu cầu hiện không có sẵn.|
+|505|HTTP Version Not Supported|Giao thức HTTP yêu cầu không được hỗ trợ.|
