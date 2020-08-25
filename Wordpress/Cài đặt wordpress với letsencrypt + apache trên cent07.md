@@ -43,7 +43,7 @@
 
 - Tiến hành khởi động mariadb service:
 
-    - ` ystemctl start mariadb `
+    - ` Systemctl start mariadb `
 
 - Cài lại mật khẩu mật khẩu cho quyền root của cơ sở dữ liệu:
 
