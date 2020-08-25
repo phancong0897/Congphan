@@ -2,7 +2,17 @@
 
 ## Mục lục
 
-## 1. Listening Port là gì
+### [1. Listening Port là gì?](https://github.com/phancong0897/Congphan/blob/master/Linux/Check-port-linux.md#1-listening-port-l%C3%A0-g%C3%AC)
+
+### [2. Kiểm tra listen port với netstat](https://github.com/phancong0897/Congphan/blob/master/Linux/Check-port-linux.md#2-ki%E1%BB%83m-tra-listen-port-v%E1%BB%9Bi-netstat)
+
+### [3. Kiểm tra cổng nghe với ss](https://github.com/phancong0897/Congphan/blob/master/Linux/Check-port-linux.md#3-ki%E1%BB%83m-tra-c%E1%BB%95ng-nghe-v%E1%BB%9Bi-ss)
+
+### [4. Kiểm tra cổng nghe với lsof](https://github.com/phancong0897/Congphan/blob/master/Linux/Check-port-linux.md#4-ki%E1%BB%83m-tra-c%E1%BB%95ng-nghe-v%E1%BB%9Bi-lsof)
+
+### [Nguồn tham khảo]()
+
+## 1. Listening Port là gì?
 
 - Listen port là cổng mạng mà ứng dụng hoặc quá trình lắng nghe, đóng vai trò là điểm cuối giao tiếp.
 
@@ -79,3 +89,7 @@ netstat đã lỗi thời và được thay thế bằng ss và ip, nhưng nó v
 - Để tìm quá trình đang nghe trên một cổng cụ thể, ví dụ: cổng 80 bạn sẽ sử dụng:
 
     - ` sudo lsof -nP -iTCP:80 -sTCP:LISTEN `
+
+## Nguồn tham khảo
+
+https://blog.hostvn.net/chia-se/huong-dan-kiem-tra-port-dang-su-dung-trong-linux.html
