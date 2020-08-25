@@ -35,13 +35,10 @@
 |203|Non-Authoritative Information|Thông tin chứa trong tiêu đề thực thể không phải từ trang web gốc, mà là từ máy chủ của bên thứ ba.|
 |204|No Content|Nếu nhấp vào một liên kết không có URL mục tiêu, phản hồi này được máy chủ suy ra và không cảnh báo người dùng về bất cứ điều gì.|
 |205|Partial Content|Các file được yêu cầu không được tải xuống hoàn toàn. Ví dụ, mã trạng thái này xuất hiện khi người dùng nhấn nút dừng trước khi trang được load.|
-|207|Multi-Status||
 |300|Multiple Choices|Nếu máy chủ được thiết lập đúng cách, nó sẽ tự động chuyển hướng người đọc đến vị trí mới của file.|
 |302|Found|Trang đã được di chuyển tạm thời và URL mới có sẵn. Bạn sẽ được máy chủ điều hướng đến đó.|
 |303|See Other|Nếu header yêu cầu bao gồm tham số 'if modified since', mã trạng thái này sẽ được trả về, trong trường hợp file không thay đổi kể từ ngày đó.|
 |305|Use Proxy|Người nhận dự kiến sẽ lặp lại yêu cầu thông qua proxy.|
-|307|Temporary Redirect||
-|308|Permanent Redirect||
 |400|Bad Request|Có một lỗi cú pháp trong yêu cầu và yêu cầu bị từ chối.|
 |403|Forbidden|Client không được phép xem một file nhất định. Mã trạng thái này cũng được trả lại vào những thời điểm mà máy chủ không muốn có thêm khách truy cập.|
 |404|Not Found|Các file được yêu cầu không có trên máy chủ. Có thể bởi vì những file này đã bị xóa, hoặc chưa từng tồn tại trước đây. Nguyên nhân thường là do lỗi chính tả trong URL.|
