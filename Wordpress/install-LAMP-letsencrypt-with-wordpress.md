@@ -197,9 +197,7 @@
 
 - Do cài đặt wordpress ta để source ở thư mục /var/www/congphan, nhưng khi cài đặt lensencrypt ta để thư mục Documentroot là /var/www/html, nên cần chuyển các file từ /var/www/congphan sang /var/www/html bằng câu lệnh sau:
 
-    - ` cd /var/www/ `
-
-    - ` cp -ra congphan/* html/ `
+    - ` cp -ra /var/www/html/* /var/www/congphan/ `
 
 - Cấu hình hoàn tất, kiểm tra lại bằng cách truy cấp đường linh congphan.xyz
 
