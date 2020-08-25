@@ -154,7 +154,8 @@
 
         ` nano /etc/httpd/conf.d/congphan.xyz.conf `
 
-    ```
+```
+
 
 <VirtualHost *:80>
 
@@ -172,7 +173,7 @@
 
 </VirtualHost>
 
-    ```
+```
 
 - Lưu tệp và thay đổi chủ sở hữu của tệp '/var/www/congphan' thành người dùng Apache để Apache có thể đọc tệp:
 
