@@ -10,7 +10,7 @@
 
 ### [4. Kiểm tra cổng nghe với lsof](https://github.com/phancong0897/Congphan/blob/master/Linux/Check-port-linux.md#4-ki%E1%BB%83m-tra-c%E1%BB%95ng-nghe-v%E1%BB%9Bi-lsof)
 
-### [Nguồn tham khảo]()
+### [Nguồn tham khảo](https://blog.hostvn.net/chia-se/huong-dan-kiem-tra-port-dang-su-dung-trong-linux.html)
 
 ## 1. Listening Port là gì?
 

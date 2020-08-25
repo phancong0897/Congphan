@@ -4,8 +4,7 @@
 
 ### [1. TCP wrapper là gì?](https://github.com/phancong0897/Congphan/blob/master/Firewall/TCP_wrapper.md#1-tcp-wrapper-l%C3%A0-g%C3%AC-1)
 
-### [2. Cài đặt TCP wrapper](https://github.com/phancong0897/Congphan/blob/master/Firewall/TCP_wrapper.md#2-c%C3%A0i-%C4%91%E1%BA%B7t-tcp-wrappers)
-
+### [2. Cài đặt TCP wrapper](https://github.com/phancong0897/Congphan/blob/master/Firewall/TCP_wrapper.md#2-c%C3%A0i-%C4%91%E1%BA%B7t-tcp-wrappers
 ## 1. TCP wrapper là gì?
 
 - Các TCP Wrapper là danh sách điều khiển truy cập (ACL – Access Control List) dựa trên máy, và sử dụng để lọc truy cập mạng với các dịch vụ địa phương.
