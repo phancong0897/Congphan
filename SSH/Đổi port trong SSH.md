@@ -25,3 +25,13 @@
     - ` netstat -lntp `
 
 <img src="https://imgur.com/ToW7lnD.png">
+
+- Bạn cần lưu ý, phải tắt Selinux và mở firewall rule cho port ssh mới
+
+    - ` Setenforce `
+
+    - ` iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 2345 -j ACCEPT `
+
+- Khởi động lại dịch vụ ssh và kiểm tra bằng cách ssh với port mới vào VM
+
+    - ` systemctl restart sshd `
