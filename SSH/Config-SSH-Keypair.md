@@ -2,11 +2,11 @@
 
 # Mục lục
 
-### [1. Thực hiện cấu hình trên Server](https://github.com/phancong0897/Congphan/blob/master/SSH%20Key_Pair/C%E1%BA%A5u%20h%C3%ACnh%20%C4%91%C4%83ng%20nh%E1%BA%ADp%20SSH%20Key%20cho%20user%20tr%C3%AAn%20CentOS%207.md#1-th%E1%BB%B1c-hi%E1%BB%87n-c%E1%BA%A5u-h%C3%ACnh-tr%C3%AAn-server-1)
+### [1. Thực hiện cấu hình trên Server](https://github.com/phancong0897/Congphan/blob/master/SSH/Config-SSH-Keypair.md#1-th%E1%BB%B1c-hi%E1%BB%87n-c%E1%BA%A5u-h%C3%ACnh-tr%C3%AAn-server-1)
 
-### [2. Thực hiện cài đặt phía Client trên window](https://github.com/phancong0897/Congphan/blob/master/SSH%20Key_Pair/C%E1%BA%A5u%20h%C3%ACnh%20%C4%91%C4%83ng%20nh%E1%BA%ADp%20SSH%20Key%20cho%20user%20tr%C3%AAn%20CentOS%207.md#2-th%E1%BB%B1c-hi%C3%AAn-c%C3%A0i-%C4%91%E1%BA%B7t-ph%C3%ADa-client-tr%C3%AAn-window)
+### [2. Thực hiện cài đặt phía Client trên window](https://github.com/phancong0897/Congphan/blob/master/SSH/Config-SSH-Keypair.md#2-th%E1%BB%B1c-hi%C3%AAn-c%C3%A0i-%C4%91%E1%BA%B7t-ph%C3%ADa-client-tr%C3%AAn-window)
 
-### [ Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/SSH%20Key_Pair/C%E1%BA%A5u%20h%C3%ACnh%20%C4%91%C4%83ng%20nh%E1%BA%ADp%20SSH%20Key%20cho%20user%20tr%C3%AAn%20CentOS%207.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
+### [ Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/SSH/Config-SSH-Keypair.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
 
 ## 1. Thực hiện cấu hình trên Server
 
