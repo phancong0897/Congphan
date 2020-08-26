@@ -2,11 +2,11 @@
 
 ## Mục lục
 
-### [1. Tạo 1 Telegram bot]()
+### [1. Tạo 1 Telegram bot](https://github.com/phancong0897/Congphan/blob/master/SSH/ReportSSH-telegram.md#1-t%E1%BA%A1o-m%E1%BB%99t-telegram-bot)
 
-### [2. Gửi cảnh báo sử dụng jq]()
+### [2. Gửi cảnh báo sử dụng jq](https://github.com/phancong0897/Congphan/blob/master/SSH/ReportSSH-telegram.md#2-g%E1%BB%ADi-c%E1%BA%A3nh-b%C3%A1o-s%E1%BB%AD-d%E1%BB%A5ng-jq-1)
 
-### [3. Nguồn tham khảo]()
+### [ Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/SSH/ReportSSH-telegram.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
 
 ## 1. Tạo một Telegram bot
 
@@ -143,7 +143,7 @@ fi
 
 - Kiểm tra đăng nhập bằng SSH:
 
-<img src ="https://imgur.com/Wr6sYX3">
+<img src ="https://imgur.com/Wr6sYX3.png">
 
 ## Nguồn tham khảo
 
