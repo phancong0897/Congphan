@@ -2,15 +2,15 @@
 
 # Mục lục
 
-[1. Khái niệm.](https://github.com/phancong0897/Congphan/blob/master/Open%20source%20lincense/Open%20Source%20lincense.md#1-kh%C3%A1i-ni%E1%BB%87m)
+[1. Khái niệm.](https://github.com/phancong0897/Congphan/blob/master/Open%20source%20lincense/Open-Source-lincense.md#1-kh%C3%A1i-ni%E1%BB%87m)
 
-[2. Phân loại giấy phép mã nguồn mở.](https://github.com/phancong0897/Congphan/blob/master/Open%20source%20lincense/Open%20Source%20lincense.md#2-ph%C3%A2n-lo%E1%BA%A1i-gi%E1%BA%A5y-ph%C3%A9p-m%C3%A3-ngu%E1%BB%93n-m%E1%BB%9F)
+[2. Phân loại giấy phép mã nguồn mở.](https://github.com/phancong0897/Congphan/blob/master/Open%20source%20lincense/Open-Source-lincense.md#2-ph%C3%A2n-lo%E1%BA%A1i-gi%E1%BA%A5y-ph%C3%A9p-m%C3%A3-ngu%E1%BB%93n-m%E1%BB%9F)
 
-[3. Các loại giấy phép mã nguồn mở.](https://github.com/phancong0897/Congphan/blob/master/Open%20source%20lincense/Open%20Source%20lincense.md#3-c%C3%A1c-lo%E1%BA%A1i-gi%E1%BA%A5y-ph%C3%A9p-m%C3%A3-ngu%E1%BB%93n-m%E1%BB%9F-th%C3%B4ng-d%E1%BB%A5ng)
+[3. Các loại giấy phép mã nguồn mở.](https://github.com/phancong0897/Congphan/blob/master/Open%20source%20lincense/Open-Source-lincense.md#3-c%C3%A1c-lo%E1%BA%A1i-gi%E1%BA%A5y-ph%C3%A9p-m%C3%A3-ngu%E1%BB%93n-m%E1%BB%9F-th%C3%B4ng-d%E1%BB%A5ng)
 
-[4. Kết luận.](https://github.com/phancong0897/Congphan/blob/master/Open%20source%20lincense/Open%20Source%20lincense.md#4-k%E1%BA%BFt-lu%E1%BA%ADn)
+[4. Kết luận.](https://github.com/phancong0897/Congphan/blob/master/Open%20source%20lincense/Open-Source-lincense.md#4-k%E1%BA%BFt-lu%E1%BA%ADn)
 
-[Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/Open%20source%20lincense/Open%20Source%20lincense.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
+[Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/Open%20source%20lincense/Open-Source-lincense.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
 
 ## 1. Khái niệm
 
