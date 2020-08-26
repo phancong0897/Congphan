@@ -2,15 +2,15 @@
 
 ## Mục lục
 
-### [1. Listening Port là gì?](https://github.com/phancong0897/Congphan/blob/master/Linux/Check-port-linux.md#1-listening-port-l%C3%A0-g%C3%AC)
+### [1. Listening Port là gì?](https://github.com/phancong0897/Congphan/blob/master/Linux/Check-port-linux.md#1-listening-port-l%C3%A0-g%C3%AC-1)
 
-### [2. Kiểm tra listen port với netstat](https://github.com/phancong0897/Congphan/blob/master/Linux/Check-port-linux.md#2-ki%E1%BB%83m-tra-listen-port-v%E1%BB%9Bi-netstat)
+### [2. Kiểm tra listen port với netstat](https://github.com/phancong0897/Congphan/blob/master/Linux/Check-port-linux.md#2-ki%E1%BB%83m-tra-listen-port-v%E1%BB%9Bi-netstat-1)
 
-### [3. Kiểm tra cổng nghe với ss](https://github.com/phancong0897/Congphan/blob/master/Linux/Check-port-linux.md#3-ki%E1%BB%83m-tra-c%E1%BB%95ng-nghe-v%E1%BB%9Bi-ss)
+### [3. Kiểm tra cổng nghe với ss](https://github.com/phancong0897/Congphan/blob/master/Linux/Check-port-linux.md#3-ki%E1%BB%83m-tra-c%E1%BB%95ng-nghe-v%E1%BB%9Bi-ss-1)
 
-### [4. Kiểm tra cổng nghe với lsof](https://github.com/phancong0897/Congphan/blob/master/Linux/Check-port-linux.md#4-ki%E1%BB%83m-tra-c%E1%BB%95ng-nghe-v%E1%BB%9Bi-lsof)
+### [4. Kiểm tra cổng nghe với lsof](https://github.com/phancong0897/Congphan/blob/master/Linux/Check-port-linux.md#4-ki%E1%BB%83m-tra-c%E1%BB%95ng-nghe-v%E1%BB%9Bi-lsof-1)
 
-### [Nguồn tham khảo](https://blog.hostvn.net/chia-se/huong-dan-kiem-tra-port-dang-su-dung-trong-linux.html)
+### [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/Linux/Check-port-linux.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o-1)
 
 ## 1. Listening Port là gì?
 
