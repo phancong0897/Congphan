@@ -10,7 +10,7 @@
 
 ### [2.2 Máy chủ web](https://github.com/phancong0897/Congphan/blob/master/Wordpress/install-wordpress-2-server.md#22-tr%C3%AAn-m%C3%A1y-web)
 
-### [Nguồn tham khảo] (https://github.com/phancong0897/Congphan/blob/master/Wordpress/install-wordpress-2-server.md#nu%E1%BB%93n-tham-kh%E1%BA%A3o)
+### [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/Wordpress/install-wordpress-2-server.md#nu%E1%BB%93n-tham-kh%E1%BA%A3o)
 
 ## 1. Mô hình
 
