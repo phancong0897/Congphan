@@ -2,15 +2,15 @@
 
 ## Mục lục
 
-### [1. Mô hình]()
+### [1. Mô hình](https://github.com/phancong0897/Congphan/blob/master/Wordpress/install-wordpress-2-server.md#1-m%C3%B4-h%C3%ACnh-1)
 
-### [2. Cài đặt]()
+### [2. Cài đặt](https://github.com/phancong0897/Congphan/blob/master/Wordpress/install-wordpress-2-server.md#2-c%C3%A0i-%C4%91%E1%BA%B7t-1)
 
-### [2.1 Máy chủ SQL]()
+### [2.1 Máy chủ SQL](https://github.com/phancong0897/Congphan/blob/master/Wordpress/install-wordpress-2-server.md#21-m%C3%A1y-ch%E1%BB%A7-sql-1)
 
-### [2.2 Máy chủ web]()
+### [2.2 Máy chủ web](https://github.com/phancong0897/Congphan/blob/master/Wordpress/install-wordpress-2-server.md#22-tr%C3%AAn-m%C3%A1y-web)
 
-### Nguồn tham khảo ()
+### [Nguồn tham khảo] (https://github.com/phancong0897/Congphan/blob/master/Wordpress/install-wordpress-2-server.md#nu%E1%BB%93n-tham-kh%E1%BA%A3o)
 
 ## 1. Mô hình
 
