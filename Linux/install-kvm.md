@@ -2,25 +2,25 @@
 
 # Mục lục
 
-## [1. Chuẩn bị](https://github.com/phancong0897/Congphan/blob/master/Linux/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#1-chu%E1%BA%A9n-b%E1%BB%8B-1)
+## [1. Chuẩn bị](https://github.com/phancong0897/Congphan/blob/master/Linux/install-kvm.md#1-chu%E1%BA%A9n-b%E1%BB%8B-1)
 
-## [2. Cài đặt KVM](https://github.com/phancong0897/Congphan/blob/master/Linux/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#2-c%C3%A0i-%C4%91%E1%BA%B7t-kvm-1)
+## [2. Cài đặt KVM](https://github.com/phancong0897/Congphan/blob/master/Linux/install-kvm.md#2-c%C3%A0i-%C4%91%E1%BA%B7t-kvm-1)
 
-## [2.1 kiểm tra hỗ trợ ảo hóa](https://github.com/phancong0897/Congphan/blob/master/Linux/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#21-ki%E1%BB%83m-tra-h%E1%BB%97-tr%E1%BB%A3-%E1%BA%A3o-h%C3%B3a-1)
+## [2.1 kiểm tra hỗ trợ ảo hóa](https://github.com/phancong0897/Congphan/blob/master/Linux/install-kvm.md#21-ki%E1%BB%83m-tra-h%E1%BB%97-tr%E1%BB%A3-%E1%BA%A3o-h%C3%B3a-1)
 
-## [2.2 Cài đặt các gói cần thiết](https://github.com/phancong0897/Congphan/blob/master/Linux/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#22-c%C3%A0i-%C4%91%E1%BA%B7t-c%C3%A1c-g%C3%B3i-c%E1%BA%A7n-thi%E1%BA%BFt-1)
+## [2.2 Cài đặt các gói cần thiết](https://github.com/phancong0897/Congphan/blob/master/Linux/install-kvm.md#22-c%C3%A0i-%C4%91%E1%BA%B7t-c%C3%A1c-g%C3%B3i-c%E1%BA%A7n-thi%E1%BA%BFt-1)
 
-## [3. Sử dụng công cụ Virt-manager để cài đặt VM](https://github.com/phancong0897/Congphan/blob/master/Linux/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#3-s%E1%BB%AD-d%E1%BB%A5ng-c%C3%B4ng-c%E1%BB%A5-virt-manager-%C4%91%E1%BB%83-c%C3%A0i-vm)
+## [3. Sử dụng công cụ Virt-manager để cài đặt VM](https://github.com/phancong0897/Congphan/blob/master/Linux/install-kvm.md#3-s%E1%BB%AD-d%E1%BB%A5ng-c%C3%B4ng-c%E1%BB%A5-virt-manager-%C4%91%E1%BB%83-c%C3%A0i-vm)
 
 ## [3.1 Dowload file iso](https://github.com/phancong0897/Congphan/blob/master/Linux/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#31-dowload-file-iso-1)
 
-## [3.2 Truy cập Virt-manager để cấu hình VM](https://github.com/phancong0897/Congphan/blob/master/Linux/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#32-truy-c%E1%BA%ADp-virt-manager-%C4%91%E1%BB%83-c%E1%BA%A5u-h%C3%ACnh-vm-1)
+## [3.2 Truy cập Virt-manager để cấu hình VM](https://github.com/phancong0897/Congphan/blob/master/Linux/install-kvm.md#32-truy-c%E1%BA%ADp-virt-manager-%C4%91%E1%BB%83-c%E1%BA%A5u-h%C3%ACnh-vm-1)
 
-## [4. Sử dụng lệnh Virsh với KVM](https://github.com/phancong0897/Congphan/blob/master/Linux/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#4-s%E1%BB%AD-d%E1%BB%A5ng-l%E1%BB%87nh-virsh-v%E1%BB%9Bi-kvm-1)
+## [4. Sử dụng lệnh Virsh với KVM](https://github.com/phancong0897/Congphan/blob/master/Linux/install-kvm.md#4-s%E1%BB%AD-d%E1%BB%A5ng-l%E1%BB%87nh-virsh-v%E1%BB%9Bi-kvm-1)
 
-## [5. Tạo card Bridge cho VM](https://github.com/phancong0897/Congphan/blob/master/Linux/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#5-t%E1%BA%A1o-card-birdge-%E1%BA%A3o-tr%C3%AAn-kvm)
+## [5. Tạo card Bridge cho VM](https://github.com/phancong0897/Congphan/blob/master/Linux/install-kvm.md#5-t%E1%BA%A1o-card-birdge-%E1%BA%A3o-tr%C3%AAn-kvm)
 
-## [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/Linux/T%C3%A0i%20li%E1%BB%87u%20c%C3%A0i%20%C4%91%E1%BA%B7t%20KVM.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o-1)
+## [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/Linux/install-kvm.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o-1)
 
 
 ## 1. Chuẩn bị
