@@ -2,6 +2,14 @@
 
 ## Mục lục
 
+### [1. DNS là gì?](https://github.com/phancong0897/Congphan/blob/master/DNS/DNS-overview.md#1-dns-l%C3%A0-g%C3%AC-)
+
+### [2. Nguyên tắc làm việc của DNS](https://github.com/phancong0897/Congphan/blob/master/DNS/DNS-overview.md#2-nguy%C3%AAn-t%E1%BA%AFc-l%C3%A0m-vi%E1%BB%87c-c%E1%BB%A7a-dns)
+
+### [3. Các khái niệm trong DNS](https://github.com/phancong0897/Congphan/blob/master/DNS/DNS-overview.md#3-c%C3%A1c-kh%C3%A1i-ni%E1%BB%87m-trong-dns)
+
+### [Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/DNS/DNS-overview.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3oSSSS)
+
 ## 1. DNS là gì ?
 
 - DNS là từ viết tắt trong tiếng Anh của Domain Name System, là Hệ thống phân giải tên được phát minh vào năm 1984 cho Internet, chỉ một hệ thống cho phép thiết lập tương ứng giữa địa chỉ IP và tên miền. Hệ thống tên miền (DNS) là một hệ thống đặt tên theo thứ tự cho máy vi tính, dịch vụ, hoặc bất kỳ nguồn lực tham gia vào Internet. Nó liên kết nhiều thông tin đa dạng với tên miền được gán cho những người tham gia. Quan trọng nhất là, nó chuyển tên miền có ý nghĩa cho con người vào số định danh (nhị phân), liên kết với các trang thiết bị mạng cho các mục đích định vị và địa chỉ hóa các thiết bị khắp thế giới.
