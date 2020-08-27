@@ -1,8 +1,5 @@
 # Tổng quan về Firewalld
 
-## Mục lục
-
-
 ## 1. Giới thiệu về Firewalld
 
 - FirewallD là giải pháp tường lửa mạnh mẽ tương tự Firewall CSF, được cài đặt mặc định trên RHEL 7 và CentOS 7, nhằm thay thế Iptables với những khác biệt cơ bản:
