@@ -2,7 +2,8 @@
 
 ## Mục lục
 
-## 1. Giới thiệu về FirewallD
+
+## 1. Giới thiệu về Firewalld
 
 - FirewallD là giải pháp tường lửa mạnh mẽ tương tự Firewall CSF, được cài đặt mặc định trên RHEL 7 và CentOS 7, nhằm thay thế Iptables với những khác biệt cơ bản:
 
@@ -63,6 +64,26 @@
 
     - Thông tin các service mình tự tạo ra lưu ở /etc/firewalld/services
 
+## 2. Cài đặt firewalld
+
+- Cài đặt Firewalld
+
+    - ` sudo yum install firewalld `
+
+- Khởi động firewall cùng hệ thống
+
+    - ` sudo systemctl enable firewalld `
+
+- Khởi động Firewalld
+
+    - ` sudo systemctl start firewalld `
+
+- Kiểm tra trạng thái
+
+    - ` systemctl status firewalld `
+
+<img src="https://imgur.com/ceK4FiV.png">
+
 ## 2. Cấu hình FirewallD
 
 ### 2.1 Thiết lập các Zone
@@ -105,8 +126,9 @@ firewall-cmd --zone=public --add-service=http --permanen
 
 ```
 
-firewall-cmd --zone=public --remove-service=http
-firewall-cmd --zone=public --remove-service=http --permanent
+    firewall-cmd --zone=public --remove-service=http
+
+    firewall-cmd --zone=public --remove-service=http --permanent
 
 ```
 
@@ -114,8 +136,9 @@ firewall-cmd --zone=public --remove-service=http --permanent
 
 ``` 
 
-firewall-cmd --zone=public --add-port=9999/tcp
-firewall-cmd --zone=public --add-port=9999/tcp --permanent
+    firewall-cmd --zone=public --add-port=9999/tcp
+
+    firewall-cmd --zone=public --add-port=9999/tcp --permanent
 
 ```
 
@@ -123,9 +146,9 @@ firewall-cmd --zone=public --add-port=9999/tcp --permanent
 
 ```
 
-firewall-cmd --zone=public --add-port=4990-5000/tcp
+    firewall-cmd --zone=public --add-port=4990-5000/tcp
 
-firewall-cmd --zone=public --add-port=4990-5000/tcp --permanent
+    firewall-cmd --zone=public --add-port=4990-5000/tcp --permanent
 
 ```
 
@@ -133,10 +156,12 @@ firewall-cmd --zone=public --add-port=4990-5000/tcp --permanent
 
 ```
 
-firewall-cmd --zone=public --remove-port=9999/tcp
-firewall-cmd --zone=public --remove-port=9999/tcp --permanent
+    firewall-cmd --zone=public --remove-port=9999/tcp
+
+    firewall-cmd --zone=public --remove-port=9999/tcp --permanent
 
 ```
 
 - Lưu lại và khởi động lại FirewallD
-firewall-cmd --reload
+
+    - ` firewall-cmd --reload `
