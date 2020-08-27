@@ -2,11 +2,11 @@
 
 ## Mục lục
 
-## [1. Khái niệm chung về SQL]()
+## [1. Khái niệm chung về SQL](https://github.com/phancong0897/Congphan/blob/master/SQL/Query-SQL.md#1-kh%C3%A1i-ni%E1%BB%87m-chung-v%E1%BB%81-sql-1)
 
-## [2. Các câu lệnh SQL cơ bản]()
+## [2. Các câu lệnh SQL cơ bản](https://github.com/phancong0897/Congphan/blob/master/SQL/Query-SQL.md#2-c%C3%A1c-c%C3%A2u-l%E1%BB%87nh-sql-c%C6%A1-b%E1%BA%A3n-1)
 
-## [ Nguồn tham khảo]()
+## [ Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/SQL/Query-SQL.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
 
 ## 1. Khái niệm chung về SQL
 
