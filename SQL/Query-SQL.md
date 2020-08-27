@@ -4,7 +4,7 @@
 
 ## [1. Khái niệm chung về SQL]()
 
-## [2. Các câu lệnh SQL cơ bản]
+## [2. Các câu lệnh SQL cơ bản]()
 
 ## [ Nguồn tham khảo]()
 
