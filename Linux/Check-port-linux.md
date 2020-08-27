@@ -55,7 +55,7 @@
 Bạn cũng có thể lọc danh sách dựa trên các tiêu chí, ví dụ: PID, giao thức, trạng thái, v.v.
 netstat đã lỗi thời và được thay thế bằng ss và ip, nhưng nó vẫn là một trong những lệnh được sử dụng nhiều nhất để kiểm tra các kết nối mạng.
 
-## 3. Kiểm tra cổng nghe với ss
+## 3. Kiểm tra cổng listen với ss
 
 - ss là netstat mới. Nó thiếu một số tính năng netstat nhưng hiểm thị nhiều trạng thái TCP hơn và nó nhanh hơn một chút. Các tùy chọn lệnh hầu hết đều giống netstat nên việc chuyển đổi từ netstat sang ss không khó khăn.
 
@@ -65,7 +65,7 @@ netstat đã lỗi thời và được thay thế bằng ss và ip, nhưng nó v
 
     <img src="https://imgur.com/63tH2pd.png">
 
-## 4. Kiểm tra cổng nghe với lsof
+## 4. Kiểm tra cổng listen với lsof
 - lsof là một tiện ích dòng lệnh mạnh mẽ cung cấp thông tin về các tệp được mở bởi các quy trình. Để có danh sách tất cả các cổng TCP đang listen dùng lệnh sau:
 
     - ` sudo lsof -nP -iTCP -sTCP:LISTEN `
