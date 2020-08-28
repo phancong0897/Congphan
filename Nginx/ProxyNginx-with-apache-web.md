@@ -2,19 +2,20 @@
 
 ## Mục lục
 
-### [1. Mô hình]()
+### [1. Mô hình](https://github.com/phancong0897/Congphan/blob/master/Nginx/ProxyNginx-with-apache-web.md#1-m%C3%B4-h%C3%ACnh-1)
 
-### [2. Triển khai]()
+### [2. Triển khai](https://github.com/phancong0897/Congphan/blob/master/Nginx/ProxyNginx-with-apache-web.md#2-tri%E1%BB%83n-khai-1)
 
-### [2.1 Cài đặt Apache]()
+### [2.1 Cài đặt Apache](https://github.com/phancong0897/Congphan/blob/master/Nginx/ProxyNginx-with-apache-web.md#21-c%C3%A0i-%C4%91%E1%BA%B7t-apache-1)
 
-### [2.2 Cài đặt NginX]()
+### [2.2 Cài đặt NginX](https://github.com/phancong0897/Congphan/blob/master/Nginx/ProxyNginx-with-apache-web.md#22-c%C3%A0i-%C4%91%E1%BA%B7t-nginx-1)
 
-### [2.3 Cấu hình nginx làm proxy]()
+### [2.3 Cấu hình nginx làm proxy](https://github.com/phancong0897/Congphan/blob/master/Nginx/ProxyNginx-with-apache-web.md#23-c%E1%BA%A5u-h%C3%ACnh-nginx-l%C3%A0m-proxy-1)
 
-### [2.4 Cấu hình caching cho nginx]()
+### [2.4 Cấu hình caching cho nginx](https://github.com/phancong0897/Congphan/blob/master/Nginx/ProxyNginx-with-apache-web.md#24-c%E1%BA%A5u-h%C3%ACnh-caching-cho-nginx-1)
 
-### [ Nguồn tham khảo]()
+### [ Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/Nginx/ProxyNginx-with-apache-web.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
+
 ## 1. Mô hình 
 
 <img src="https://imgur.com/iwUpIXR.png">
