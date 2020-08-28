@@ -2,19 +2,19 @@
 
 ## Mục lục
 
-### [1. Hiren Boot]()
+### [1. Hiren Boot](https://github.com/phancong0897/Congphan/blob/master/Windows/Hirenboot-reset-password.md#1-hiren-boot-1)
 
-### [1.1 Hiren Boot là gì?]()
+### [1.1 Hiren Boot là gì?](https://github.com/phancong0897/Congphan/blob/master/Windows/Hirenboot-reset-password.md#11-hiren-boot-l%C3%A0-g%C3%AC-1)
 
-### [1.2 Các tính năng trên Hiren Boot]()
+### [1.2 Các tính năng trên Hiren Boot](https://github.com/phancong0897/Congphan/blob/master/Windows/Hirenboot-reset-password.md#12-c%C3%A1c-t%C3%ADnh-n%C4%83ng-ch%C3%ADnh-tr%C3%AAn-hiren-boot)
 
-### [2. Reset password bằng Hiren Boot]()
+### [2. Reset password bằng Hiren Boot](https://github.com/phancong0897/Congphan/blob/master/Windows/Hirenboot-reset-password.md#2-reset-passord-b%E1%BA%B1ng-hiren-boot)
 
-### [2.1 Chuẩn bị]()
+### [2.1 Chuẩn bị](https://github.com/phancong0897/Congphan/blob/master/Windows/Hirenboot-reset-password.md#21-chu%E1%BA%A9n-b%E1%BB%8B-1)
 
-### [2.2 Các bước thực hiện]()
+### [2.2 Các bước thực hiện](https://github.com/phancong0897/Congphan/blob/master/Windows/Hirenboot-reset-password.md#22-c%C3%A1c-b%C6%B0%E1%BB%9Bc-th%E1%BB%B1c-hi%E1%BB%87n-1)
 
-### [ Nguồn tham khảo]()
+### [ Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/Windows/Hirenboot-reset-password.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
 
 ## 1. Hiren Boot
 
