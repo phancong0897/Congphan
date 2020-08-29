@@ -18,7 +18,7 @@
 
 ## 1. Mô hình 
 
-<img src="https://imgur.com/iwUpIXR.png">
+<img src="https://imgur.com/nfyAGid.png">
 
 - Trong mô hình này tôi sẽ thực hiện các cấu hình sau:
 
