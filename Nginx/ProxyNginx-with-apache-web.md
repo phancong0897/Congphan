@@ -125,17 +125,25 @@ http://172.16.2.230
 
     ```
 
-    server {
-        listen 80;
-        server_name congphan.abc;
-        access_log /var/log/nginx/access.log;
-        error_log /var/log/nginx/error.log;
-    
-        location / {
-           proxy_pass http://172.16.2.230:80/;
-           # Input any other settings you may need that are not already contained in the default snippets.
-        }
+proxy_cache_path /var/lib/nginx/cache levels=1:2 keys_zone=backcache:8m max_size=50m;
+proxy_cache_key "$scheme$request_method$host$request_uri$is_args$args";
+proxy_cache_valid 200 302 10m;
+proxy_cache_valid 404 1m;
+
+server {
+    listen 80;
+    server_name web1cloud365.vn;
+    access_log /var/log/nginx/web1cloud.access.log;
+    error_log /var/log/nginx/web1cloud.error.log;
+
+    location / {
+        proxy_cache backcache;
+        add_header X-Proxy-Cache $upstream_cache_status;
+
+        proxy_pass http://192.168.80.131:80/;
+
     }
+}
 
     ```
     - Lưu ý trong dòng proxy_pass ta sẽ khai báo về địa chỉ của máy cài httpd.
