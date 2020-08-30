@@ -2,11 +2,11 @@
 
 # Mục lục
 
-### [1. Trên máy CHients]()
+### [1. Trên máy CHients](https://github.com/phancong0897/Congphan/blob/master/SSH/Config-SSH-Keypair.md#1-tr%C3%AAn-m%C3%A1y-clients)
 
-### [2. trên máy chủ Centos]()
+### [2. trên máy chủ Centos](https://github.com/phancong0897/Congphan/blob/master/SSH/Config-SSH-Keypair.md#2-tr%C3%AAn-m%C3%A1y-ch%E1%BB%A7-centos-1)
 
-### [3. Kiểm tra]()
+### [3. Kiểm tra](https://github.com/phancong0897/Congphan/blob/master/SSH/Config-SSH-Keypair.md#3-ki%E1%BB%83m-tra-1)
 
 ## 1. Trên máy Clients
 
