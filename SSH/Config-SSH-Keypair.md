@@ -30,7 +30,7 @@
 
 - Phân quyền cho thư mục vừa tạo:
 
-    - ` chmod 700 /home/congphan/.ssh`
+    - ` sudo chmod 700 /home/congphan/.ssh`
 
 - Tạo tệp authorized_keys để chưa key public :
 
@@ -38,7 +38,7 @@
 
 - Phân quyền cho thư mục vừa tạo:
 
-    - ` chmod 600 /home/congphan/.ssh/authorized_keys `
+    - ` sudo chmod 600 /home/congphan/.ssh/authorized_keys `
 
 - Mở tệp /home/congphan/.ssh/authorized_keys và copy key public chúng ta vừa mới tạo ở clients có tên publickeys.
 
