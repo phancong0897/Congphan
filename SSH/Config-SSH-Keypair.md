@@ -67,3 +67,5 @@
 - Nếu hiển thị như hình thì bạn đã đăng nhập thành công SSH sử dụng ssh_keypair
 
 <img src="https://imgur.com/JU7RGt7.png">
+
+- Chú ý: nếu bạn muốn làm trên nhiều máy chủ, thì bạn hãy share publickey cho các máy chủ và làm theo các bước ở trên.
