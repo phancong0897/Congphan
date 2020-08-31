@@ -85,3 +85,7 @@
 
 <img src="https://imgur.com/qkcfzWd.png">
 
+- Lưu ý: Trước khi bạn kết nối đến MySQL thì bạn hãy phần quyền cho nó bằng câu lệnh :
+
+    - ` GRANT ALL PRIVILEGES ON wordpress.* TO user@IP IDENTIFIED BY '1234'; `
+
