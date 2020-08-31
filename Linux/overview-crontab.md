@@ -2,17 +2,18 @@
 
 ## Mục lục
 
-### [1. Cron là gì?]()
+### [1. Cron là gì?](https://github.com/phancong0897/Congphan/blob/master/Linux/overview-crontab.md#1-cron-l%C3%A0-g%C3%AC-1)
 
-### [2. Cron làm việc như thế nào?]()
+### [2. Cron làm việc như thế nào?](https://github.com/phancong0897/Congphan/blob/master/Linux/overview-crontab.md#2-cron-l%C3%A0m-vi%E1%BB%87c-th%E1%BA%BF-n%C3%A0o)
 
-### [3. Cài đặt crontab]()
+### [3. Cài đặt crontab](https://github.com/phancong0897/Congphan/blob/master/Linux/overview-crontab.md#3-c%C3%A0i-%C4%91%E1%BA%B7t-crontab-1)
 
-### [4. Cấu trúc của crontab]()
+### [4. Cấu trúc của crontab](https://github.com/phancong0897/Congphan/blob/master/Linux/overview-crontab.md#4-c%E1%BA%A5u-tr%C3%BAc-c%E1%BB%A7a-crontab-1)
 
-### [5. Ví dụ cụ thể]()
+### [5. Ví dụ cụ thể](https://github.com/phancong0897/Congphan/blob/master/Linux/overview-crontab.md#5-v%C3%AD-d%E1%BB%A5-c%E1%BB%A5-th%E1%BB%83-1)
 
-### [ Nguồn tham khảo]()
+### [ Nguồn tham khảo](https://github.com/phancong0897/Congphan/blob/master/Linux/overview-crontab.md#ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
+
 ### 1. Cron là gì?
 
 - Cron là một tiện ích cho phép thực hiện các tác vụ một cách tự động theo định kỳ, ở chế độ nền của hệ thống. Crontab (CRON TABle) là một file chứa đựng bảng biểu (schedule) của các entries được chạy.
@@ -48,14 +49,18 @@
 
 - Một crontab file có 5 trường xác định thời gian, cuối cùng là lệnh sẽ được chạy định kỳ, cấu trúc như sau:
 
-*     *     *     *     *     command to be executed
--     -     -     -     -
-|     |     |     |     |
-|     |     |     |     +----- day of week (0 - 6) (Sunday=0)
-|     |     |     +------- month (1 - 12)
-|     |     +--------- day of month (1 - 31)
-|     +----------- hour (0 - 23)
-+------------- min (0 - 59)
+```
+
+    *     *     *     *     *     command to be executed
+    -     -     -     -     -
+    |     |     |     |     |
+    |     |     |     |     +----- day of week (0 - 6) (Sunday=0)
+    |     |     |     +------- month (1 - 12)
+    |     |     +--------- day of month (1 - 31)
+    |     +----------- hour (0 - 23)
+    +------------- min (0 - 59)
+
+```
 
 - Nếu một cột được gán ký tự *, nó có nghĩa là tác vụ sau đó sẽ được chạy ở mọi giá trị cho cột đó.
 
