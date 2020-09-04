@@ -2,13 +2,14 @@
 
 ### Mục lục
 
-### [1. Giới thiệu về Rsync]()
+### [1. Giới thiệu về Rsync](https://github.com/phancong0897/Congphan/blob/master/Backup/overview-Rsync.md#1-gi%E1%BB%9Bi-thi%E1%BB%87u-v%E1%BB%81-rsync-1)
 
-### [2. Cách sử dụng Rsync]()
+### [2. Cách sử dụng Rsync](https://github.com/phancong0897/Congphan/blob/master/Backup/overview-Rsync.md#2-c%C3%A1ch-s%E1%BB%AD-d%E1%BB%A5ng-rsync-1)
 
-### [3. Sử dụng Rsync kết hợp với SSH để Tự động hóa việc đồng bộ ]()
+### [3. Sử dụng Rsync kết hợp với SSH để Tự động hóa việc đồng bộ ](https://github.com/phancong0897/Congphan/blob/master/Backup/overview-Rsync.md#3-s%E1%BB%AD-d%E1%BB%A5ng-rsync-k%E1%BA%BFt-h%E1%BB%A3p-v%E1%BB%9Bi-ssh-%C4%91%E1%BB%83-t%E1%BB%B1-%C4%91%E1%BB%99ng-h%C3%B3a-vi%E1%BB%87c-%C4%91%E1%BB%93ng-b%E1%BB%99)
 
-### [4. Cấu hình tự động hóa Rsync]()
+### [4. Cấu hình tự động hóa Rsync](https://github.com/phancong0897/Congphan/blob/master/Backup/overview-Rsync.md#4-c%E1%BA%A5u-h%C3%ACnh-t%E1%BB%B1-%C4%91%E1%BB%93ng-h%C3%B3a-rsync)
+
 ### 1. Giới thiệu về Rsync
 
 - Rsync(remote sync) là công cụ đồng bộ file, thư mục của hệ điều hành Linux. Nó sử dụng thuật toán khi copy dữ liệu sao cho dữ liệu phải copy là nhỏ nhất (chỉ copy những gì thay đổi giữa nguồn và gốc), khi đồng bộ nó giữ nguyên mọi thuộc tính của file, thư mục (từ chủ sở hữu, quyền truy cập file ...).
