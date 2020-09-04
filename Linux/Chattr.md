@@ -2,13 +2,13 @@
 
 ### Mục lục
 
-### [1. Chattr?]()
+### [1. Chattr?](https://github.com/phancong0897/Congphan/blob/master/Linux/Chattr.md#1-chattr-1)
 
-### [2. Cách thêm thuộc tính trên file để bảo veek file khỏi bị xóa]()
+### [2. Cách thêm thuộc tính trên file để bảo veek file khỏi bị xóa](https://github.com/phancong0897/Congphan/blob/master/Linux/Chattr.md#2-c%C3%A1ch-th%C3%AAm-thu%E1%BB%99c-t%C3%ADnh-tr%C3%AAn-file-%C4%91%E1%BB%83-b%E1%BA%A3o-v%E1%BB%87-file-kh%E1%BB%8Fi-b%E1%BB%8B-x%C3%B3a)
 
-### [3. Cách dùng chattr để bảo vệ thư mục]()
+### [3. Cách dùng chattr để bảo vệ thư mục](https://github.com/phancong0897/Congphan/blob/master/Linux/Chattr.md#3-c%C3%A1ch-d%C3%B9ng-chattr-%C4%91%E1%BB%83-b%E1%BA%A3o-v%E1%BB%87-th%C6%B0-m%E1%BB%A5c-1)
 
-### [4. Áp dụng lệnh chattr để bảo vệ /etc/passwd và /etc/shadow]
+### [4. Áp dụng lệnh chattr để bảo vệ /etc/passwd và /etc/shadow](https://github.com/phancong0897/Congphan/blob/master/Linux/Chattr.md#4-%C3%A1p-d%E1%BB%A5ng-l%E1%BB%87nh-chattr-%C4%91%E1%BB%83-b%E1%BA%A3o-v%E1%BB%87-file-etcpasswd-v%C3%A0-etcshadow)
 
 ## 1. Chattr?
 
