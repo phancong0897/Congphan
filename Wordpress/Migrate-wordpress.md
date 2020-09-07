@@ -2,6 +2,14 @@
 
 ### Mục lục
 
+### [1. Chuẩn bị]()
+
+### [2. Tiến hành migrate]()
+
+### [2.1 Trên máy Cen1]()
+
+### [2.2 Trên máy Cen2]()
+
 ### 1. Chuẩn bị
 
 - Ta chuẩn bị 2 máy Cen1 và Cen2, trong đó:
