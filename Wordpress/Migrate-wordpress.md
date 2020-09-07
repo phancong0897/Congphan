@@ -2,13 +2,13 @@
 
 ### Mục lục
 
-### [1. Chuẩn bị]()
+### [1. Chuẩn bị](https://github.com/phancong0897/Congphan/blob/master/Wordpress/Migrate-wordpress.md#1-chu%E1%BA%A9n-b%E1%BB%8B-1)
 
-### [2. Tiến hành migrate]()
+### [2. Tiến hành migrate](https://github.com/phancong0897/Congphan/blob/master/Wordpress/Migrate-wordpress.md#2-ti%E1%BA%BFn-h%C3%A0nh-migrate-1)
 
-### [2.1 Trên máy Cen1]()
+### [2.1 Trên máy Cen1](https://github.com/phancong0897/Congphan/blob/master/Wordpress/Migrate-wordpress.md#21-tr%C3%AAn-m%C3%A1y-cen1-1)
 
-### [2.2 Trên máy Cen2]()
+### [2.2 Trên máy Cen2](https://github.com/phancong0897/Congphan/blob/master/Wordpress/Migrate-wordpress.md#22-tr%C3%AAn-m%C3%A1y-ceb2)
 
 ### 1. Chuẩn bị
 
