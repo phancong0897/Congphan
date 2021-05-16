@@ -14,7 +14,7 @@
 
 - Cấu trúc tổng quan:
 
-![Imgur](https://imgur.com/JWNSsCd.png)
+            ![Imgur](https://imgur.com/JWNSsCd.png)
 
     - Linux có tất cả các cơ chế của một VMM cần thiết để vận hành (chạy) các máy ảo. Chính vì vậy các nhà phát triển không xây dựng lại mà chỉ thêm vào đó một vài thành phần để hỗ trợ ảo hóa. KVM được triển khai như một module hạt nhân có thể được nạp vào để mở rộng Linux bởi những khả năng này.
 
@@ -48,7 +48,7 @@
 
 - Hình dưới đây mô tả mô hình vận hành của KVM. Đây là một vòng lặp của các hành động diễn ra để vận hành các máy ảo. Những hành động này được phân cách bằng 3 phương thức chúng ta đã đề cập trước đó: user-mode, kernel-mode, guest-mode.
 
-![Imgur](https://imgur.com/undefined.png)
+            ![Imgur](https://imgur.com/nIhWWMs.png)
 
 - Như ta thấy:
 
@@ -70,7 +70,7 @@ Trong bài này, chúng ta sẽ tìm hiểu về Linux Bridge.
 
 - Cấu trúc của Linux Bridge khi kết hợp với KVM – QEMU
 
-![Imgur](https://imgur.com/EOH0zQf.png)
+            ![Imgur](https://imgur.com/EOH0zQf.png)
 
 - Chú thích:
 
@@ -88,4 +88,3 @@ Trong bài này, chúng ta sẽ tìm hiểu về Linux Bridge.
     - VLAN: chia switch (do linux bridge tạo ra) thành các mạng LAN ảo, cô lập traffic giữa các VM trên các VLAN khác nhau của cùng một switch.
 
     - FDB (forwarding database): chuyển tiếp các gói tin theo database để nâng cao hiệu năng switch. Database lưu các địa chỉ MAC mà nó học được. Khi gói tin Ethernet đến, bridge sẽ tìm kiếm trong database có chứa MAC address không. Nếu không, nó sẽ gửi gói tin đến tất cả các cổng.
-    
