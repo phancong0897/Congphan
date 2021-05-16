@@ -14,7 +14,7 @@
 
 - Cấu trúc tổng quan:
 
-            ![Imgur](https://imgur.com/JWNSsCd.png)
+    ![Imgur](https://imgur.com/JWNSsCd.png)
 
     - Linux có tất cả các cơ chế của một VMM cần thiết để vận hành (chạy) các máy ảo. Chính vì vậy các nhà phát triển không xây dựng lại mà chỉ thêm vào đó một vài thành phần để hỗ trợ ảo hóa. KVM được triển khai như một module hạt nhân có thể được nạp vào để mở rộng Linux bởi những khả năng này.
 
@@ -48,7 +48,7 @@
 
 - Hình dưới đây mô tả mô hình vận hành của KVM. Đây là một vòng lặp của các hành động diễn ra để vận hành các máy ảo. Những hành động này được phân cách bằng 3 phương thức chúng ta đã đề cập trước đó: user-mode, kernel-mode, guest-mode.
 
-            ![Imgur](https://imgur.com/nIhWWMs.png)
+    ![Imgur](https://imgur.com/nIhWWMs.png)
 
 - Như ta thấy:
 
@@ -70,7 +70,7 @@ Trong bài này, chúng ta sẽ tìm hiểu về Linux Bridge.
 
 - Cấu trúc của Linux Bridge khi kết hợp với KVM – QEMU
 
-            ![Imgur](https://imgur.com/EOH0zQf.png)
+    ![Imgur](https://imgur.com/EOH0zQf.png)
 
 - Chú thích:
 
