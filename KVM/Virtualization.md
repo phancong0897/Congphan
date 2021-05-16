@@ -14,7 +14,7 @@ Nó hoạt động như một tầng trung gian giữa phần cứng máy tính 
 
 ### 2. Các thành phần của một hệ thống ảo hóa
 
-[Imgur](https://imgur.com/pmibevj)
+![Imgur](https://imgur.com/pmibevj.png)
 
 - Tài nguyên vật lý chính (Host machine / Host hardwave): Máy chủ vật lý, CPU, RAM, ổ đĩa cứng, card mạng… Nhiệm vụ là chia tài nguyên cấp cho các máy ảo.
 
