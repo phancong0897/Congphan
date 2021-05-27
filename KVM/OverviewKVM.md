@@ -1,5 +1,14 @@
 # Tổng quan về KVM
 
+### [1. Khái niệm và vai trò](https://github.com/phancong0897/Congphan/blob/master/KVM/OverviewKVM.md#1-kh%C3%A1i-ni%E1%BB%87m-v%C3%A0-vai-tr%C3%B2)
+
+### [2. Cấu trúc của KVM](https://github.com/phancong0897/Congphan/blob/master/KVM/OverviewKVM.md#2-c%E1%BA%A5u-tr%C3%BAc-c%E1%BB%A7a-kvm)
+
+### [3. Mô hình vận hành](https://github.com/phancong0897/Congphan/blob/master/KVM/OverviewKVM.md#3-m%C3%B4-h%C3%ACnh-v%E1%BA%ADn-h%C3%A0nh)
+
+### [4. Cơ chế hoạt động](https://github.com/phancong0897/Congphan/blob/master/KVM/OverviewKVM.md#4-c%C6%A1-ch%E1%BA%BF-ho%E1%BA%A1t-%C4%91%E1%BB%99ng)
+
+
 ### 1. Khái niệm và vai trò
 
 - KVM (Kernel-based virtual machine) là giải pháp ảo hóa cho hệ thống linux trên nền tảng phần cứng x86 có các module mở rộng hỗ trợ ảo hóa (Intel VT-x hoặc AMD-V). Về bản chất, KVM không thực sự là một hypervisor có chức năng giả lập phần cứng để chạy các máy ảo. Chính xác KVM chỉ là một module của kernel linux hỗ trợ cơ chế mapping các chỉ dẫn trên CPU ảo (của guest VM) sang chỉ dẫn trên CPU vật lý (của máy chủ chứa VM). Hoặc có thể hình dung KVM giống như một driver cho hypervisor để sử dụng được tính năng ảo hóa của các vi xử lý như Intel VT-x hay AMD-V, mục tiêu là tăng hiệu suất cho guest VM.
