@@ -52,4 +52,4 @@
 
     ![Imgur](https://imgur.com/vNLg1Ri.png)
 
-Đầu tiên, gói tin sẽ đi ra gateway của card mạng mình vừa tạo( tức 192.168.100.1) , sau đó sẽ đi ra gateway của card mạng vật lý ( tức 10.10.34.1), sau đó sẽ đi ra ngoài.
+Đầu tiên, gói tin sẽ đi ra gateway của card mạng mình vừa tạo( tức 192.168.100.1) , sau đó sẽ đi ra gateway của card mạng vật lý ( tức 10.10.34.1), sau đó sẽ đi theo loop mạng đã cấu hình từ trước và ra ngoài.
