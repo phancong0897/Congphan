@@ -49,4 +49,5 @@ Chạy lệnh sau để kích hoạt swap:
     - Để kiểm tra xem swap đã được kích hoạt hay chưa hãy dùng lệnh sau:
 
     ` free -h ` 
+    
 
