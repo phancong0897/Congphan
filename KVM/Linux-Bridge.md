@@ -1,4 +1,4 @@
-# Thổng quan về linux bridge
+# Tổng quan về linux bridge
 
 ## [1. Tổng quan vê Linux Bridge](https://github.com/phancong0897/Congphan/blob/master/KVM/Linux-Bridge.md#1-t%E1%BB%95ng-quan-v%C3%AA-linux-bridge)
 

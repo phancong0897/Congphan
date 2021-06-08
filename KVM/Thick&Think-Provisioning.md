@@ -1,6 +1,6 @@
 # PHÂN BIỆT THICK & THIN PROVISIONING
 
-Khởi tạo VM (Virtual Machine) trên vSphere Client có bước lựa chọn định dạng phân vùng lưu trữ cho VM như: Thin Provisioned, Thick Provisioned Lazy Zeroe & Thick Provisioned Eager Zeroed.
+Khởi tạo VM (Virtual Machine) có bước lựa chọn định dạng phân vùng lưu trữ cho VM như: Thin Provisioned, Thick Provisioned Lazy Zeroe & Thick Provisioned Eager Zeroed.
 
 Giả sử bạn tạo VM 100Gb, Chọn định dạng Thick thì VM sẽ chiếm dụng đúng 100Gb của server, chọn Thin thì VM chỉ chiếm dụng đúng dung lượng mà nó đang lưu trữ.
 
