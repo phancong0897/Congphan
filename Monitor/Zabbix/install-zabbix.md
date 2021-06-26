@@ -9,9 +9,13 @@ Zabbix 5.0 yêu cầu phiên bản php 7.2 trở lên
 ```
 
 sudo yum install -y epel-release yum-utils
+
 sudo yum install -y http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+
 yum-config-manager --enable remi-php72
+
 yum install -y php php-common php-opcache php-mcrypt php-cli php-gd php-curl php-mysqlnd
+
 yum update -y
 
 ```
@@ -25,9 +29,13 @@ yum update -y
 ```
 
 sudo systemctl disable firewalld
+
 sudo systemctl stop firewalld
+
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
+
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
+
 setenforce 0
 
 ```
@@ -39,11 +47,17 @@ setenforce 0
 ```
 
 sudo tee /etc/yum.repos.d/mariadb.repo<<EOF
+
 [mariadb]
+
 name = MariaDB
+
 baseurl = http://yum.mariadb.org/10.5/centos7-amd64
+
 gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+
 gpgcheck=1
+
 EOF
 
 ```
