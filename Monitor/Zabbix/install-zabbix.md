@@ -155,4 +155,18 @@ sudo systemctl enable zabbix-server zabbix-agent httpd rh-php72-php-fpm
 
 Truy cập vào http://(Zabbix server’s hostname or IP address)/zabbix/ để cài đặt
 
+![Imgur](https://imgur.com/nEgVrGR.png)
+
+![Imgur](https://imgur.com/qYDqMUt.png)
+
+![Imgur](https://imgur.com/lTagXA8.png)
+
+![Imgur](https://imgur.com/gT78B7p.png)
+
+![Imgur](https://imgur.com/V9JDK8O.png)
+
+![Imgur](https://imgur.com/T8jl8Vw.png)
+
+![Imgur](https://imgur.com/wDFi1DR.png)
+
 Đăng nhập bằng tài khoản mặc định ID/pass: Admin/zabbix
