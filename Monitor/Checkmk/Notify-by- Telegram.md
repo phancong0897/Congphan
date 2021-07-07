@@ -10,7 +10,7 @@ Tạo file telegram.py
 
 Thêm vào file nội dung như sau:
 
-```
+``````
 
 #!/usr/bin/env python
 # Telegram V2
@@ -128,7 +128,7 @@ def main():
 
 main()
 
-```
+``````
 
 Tại dòng số 29 khai báo token của con bot của bạn. Ví dụ token của tôi như sau
 
