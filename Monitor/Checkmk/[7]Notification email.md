@@ -127,6 +127,10 @@ Chọn event --> notifications --> create rule
 
 ![Imgur](https://imgur.com/GJ8bnTP.png)
 
+Khi có một host nào đó bị tắt thì các user thuộc group tầng 1 sẽ nhận được cảnh báo
+
+![Imgur](https://imgur.com/eDD3lEv.png)
+
 
 
 
