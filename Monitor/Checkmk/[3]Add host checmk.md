@@ -2,7 +2,7 @@
 
 Sau khi cài đặt xong check_mk thì tất nhiên chúng ta sẽ phải thêm host vào để chúng ta giám sát chúng. Ở bài này tôi sẽ hướng dẫn các bạn làm sao để thêm một host để check_mk giám sát nó
 
-Sau khi bạn đã làm xong bài trước chúng ta cùng đi vào bài này nào. Sau khi đăng nhập vào web của check_mk thì bạn hãy làm theo các hướng dẫn bên dưới này nha!
+Sau khi bạn đã làm xong [bài trước](https://github.com/phancong0897/Congphan/blob/master/Monitor/Checkmk/Add%20agent%20linux.md)  chúng ta cùng đi vào bài này nào. Sau khi đăng nhập vào web của check_mk thì bạn hãy làm theo các hướng dẫn bên dưới này nha!
 
 ### Bước 1: Chọn setup , chọn host
 
