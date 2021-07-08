@@ -4,7 +4,7 @@
 
 - Bước 1: Cài đặt checkmk agent
 
-Trước tiên bạn cần cài đặt checkmk [agent](https://github.com/phancong0897/Congphan/blob/master/Monitor/Checkmk/%5B2%5DAdd%20agent%20linux.md) trên máy chủ đang chạy dịch vụ MySQL
+Trước tiên bạn cần cài đặt checkmk [agent](https://github.com/phancong0897/Congphan/blob/master/Monitor/Checkmk/%5B2%5DAdd%20agent%20linux.md#h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-agent-c%E1%BB%A7a-checkmk-tr%C3%AAn-centos-7) trên máy chủ đang chạy dịch vụ MySQL
 
 - Bước 2: Cấu hình MySQL
 
