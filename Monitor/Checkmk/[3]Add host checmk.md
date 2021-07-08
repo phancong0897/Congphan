@@ -2,7 +2,7 @@
 
 Sau khi cài đặt xong check_mk thì tất nhiên chúng ta sẽ phải thêm host vào để chúng ta giám sát chúng. Ở bài này tôi sẽ hướng dẫn các bạn làm sao để thêm một host để check_mk giám sát nó
 
-Sau khi bạn đã làm xong [bài trước](https://github.com/phancong0897/Congphan/blob/master/Monitor/Checkmk/%5B3%5DAdd%20host%20checmk.md#h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-add-host-%C4%91%E1%BB%83-checkmk-gi%C3%A1m-s%C3%A1t)  chúng ta cùng đi vào bài này nào. Sau khi đăng nhập vào web của check_mk thì bạn hãy làm theo các hướng dẫn bên dưới này nha!
+Sau khi bạn đã làm xong [bài trước](https://github.com/phancong0897/Congphan/blob/master/Monitor/Checkmk/%5B2%5DAdd%20agent%20linux.md#h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-agent-c%E1%BB%A7a-checkmk-tr%C3%AAn-centos-7)  chúng ta cùng đi vào bài này nào. Sau khi đăng nhập vào web của check_mk thì bạn hãy làm theo các hướng dẫn bên dưới này nha!
 
 ### Bước 1: Chọn setup , chọn host
 
