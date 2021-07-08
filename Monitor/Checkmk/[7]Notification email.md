@@ -115,14 +115,6 @@ Chọn event --> notifications --> create rule
 
 ![Imgur](https://imgur.com/jyiKzHv.png)
 
-![Imgur](https://imgur.com/IgRdml8.png)
-
-[Imgur](https://imgur.com/XJ6SQu1.png)
-
-- Chọn changes và lưu lại cấu hình
-
-![Imgur](https://imgur.com/GJ8bnTP.png)
-
 - Chọn group nhận cảnh báo
 
 ![Imgur](https://imgur.com/IgRdml8.png)
@@ -130,6 +122,11 @@ Chọn event --> notifications --> create rule
 - Điều kiện cảnh báo khi server chuyển từ UP -> DOWN
 
 ![Imgur](https://imgur.com/XJ6SQu1.png)
+
+- Chọn changes và lưu lại cấu hình
+
+![Imgur](https://imgur.com/GJ8bnTP.png)
+
 
 
 
