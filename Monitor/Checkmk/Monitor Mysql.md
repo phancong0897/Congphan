@@ -40,3 +40,21 @@ Trong đó 10.10.10.77 là địa chỉ của máy chạy mysql
 
 Bây giờ truy cập vào Web UI để thực hiện discovery các dịch vụ
 
+    ![Imgur](https://imgur.com/aOvB4dU.png)
+
+Thực hiện discovery để thêm các dịch vụ mới được thêm vào giám sát
+
+    ![Imgur](https://imgur.com/tYnzkWc.png)
+
+Ta thấy có 6 dịch vụ mới đã được thêm
+
+    ![Imgur](https://imgur.com/0LZOe5J.png)
+
+Cập nhật thay đổi
+
+    ![Imgur](https://imgur.com/lKpGdPu.png)
+
+Ta đã có thể giám sát MySQL trên checkmk
+
+    ![Imgur](https://imgur.com/njwOVH4.png)
+
