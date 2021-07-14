@@ -74,4 +74,23 @@ Khi tính năng năng bảo mật của Elasticsearch được sử dụng thì 
     
     (9): Khóa đối xứng sẽ được sử dụng cho việc mã hoá, giải mã các thông tin được truyền tải giữa phía Client và Server giúp cho mọi thông tin được bảo mật.
 
+### 3. Những ưu điểm mà giải pháp ELK Stack đem lại
+
+-	Là một hệ thống mã nguồn mở, dễ dàng triển khai, tích hợp cho các tổ chức vừa và nhỏ.
+
+-	Hệ thống có thể triển khai theo nhiều hình như: triển khai theo hình thức appliance, triển khai hệ thống trên cloud, on-premise,… tạo thuận tiện cho các tổ chức lựa chọn để triển khai.
+
+-	Hỗ trợ thu thập đa dạng các định dạnh log.
+
+-	Hỗ trợ lọc, phân tích các sự kiện nhằm đưa ra các thông tin cần thiết, loại bỏ bớt các trường thông tin thừa, giúp giảm thiểu bớt dung lượng lưu trữ.
+
+-	Hệ thống hỗ trợ triển khai theo hình thức High Available – Cluster, giúp cho hệ thống dễ dàng nâng cấp và cải thiện hiệu năng về sau.
+
+-	Hệ thống ELK Stack sử dụng elasticsearch – một search engine mạnh mẽ được một số tổ chức lớn trên thế giới sử dụng như: Google, Netflix, Amazon,… giúp cho hệ thống đưa ra kết quả khi truy vấn rất nhanh.
+
+-	Hệ thống cũng đem lại cho người dùng khả năng tuỳ biến dashboard hiển thị thông tin, tạo thêm sự thuận tiện cho người dung trong quá trình sử dụng.
+
+-	Hệ thống hỗ trợ tính năng bảo mật SSL/TLS giúp cho mọi kết nối thông tin, truyền tải dữ liệu đều được đảm bảo an toàn.
+
+
 
