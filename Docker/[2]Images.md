@@ -30,7 +30,7 @@
 
     ` docker images rm imageid `
 
-- tải về một image (imagename) từ hub.docker.com
+- tải về một image (imagename) từ [hub.docker.com](https://hub.docker.com/)
 
     ` docker pull imagename `
 
