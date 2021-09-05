@@ -85,3 +85,39 @@
     ` docker exec -it containerid command `
 
     ![Imgur](https://imgur.com/OI3KX1K.png)
+
+## Lệnh Commit, Load
+
+Cập nhật Image lưu Image ra file và nạp Image từ file trong Docker
+
+- Như đã biết từ một Image bạn có thể sinh ra các Container, mỗi Container là bản thực thi của Image, khi sử dụng Container bạn có thể cấu hình, cài đặt thêm vào nó các package, đưa thêm dữ liệu ...
+
+- Đến một lúc, bạn muốn lưu những thay đổi này và ghi lại thành một Image để sau này bạn sinh ra các Container khác bản thân nó đã chữa những thay đổi bạn đã lưu. Giả sử bạn có một container có tên (hoặc id) là mycontainer nếu muốn lưu thành image thực hiện lệnh:
+
+    `docker commit mycontainer myimage:version `
+
+- Trong đó myimage và version là tên và phiên bản do bạn đặt. Nếu lưu cùng tên với image tạo ra container này, coi như image cũ được cập nhật mới.
+
+### Lưu Image ra file, Nạp image từ file
+
+- Nếu muốn chia copy image ra máy khác ngoài cách đưa lên repository có thể lưu ra file, lệnh sau lưu image có tên myimage rà file
+
+```
+
+    #lưu ra file, có thể chỉ ra đường dẫn đầy đủ nơi lưu file
+
+    docker save --output myimage.tar myimage
+
+```
+
+    ![Imgur](https://imgur.com/tlKv2ZE.png)
+    
+- File này có thể lưu trữ, copy đến máy khác và nạp vào docker, để nạp vào docker
+
+    ` docker load -i myimage.tar `
+
+- Đổi tên một Image đang có
+
+    ` docker tag image_id imagename:version `
+
+    ![Imgur](https://imgur.com/wkCcdhw.png)
