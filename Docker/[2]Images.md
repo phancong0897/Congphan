@@ -28,7 +28,7 @@
 
 - xóa một image (phải không container nào đang dùng)
 
-    ` docker images rm imageid `
+    ` docker image rm imageid `
 
 - tải về một image (imagename) từ [hub.docker.com](https://hub.docker.com/)
 
