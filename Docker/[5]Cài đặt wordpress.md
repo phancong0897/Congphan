@@ -16,7 +16,7 @@ Ta sẽ tạo 3 container chạy 3 dịch vụ php, httpd, mysqld. 3 container n
 
     ` docker pull php:7.3-fpm `
 
-    ![Imgur](https://imgur.com/MPcFo5C.png)
+    ![Imgur](https://imgur.com/h05evtq.png)
 
 - Chaỵ lệnh tạo container với images php
 
