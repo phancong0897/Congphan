@@ -179,6 +179,9 @@ Kết quả trả về file info.php ở trong thư mục /home/phpcode/www/info
     exit;                     #Ra khỏi MySQL Server
 
     ```
+- Kết nối container c-mysql với mạng WP
+
+    ` docker network connect WP c-mysql `
 
 - Truy cập container c-httpd để thêm vhost vào file httpd.conf, thêm vào cuối file:
 
