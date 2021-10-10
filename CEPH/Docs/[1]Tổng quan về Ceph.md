@@ -34,7 +34,7 @@ Ceph mang đến giải pháp lưu trữ thống nhất bao gồm file-based và
 
 <h3 align="center"><img src="../Images/2.png"></h3>
 
-#### Ceph block storage
+## Ceph block storage
 
 - Block storage là 1 phương thức sử dụng trong storage area network (SAN). Tại đây, data lưu trữ dạng volumes, dạng block, đưa vào các node. Cung cấp khẳ năng lưu trữ lớn, với sự đảm bảo cao, hiệu năng cao. Với các block, volumes sẽ được map tới OS, được kiểm soát bới filesystem layout.
 
@@ -44,7 +44,7 @@ Ceph mang đến giải pháp lưu trữ thống nhất bao gồm file-based và
 
 <h3 align="center"><img src="../Images/3.png"></h3>
 
-#### Ceph filesystem
+## Ceph filesystem
 
 - Ceph filesystem hay CephFS, là POSIX-compliant filesystem, được sử dụng trong Ceph storage cluster sử dụng để lưu trữ user data. CephFS hỗ trợ tốt Linux kernel driver, kiến CephFS tương thích tốt với các nền tảng Linux OS. CephFS lưu data và medata riêng biệt, cung cấp hiệu năng, tính bảo đảm cho app host nằm trên nó
 
@@ -54,7 +54,7 @@ Ceph mang đến giải pháp lưu trữ thống nhất bao gồm file-based và
 
 <h3 align="center"><img src="../Images/4.png"></h3>
 
-#### Ceph object storage
+## Ceph object storage
 
 - Phương pháp lưu trữ data dạng object thay vì file, blocks truyền thống. Object-based storage nhận được nhiều sự chú ý trong storage industry.
 
@@ -73,3 +73,10 @@ Ceph mang đến giải pháp lưu trữ thống nhất bao gồm file-based và
 - Để truy câp Ceph object storage system, ta có thể sử dụng RADOS gateway layer. librados software libraries cho phép user app truy tập trực tiếp đến Ceph = C, C++, Java, Python, and PHP. Ceph object storage has multisite capabilities, nó cung cấp giải pháp khi gặp sự cố. Các object storage configuration có thể thực hiện bởi Rados hoặc federated gateways.
 
 <h3 align="center"><img src="../Images/5.png"></h3>
+
+### Tổng kết
+
+Ceph gần như dẫn dầu trong các công nghệ storage mới. Được thiết kế để vượt qua giới hạn mà storage gặp phải hiện nay. Là giải pháp mở, software-defined storage, tương thích nhiều phân cứng. Cung cấp nhiều giao diện với người dùng, tăng tính linh hoạt. Ceph mạnh mẹ hơn công nghệ Raid hiện tại, vượt qua các giới hạn của RAID. Mỗi thành phần trong Ceph đều bảo đảm và hỗ trợ HA. Điểm mạnh nhất của Ceph là tính thống nhất, cung cấp giải pháp toàn diện block, file, and object storage. Phù hợp lưu trữ cho cả small file và bigfile mà không có bất cứ trục trặc về hiệu suất. Ceph là hệ thống lưu trữ phân tán. Client có thể nhanh trong tiếp cận Ceph. Nó không tuần theo phương pháp truyền thống, ứng dụng kỹ thuật mới, cho phép client tinh toán động. Tăng tốc nâng cao hiệu năng cho client. Hơn thế, dữ liệu được lưu trong Ceph Cluster được tổ chức rõ ràng, tự động. Cả client và admin đều không phải lo lằng về sự cố, Ceph's intelligent system sẽ chịu trách nhiệm xứ lý. Ceph được thiết kế để tự quản trị, tự sửa lỗi. Khi xảy ra sự cố, Ceph vượt qua với sự đảm bảo tốt nhất. Ceph phát hiện và sửa lỗi tất cả sự cố trên disk, node, network, rack, data center row, data center, and even different geographies.
+
+
+
