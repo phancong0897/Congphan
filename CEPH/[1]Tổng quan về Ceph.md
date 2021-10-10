@@ -18,4 +18,4 @@
 
 Ceph xây dựng giải pháp dựa trên Object, Các object được tổ chức, nhân bản trên toàn cluster, nâng cao tính bảo đảm dữ liệu. Tại Ceph, Object sẽ không tồn tại đường dẫn vật lý, toàn bộ Object được quản trị dưới dạng Key Object, tạo nền tảng mở với khả năng lưu trữ tới hàng petabyte-exabyte.
 
-<h3 align="center"><img src="D:\Github\Congphan\CEPH\Images\Ceph storage cluster.png"></h3>
+<h3 align="center"><img src="../Images/1.png"></h3>
