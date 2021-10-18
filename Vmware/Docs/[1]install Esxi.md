@@ -12,7 +12,7 @@
 
 <h3 align="center"><img src="../Images/3.png"></h3>
 
-- Ở bước tiếp theo, chọn ổ đĩa ảo đã được thêm ở bước 2 –> Enter để tiếp tục
+- Ở bước tiếp theo, chọn ổ đĩa ảo -->  Enter để tiếp tục
 
 <h3 align="center"><img src="../Images/4.png"></h3>
 
