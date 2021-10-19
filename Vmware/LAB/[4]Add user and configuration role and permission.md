@@ -1,6 +1,6 @@
 # Hướng dẫn tạo user và phân quyền cho user
 
-- Về các khái niệm định nghĩa về các role và permissiong trong Vcenter, các bạn có thể theo dõi đường link này.
+- Về các khái niệm định nghĩa về các role và permissiong trong Vcenter, các bạn có thể theo dõi [ tại đây ](https://github.com/phancong0897/Congphan/blob/master/Vmware/Docs/Role%20v%C3%A0%20permission.md).
 
 - Bài viết này sẽ hướng dẫn tạo user và phân quyền cho user đó.
 
