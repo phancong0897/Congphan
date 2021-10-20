@@ -51,7 +51,7 @@ Sau khi cài đặt xong Server Roles, bạn chọn Close.
 
 <h3 align="center"><img src="../Images/ISCSI/16.png"></h3>
 
-- Tiếp theo nhập IP Esxi dùng để cấu hình ISCSI là: 192.168.60.10, 192.168.60.111
+- Tiếp theo nhập IP Esxi dùng để cấu hình ISCSI là: 192.168.60.20, 192.168.60.120
 
 <h3 align="center"><img src="../Images/ISCSI/25.png"></h3>
 
