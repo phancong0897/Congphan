@@ -2,7 +2,7 @@
 
 ### 1. Overview
 
-- Qua các chapter và bài lab trước chúng ta đã biết cấu hình vCenter và ESXi nhưng chúng ta vẫn chưa biết tại sao vCenter và ESXi lại có thể kết nối được với nhau.
+- Qua các chapter và bài lab trước chúng ta đã biết cấu hình vCenter và ESXi nhưng chúng ta vẫn chưa biết tại sao vCenter và ESXi lại có thể kết nối được với nhau
 
 <h3 align="center"><img src="../Images/vSwitch/1.png"></h3>
 
