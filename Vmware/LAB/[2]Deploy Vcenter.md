@@ -66,7 +66,7 @@
 
 <h3 align="center"><img src="../Images/Vcenter/11.png"></h3>
 
-Sau khi deploy hoàn thành sẽ tiến hành Stage 2: Setup vCenter. Nếu khi deploy xong bạn lỡ tắt trình cài đặt thì có thể truy cập vào giao diện cài đặt stage 2 bằng giao diện web với đường dẫn https://<IP_vCenter>:5480 để tiếp tục.
+Sau khi deploy hoàn thành sẽ tiến hành Stage 2: Setup vCenter. Nếu khi deploy xong bạn lỡ tắt trình cài đặt thì có thể truy cập vào giao diện cài đặt stage 2 bằng giao diện web với đường dẫn  https://<IP_vCenter>:5480 để tiếp tục.
 
 #### Stage 2: Setup vCenter
 
