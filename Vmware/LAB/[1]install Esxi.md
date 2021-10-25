@@ -50,7 +50,7 @@
 
 <h3 align="center"><img src="../Images/Esxi/13.png"></h3>
 
-- Đây là giao diện quản lý chính, giúp người quản trị tạo và quản lý các máy ảo, quản lý network, storage và nhiều tính năng nâng cao khác.
+- Đây là giao diện quản lý chính, giúp người quản trị tạo và quản lý các máy ảo, quản lý network, storage và nhiều tính năng nâng cao khác
 
 <h3 align="center"><img src="../Images/Esxi/14.png"></h3>
 
