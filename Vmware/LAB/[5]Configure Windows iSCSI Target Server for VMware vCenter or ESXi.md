@@ -69,5 +69,5 @@ Sau khi cài đặt xong Server Roles, bạn chọn Close.
 
 <h3 align="center"><img src="../Images/ISCSI/18.png"></h3>
 
-Vậy là cấu hình ISCSI trên window đã hoàn tất, Tiếp theo ta sẽ cấu hình để [ ESXi có thể kết nối đến ISCSI ](https://github.com/phancong0897/Congphan/blob/master/Vmware/LAB/%5B6%5DConfiguring%20Multi%20Pathing%20Network%20for%20VMWare%20ESXi%20Storage%20Access.md),
+Vậy là cấu hình ISCSI trên window đã hoàn tất, Tiếp theo ta sẽ cấu hình để [ ESXi có thể kết nối đến ISCSI ](https://github.com/phancong0897/Congphan/blob/master/Vmware/LAB/%5B6%5DConfiguring%20Multi%20Pathing%20Network%20for%20VMWare%20ESXi%20Storage%20Access.md)
 
