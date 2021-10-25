@@ -96,6 +96,6 @@ Do đã tạo swirch ảo ở NIC1 rồi nên ta chọn select an existing netwo
 
 <h3 align="center"><img src="../Images/ISCSI/49.png"></h3>
 
-- Kiểm t ra lại devices đã kết nối đến ISCSI cua window server 2016
+- Kiểm t ra lại devices đã kết nối đến ISCSI của window server 2016
 
 <h3 align="center"><img src="../Images/ISCSI/50.png"></h3>
