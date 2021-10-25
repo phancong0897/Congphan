@@ -8,7 +8,7 @@
 
 <h3 align="center"><img src="../Images/3/10.png"></h3>
 
-- Thực hiện add host(liên kết các máy chủ vào vCenter) vào Datacenter trên vCenter server 7.0. Các bạn phải chuột lên Datacenter và chọn “Add Host” để add ESXi host vào vCenter server 7.0
+- Thực hiện add host(liên kết các máy chủ vào vCenter) vào Datacenter trên vCenter server 7.0. Các bạn phải chuột lên Datacenter và chọn “Add Host” để add ESXi host vào vCenter server 7.0.
 
 <h3 align="center"><img src="../Images/3/1.png"></h3>
 
