@@ -91,3 +91,5 @@ Chúng ta đã cấu hình Máy chủ Window làm ISCSI target server và cấu 
 
 <h3 align="center"><img src="../Images/Datastore/20.png"></h3>
 
+Như vậy chúng ta đã tạo xong datastore trên trên vCenter với disk ảo ISCSI target server.
+
