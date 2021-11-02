@@ -10,7 +10,7 @@ Nginx còn là 1 trong số ít những máy chủ được viết để giải 
 
 ### 2. Nginx hoạt động như thế nào?
 
-h3 align="center"><img src="/Images/1.png"></h3>
+h3 align="center"><img src="Images/1.png"></h3>
 
 Về cơ bản, Nginx hoạt động cũng tương tự như những Web Server khác. Thông thường, khi người dùng truy cập trang Web, browser sẽ kết nối với Server chứa trang Web này. Sau đó, Server sẽ tìm đúng file yêu cầu của Website và gửi lại cho người dùng, Đây được gọi là trình tự xử lý Single Thread hay cấu trúc luồng. Nghĩa là các bước chỉ thực hiện đúng theo một quy trình duy nhất. Và mỗi yêu cầu sẽ được tạo cho một Thread riêng biệt.
 
@@ -54,7 +54,7 @@ Theo đó, các Worker Connections chính là bộ phận gửi yêu cầu cho W
     
     - Nginx hỗ trợ truyền tải các file FLV và MP4.
 
-<h3 align="center"><img src="/Images/3.png"></h3>
+<h3 align="center"><img src="Images/3.png"></h3>
 
 ### 4. Sử dụng nginx thế nào cho tốt?
 
