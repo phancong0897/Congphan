@@ -20,7 +20,7 @@ Theo đó, các Worker Connections chính là bộ phận gửi yêu cầu cho W
 
 ### 3. Nginx có những tính năng gì?
 
-<h3 align="center"><img src="/Images/2.png"></h3>
+<h3 align="center"><img src="Images/2.png"></h3>
 
 - Hiện nay, máy chủ HTTP Nginx sở hữu nhiều tính năng nổi bật như:
     
