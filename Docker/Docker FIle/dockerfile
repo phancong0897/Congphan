@@ -1,0 +1,15 @@
+# OS cho images
+FROM httpd:latest
+# Command line
+# update OS
+Run yum update -y 
+# install vim
+&& yum install vim -y 
+# Copy file httpd.conf sang thu muc cua container
+ADD /home/dockerfile/httpd.conf /usr/local/apache2/conf/httpd.conf httpd
+# Anh xa thu muc dockerfile o host len container thu muc phpcode
+ADD /home/dockerfile/ /home/phpcode/
+# Port 
+EXPOSE 80
+
+ENTRYPOINT [ "executable" ]
