@@ -8,7 +8,7 @@ Trong mô hình lab của bài này, ta sẽ có 2 Nginx Web Server (bạn có t
 
 Khi có sự cố xảy ra với node Master như die server hay dịch vụ die thì node Backup sẽ nhận lấy VIP này và chịu trách nhiệm xử lý tiếp nội dung dịch vụ đang chạy cụ thể ở bài lab này là Nginx Web Server.
 
-<h3 align="center"><img src="Images/12.png"></h3>
+<h3 align="center"><img src="../Images/12.png"></h3>
 
 ### Cài đặt chương trình Web Server
 
@@ -208,15 +208,15 @@ Cấu hình trên 2 web
 
     - Chúng ta sẽ kiểm tra xem trên server Keep01 đảm nhận vai trò MASTER đã nhận được IP ảo ‘192.168.144.150‘.
 
-    <h3 align="center"><img src="Images/13.png"></h3>
+    <h3 align="center"><img src="../Images/13.png"></h3>
 
-    <h3 align="center"><img src="Images/14.png"></h3>
+    <h3 align="center"><img src="../Images/14.png"></h3>
 
     - Trong trường hợp server MASTER down, thì địa chỉ ảo VIP 192.168.144.150 sẽ được tự động gán cho máy chủ Keep02 BACKUP lên làm MASTER.
 
-    <h3 align="center"><img src="Images/15.png"></h3>
+    <h3 align="center"><img src="../Images/15.png"></h3>
 
-    <h3 align="center"><img src="Images/16.png"></h3>
+    <h3 align="center"><img src="../Images/16.png"></h3>
 
 
 
