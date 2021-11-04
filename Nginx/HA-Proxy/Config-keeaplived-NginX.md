@@ -4,7 +4,7 @@
 
 Trong mô hình lab của bài này, ta sẽ có 2 Nginx Web Server (bạn có thể đổi thành HAProxy tùy ý) phục vụ xử lý request HTTP Web cơ bản. Hai Nginx Keep01 và Keep02 này sẽ được cấu hình dùng chung một VIP là 192.168.144.150. Bình thường thì VIP này sẽ do node Master phụ trách, node Backup sẽ ở trạng thái chờ.
 
-<h3 align="center"><img src="Images/11.png"></h3>
+<h3 align="center"><img src="../Images/11.png"></h3>
 
 Khi có sự cố xảy ra với node Master như die server hay dịch vụ die thì node Backup sẽ nhận lấy VIP này và chịu trách nhiệm xử lý tiếp nội dung dịch vụ đang chạy cụ thể ở bài lab này là Nginx Web Server.
 
