@@ -271,7 +271,7 @@ include /etc/nginx/conf.d/delaults.conf;
     ```
 
     server{
-     listen       443;
+     listen      80;
      server_name 192.168.112.131;
 
      error_log  /var/log/nginx/vhost.example.com_error.log error;
