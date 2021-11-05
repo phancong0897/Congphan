@@ -22,6 +22,16 @@ Toàn bộ dữ liệu Redis nằm trong bộ nhớ chính của máy chủ, kh�
 
     - String – văn bản hoặc dữ liệu nhị phân có kích thước lên tới 512MB
 
+        ```
+        127.0.0.1:6379> auth redis@123
+        OK
+        127.0.0.1:6379> set myname congpv
+        OK
+        127.0.0.1:6379> get myname
+        "congpv"
+
+        ```
+
     - List – một tập hợp các chuỗi được sắp xếp theo thứ tự như khi được thêm vào
     
     - Set – một tập hợp chưa được sắp xếp các chuỗi, có khả năng giao cắt, liên kết và khác với các kiểu tập khác
@@ -78,3 +88,9 @@ Ngoài cache file tĩnh, Redis còn có thể dùng để lưu session (phiên �
 
 Tính năng Persistence rất quan trọng để lưu trữ các phiên, để tránh mất dữ liệu trong các phần quan trọng của tương tác với người dùng. Ví dụ: xử lý thanh toán, thêm một mặt hàng vào giỏ hàng hoặc yêu cầu bất kỳ hành động nào với tư cách là người dùng đã xác thực.
 
+
+### Link tham khảo
+
+- https://viblo.asia/p/tim-hieu-ve-redis-LzD5dXEW5jY
+
+- https://redis.io/commands#list
