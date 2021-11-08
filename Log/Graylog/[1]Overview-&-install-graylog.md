@@ -189,9 +189,9 @@ Graylog thu thập nhật ký từ nhiều nguồn khác nhau và cung cấp b�
 
     Tạo mật khẩu đăng nhập cho tài khoản admin để đăng nhập graylog:
 
-    ` pass_sha=$(echo -n Phhancong0897htth@!# | sha256sum | awk '{print $1}') && sed -i -e 's|root_password_sha2 =|root_password_sha2 = '$pass_sha'|' /etc/graylog/server/server.conf `
+    ` pass_sha=$(echo -n Phancong0897htth@!# | sha256sum | awk '{print $1}') && sed -i -e 's|root_password_sha2 =|root_password_sha2 = '$pass_sha'|' /etc/graylog/server/server.conf `
 
-    Trong đó: hPhancong0897htth@!# là mật khẩu sử dụng để đăng nhập vào graylog bằng user admin
+    Trong đó: Phancong0897htth@!# là mật khẩu sử dụng để đăng nhập vào graylog bằng user admin
 
     Đặt timezone cho graylog:
 
