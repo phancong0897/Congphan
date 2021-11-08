@@ -20,7 +20,7 @@
 
 - Input
 
-        <h3 align="center"><img src="../Images/2.png"></h3>
+    <h3 align="center"><img src="../Images/2.png"></h3>
 
     - Chúng ta sử dụng Input để lấy dữ liệu vào Logstash. Một số đầu vào thường được sử dụng là :
 
