@@ -40,12 +40,12 @@ Lưu ý ta sẽ cài đặt theo hướng dẫn trên cả 3 node.
     ```
     scp /var/lib/rabbitmq/.erlang.cookie root@VM02:/var/lib/rabbitmq/.erlang.cookie
 
-    scp /var/lib/rabbitmq/.erlang.cookie root@VM02:/var/lib/rabbitmq/.erlang.cookie
+    scp /var/lib/rabbitmq/.erlang.cookie root@VM03:/var/lib/rabbitmq/.erlang.cookie
 
     ```
 - Cấu hình policy HA Rabbit Cluster
 
-    ` rabbitmqctl -p admin_vhost set_policy ha-all '^(?!amq\.).*' '{"ha-mode": "all"}' `
+    ` rabbitmqctl -p Vnpay set_policy ha-all '^(?!amq\.).*' '{"ha-mode": "all"}' `
 
 - Kiểm tra trạng thái cluster
 
