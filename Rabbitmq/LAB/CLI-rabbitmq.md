@@ -96,6 +96,8 @@
 
 	` Rabbitmqctl set_vhost_limits -p vnpay '{"max-results": 0}' `
 
-    
+#### Link tham khảo
+
+https://www.rabbitmq.com/rabbitmqctl.8.html
 
 
