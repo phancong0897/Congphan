@@ -65,18 +65,18 @@
 - Tạo user quản trị, user admin mặc định là guest/guest
 
     ```
-    rabbitmqctl add_user admin Vnpay@123
-    rabbitmqctl set_user_tags admin administrator
+    rabbitmqctl add_user congpv Vnpay@123
+    rabbitmqctl set_user_tags congpv administrator
 
     ```
 - Tạo vhost và phân quyền
 
     ```
-    rabbitmqctl add_vhost qrcode
-    rabbitmqctl set_permissions -p qrcode admin "^admin-.*" ".*" ".*"
-    rabbitmqctl set_permissions -p qrcode admin ".*" ".*" ".*"
+    rabbitmqctl add_vhost vnpay
+    rabbitmqctl set_permissions -p vnpay congpv "^admin-.*" ".*" ".*"
+    rabbitmqctl set_permissions -p vnpay congpv ".*" ".*" ".*"
 
     ```
 -  Truy cập WEB GUI với địa chỉ http://IP:15672
 
-    ` <h3 align="center"><img src="../Images/9.png"></h3> `
+    <h3 align="center"><img src="../Images/9.png"></h3>
