@@ -212,3 +212,73 @@
 	```
 	
 ##### Đến đây đã có một ELK hệ thống quản lý logs trung tâm. Việc tiếp theo là cài đặt để các logs từ các Server khác nhau gửi đến trung tâm này.
+
+#### Cấu hình client
+
+- Cài đặt Beats/Filebeat CentOS
+
+    ` yum install filebeat -y `
+
+- File cấu hình tại /etc/filebeat/filebeat.yml, mở ra chỉnh sửa các nội dung sau:
+
+    - Tìm đến mục Elasticsearch output comment lại để không gửi log thẳng đến Elasticsearch
+
+    ```
+    #output.elasticsearch:
+    # Array of hosts to connect to.
+    # hosts: ["localhost:9200"]
+
+    ```
+
+    - Tìm đến Logstash output, bỏ các comment để yêu cầu filebeat gửi đến Logstash (địa chỉ dùng là localhost:)
+
+    ```
+
+    output.logstash:
+    # The Logstash hosts
+    hosts: ["localhost:5044"]  (IP của logstash)
+
+    ```
+
+    - Ngoài ra tại mục filebeat.inputs: có phần
+
+    ```
+    paths:
+        - /var/log/*.log
+        #- c:\programdata\elasticsearch\logs\*
+
+    ```
+
+Có nghĩa là nó đang thu thập logs từ các file ở /var/log/*.log, nếu muốn cấu hình thu thập thêm log từ các đường dẫn khác cho các ứng dụng khác không viết log ra /va/log thì tự thêm vào
+
+- Kích hoạt dịch vụ filebeat
+
+    ```
+    systemctl enable filebeat
+    systemctl start filebeat
+
+    ```
+
+#### Xem log trong Kibana
+
+- Đến đây bạn đã có một ELK (một trung tâm quản lý log), nó đang nhận log từ một server gửi đến bằng Filebeat (nếu muốn server khác gửi đến nữa thì cài Filebeat trên server nguồn và cấu hình như trên)
+
+- Truy cập vào Kibana theo địa chỉ IP của ELK, ví dụ http://192.168.144.149:5601, nhấn vào phần Discover, chọn mục Index Management của Elasticsearch, bạn sẽ thấy các index có tiền tố là filebeat-*, chính là các index lưu dữ liệu log do Filebeat gửi đến Logstash và Logstash để chuyển lưu tại Elasticsearch. (Nếu có nhiều server gửi đến thì có nhiều index dạng này)
+
+<h3 align="center"><img src="../Images/19.png"></h3>
+
+- Để truy vấn bằng Kibana ta sẽ tạo các Index patterns, đó là truy vấn thông tin các index có tiền tố là filebeat-, nhấn vào Index patterns của Kibana, bấm vào Create index pattern
+
+Điền filebeat-* vào index pattern, rồi nhấn Next Step
+
+<h3 align="center"><img src="../Images/16.png"></h3>
+
+- Chọn @timestamp ở mục Time Filter field name, rồi nhấn Create Index Pattern
+
+<h3 align="center"><img src="../Images/17.png"></h3>
+
+- Cuối cùng, bấm vào Discover, để xem thông tin về các log. Mặc định đang liệt các log 15 phút cuối
+
+<h3 align="center"><img src="../Images/18.png"></h3>
+
+
