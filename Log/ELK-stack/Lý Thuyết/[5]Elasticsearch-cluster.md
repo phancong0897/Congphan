@@ -17,16 +17,7 @@ Mỗi Node trong cụm cluster có thể giao tiếp với các Node khác qua p
 - File cấu hình vai trò ES Node nằm ở (nếu bạn cài qua package hoặc repository):
 
 	` /etc/elasticsearch/elasticsearch.yml `
-	
-- Nội dung cấu hình Role ES Node
-	
-	```
-	node.master: true/false 
-	node.data: true/false
-	node.ingest: true/false
-	search.remote.connect: true/false
-	
-	```
+
 	
 - Chú thích:
 
@@ -47,37 +38,12 @@ Mỗi Node trong cụm cluster có thể giao tiếp với các Node khác qua p
 - Trong một hệ thống ES Cluster chạy production, thường chúng ta sẽ dựng 1 con server chỉ để chạy Master Node , không xử lý các truy vấn từ client.
 
 - Mặc định khi cài đặt Elasticsearch mới toanh thì, một Node sẽ vừa là Master Node vừa là Data Node.
-	
-	```
-	node.master: true 
-	node.data: true
-	node.ingest: false 
-	search.remote.connect: false
-	
-	```
-	
-	- Để cấu hình máy chủ chỉ chạy chức năng Master Node ES:
 
-	```	
-	node.master: true 
-	node.data: false 
-	node.ingest: false 
-	search.remote.connect: false
-	
-	```
-- Data Node
+##### Data Node
 
 Data Node chịu trách nhiệm cho việc lưu trữ dữ liệu ở các shard và thực hiện các hoạt động liên quan đến dữ liệu như CRUD : tạo, đọc, cập nhật, xoá, tìm kiếm,… Bạn hoàn toàn có thể có nhiều Data Node trong một cụm ES Cluster. Nếu mà một Data Node chết hoặc dùng hoạt động thì cụm cluster vẫn tiếp tục vận hành và tiến hành tổ chức lại các shard Index trên các node khác.
 
-Để cấu hình Data Node ES:
-
-	```
-	node.master: false 
-	node.data: true 
-	node.ingest: false 
-	search.remote.connect: false
-	```
-- Client Node/Coordinating Node
+##### Client Node/Coordinating Node
 
 	- Client Node chịu trách nhiệm cho việc điều hướng các truy vấn hoặc cân bằng tải các truy vấn tuỳ theo chức năng đến các Master Node hoặc Data Node. Có thể mường tượng Client Node có công năng như 1 con ‘router’ vậy.
 
@@ -92,14 +58,9 @@ Data Node chịu trách nhiệm cho việc lưu trữ dữ liệu ở các shard
 	
 	<h3 align="center"><img src="../Images/52.png"></h3>
 
-	- Để cấu hình Client Node ES:
+##### Ingest Node
 
-	```
-	node.master: false 
-	node.data: false
-	node.ingest: false
-	search.remote.connect: false
-	```
+Ingest Node sẽ hỗ trợ bạn thực hiện hoạt động xử lý các documents trước khi quá trình index bắt đầu.
 	
 #### Thêm một ES Node vào ES Cluster
 
