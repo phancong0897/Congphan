@@ -56,7 +56,7 @@ Handlers : Sử dụng để kích hoạt thay đổi trạng thái các service
   - name: restart web
     service:
       name: httpd
-      state: running     
+      state: restart     
 ```
 
 - Ta sẽ được kết quả như sau:
