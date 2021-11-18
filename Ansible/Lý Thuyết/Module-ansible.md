@@ -167,3 +167,34 @@ Copy module là module thường được sử dụng khi chúng ta muốn sao c
   become: true
 ```
 
+#### Service
+
+Đối với các node client là Unix/Linux, service module là một module rất hữu ích giúp kiểm soát các service chạy trên các server này. Giống với các module khác, service module cũng đi kèm với một số tham số và các tham số này có các tùy chọn riêng hoặc giá trị phù hợp. Sử dụng các tham số này và các giá trị bắt buộc, các bạn có thể quản lý các service với các chức năng như stop, start, reload, ... trên các node client.
+
+```
+- name: Start service httpd, if not running
+  service:
+    name: httpd
+    state: started
+
+- name: Stop service httpd, if running
+  service:
+    name: httpd
+    state: stopped
+
+- name: Restart service httpd, in all cases
+  service:
+    name: httpd
+    state: restarted
+
+- name: Reload service httpd, in all cases
+  service:
+    name: httpd
+    state: reloaded
+
+- name: Enable service httpd, and not touch the running state
+  service:
+    name: httpd
+    enabled: yes
+```
+
