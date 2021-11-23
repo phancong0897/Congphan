@@ -58,3 +58,31 @@ Bạn có thể gọi sử dụng nhiều tác vụ handler trong một task.
     
     ```
 
+### 2. Handler Listen
+
+Từ Ansible version 2.2 trở đi thì Ansible đã hỗ trợ một cấu hình mang tên ‘Handler Listen‘. Với keyword ‘listen‘ sử dụng khi cấu hình một tác vụ ‘handler‘, ta có thể hiểu nó giống như việc gom nhóm các tác vụ ‘handler‘ thành một group theo tên ‘listen‘. Và bạn chỉ cần gọi tên của ‘listen‘ được khai báo là có thể chạy toàn bộ các tác vụ ‘handler‘ con của nhóm ‘listen‘ đó.
+
+```
+- hosts: all
+
+  tasks:
+    - name: configure nginx
+      template: src=nginx.conf.j2 dest=/etc/nginx.conf
+      notify: restart_nginx_cluster
+
+  handlers:
+     - name: restart_uwsgi
+       service: name=uwsgi state=restarted
+       listen: restart_nginx_cluster            
+
+     - name: restart_nginx
+       service: name=nginx state=restarted
+       listen: restart_nginx_cluster
+
+```
+
+- Giải thích:
+
+    - Ta có một playbook đơn giản, là cần copy cấu hình file nginx.conf lên con máy chủ remote. Sau đó cần restart toàn bộ service liên quan webserver nginx, ở đây là uwsgi và nginx . Thì thay vì phải gọi (notify) từng tên tác vụ handler như ở phần đầu, thì giờ mình có thể gọi tên nhóm ‘listen‘ là ‘restart_nginx_cluster‘ tức nhóm các tác vụ ‘handler‘ đã được khai báo và thực thi . Việc khai báo ‘listen‘ này nhìn chung rất gọn gàng nếu bạn có nhiều ‘handler’ cần phải sử dụng cùng lúc.
+
+    - Lưu ý là các tác vụ ‘handler‘ trong một nhóm ‘listen‘ vẫn chạy theo thứ tự đã khai báo trong mục danh sách tác vụ ‘handler‘ nhé.
