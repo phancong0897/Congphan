@@ -70,6 +70,6 @@ Bạn có thể sử dụng role theo cách sau .
         - nginx
     ```
 
-
+- Theo quan điểm cá nhân của mình, khi viết role sẽ dễ quản lí hơn và sẽ dễ dàng tạo các playbook và gọi tới các role dễ dàng hơn, thay vì bạn phải viết một playbook dài cả trăm dòng, và những lần khác khi cần viết playbook cho các tác vụ khác ta có thể gọi các role đã được viết sẵn từ trước. 
 
 
