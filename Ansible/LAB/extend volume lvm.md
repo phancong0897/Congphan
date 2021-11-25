@@ -6,14 +6,14 @@
 
 - Tạo folder trong roles để sử dụng roles ansible
 
-    `mkdir /etc/ansible/roles/checkdisk `
+    `mkdir /etc/ansible/roles/extendisk `
 
 - Tạo task trong folder checkdisk:
-    ` mkdir /etc/ansible/roles/checkdisk/tasks `
+    ` mkdir /etc/ansible/roles/extendisk/tasks `
 
 - Viết playbook cho phần extend với nối dụng như sau:
 
-    ` vi /etc/ansible/roles/checkdisk/tasks/main.yml `
+    ` vi /etc/ansible/roles/extendisk/tasks/main.yml `
 
 ```
 
@@ -43,27 +43,40 @@
 
 ```
 
+### Viết playbook checkdisk
+
+- Tạo folder trong roles để sử dụng roles ansible
+
+  `mkdir /etc/ansible/roles/checkdisk `
+
+- Tạo task trong folder checkdisk:
+
+    ` mkdir /etc/ansible/roles/checkdisk/tasks `
+
+- Viết playbook cho phần extend với nối dụng như sau:
+
+    ` vi /etc/ansible/roles/checkdisk/tasks/main.yml `
+
+```
+- name: check disk
+    shell: lsblk
+    register: lsblk_status
+
+  - debug:
+      var: lsblk_status
+
+```
+
 ### Viết playbook chạy role
 
 ` vi /etc/ansbile/playbook.yml `
 
 ```
 - hosts: centos7
-  tasks:
-  - name: check disk
-    shell: lsblk
-    register: lsblk_status
-
-  - debug:
-      var: lsblk_status
+  roles:
+    - checkdisk
 
 - hosts: centos7
-  tasks:
-  - name: check disk
-    shell: lsblk
-    register: lsblk_status
-  - debug:
-      var: lsblk_status
   vars_prompt:
 
   - name: "pvs_name"
@@ -87,7 +100,7 @@
     private: no
 
   roles:
-    - checkdisk
+    - extendisk
 
 - hosts: centos7
   vars_prompt:
@@ -105,8 +118,6 @@
       src: "/dev/mapper/{{mount_point}}"
       fstype: fs
       state: present
-
-
 
 ```
 
