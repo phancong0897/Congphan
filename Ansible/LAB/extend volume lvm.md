@@ -59,8 +59,8 @@
 
 ```
 - name: check disk
-    shell: lsblk
-    register: lsblk_status
+  shell: lsblk
+  register: lsblk_status
 
   - debug:
       var: lsblk_status
