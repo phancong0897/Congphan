@@ -52,8 +52,11 @@ Trong python, nếu biến đố đang tồn tại mà ta xóa đi thì biến �
     ```
 
     Thông tin chi tiết của biến int:
+
     sys.int_info(bits_per_digit=30, sizeof_digit=4)
+
     Thông tin chi tiết của biến float:
+    
     sys.float_info(max=1.7976931348623157e+308, max_exp=1024, max_10_exp=308, min=2.2250738585072014e-308, min_exp=-1021, min_10_exp=-307, dig=15, mant_dig=53, epsilon=2.220446049250313e-16, radix=2, rounds=1)
 
     
