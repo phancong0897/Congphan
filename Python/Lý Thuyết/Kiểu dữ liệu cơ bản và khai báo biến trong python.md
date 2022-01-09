@@ -2,7 +2,7 @@
 
 ### 1. Kiểu dữ liệu cơ bản
 
-- int: kiểu sổ nguyên (không chứa số thạp phân), lưu các số nguyên âm nguyên dương.
+- int: kiểu sổ nguyên (không chứa số thạp phân), lưu các số nguyên âm ,  nguyên dương.
 
 - float: Kiểu số thực(có chứa dấu thập phân)
 
