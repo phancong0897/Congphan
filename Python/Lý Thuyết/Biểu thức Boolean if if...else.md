@@ -76,4 +76,18 @@ Lưu ý rằng python không dùng ngoặc nhọn để bao bọc các lệnh, m
 
     <h3 align="center"><img src="../Images/20.png"></h3>
 
-    
+- Ví dụ:
+
+    ```
+    x=int(input("Moi ban nhap gia tri x:"))
+    y=int(input("Moi ban nhap gia tri y:"))
+    if x>y:
+        print(x,"so x lon hon y")
+    elif x<y:
+        print("so x be hon y")
+    else:
+        print("so x = y")
+
+    ```
+
+    <h3 align="center"><img src="../Images/21.png"></h3>
