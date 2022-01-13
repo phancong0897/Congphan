@@ -75,3 +75,5 @@ Lưu ý rằng python không dùng ngoặc nhọn để bao bọc các lệnh, m
 - Với các điều kiện phức tạp, Python hỗ trợ kiểm tra điều kiện if elif lồng nhau
 
     <h3 align="center"><img src="../Images/20.png"></h3>
+
+    
