@@ -1,4 +1,6 @@
----
+#Playbook creat user bằng ansible
+
+```
 - hosts: localhost
   tasks:
   - name: Create a login user
@@ -7,3 +9,4 @@
       password: "{{ 'password' | password_hash('sha512', 'mysecretsalt') }}"
       state: present
       createhome: yes 
+```
