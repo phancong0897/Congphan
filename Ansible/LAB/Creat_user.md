@@ -10,3 +10,26 @@
       state: present
       createhome: yes 
 ```
+
+```
+
+- name: user module demo
+  hosts: all
+  become: true
+  tasks:
+    - name: user example present
+      ansible.builtin.user:
+        name: example
+        password: "{{ 'password' | password_hash('sha512', 'mysecretsalt') }}"
+        groups:
+          - wheel
+          - adm
+        state: "present"
+        shell: "/bin/bash"
+        system: false
+        create_home: true
+        home: "/home/example"
+        comment: "Ansible example"
+        generate_ssh_key: true
+
+```
