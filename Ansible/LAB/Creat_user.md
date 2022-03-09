@@ -6,7 +6,7 @@
   - name: Create a login user
     user:
       name: congpv
-      password: "{{ 'password' | password_hash('sha512', 'mysecretsalt') }}"
+      password: "{{ 'yourpasswd' | password_hash('sha512', 'mysecretsalt') }}"
       state: present
       createhome: yes 
 ```
@@ -20,7 +20,7 @@
     - name: user example present
       ansible.builtin.user:
         name: example
-        password: "{{ 'password' | password_hash('sha512', 'mysecretsalt') }}"
+        password: "{{ 'yourpasswd' | password_hash('sha512', 'mysecretsalt') }}"
         groups:
           - wheel
           - adm
