@@ -1,5 +1,7 @@
 # Detect status service và thực thi playbook
 
+```
+
 - hosts: localhost
   tasks:
   - name: Populate service facts
@@ -14,3 +16,5 @@
       immediate: true
     when:
       - ansible_facts.services['firewalld.service'].state == 'running'
+
+```
