@@ -12,17 +12,17 @@ Kubernetes là một hệ sinh thái lớn và phát triển nhanh chóng. Các 
 
 ### 1.2. Lợi ích
 
-Kubernetes đơn giản hóa rất nhiều vấn đề phức tạp trong công tác quản lý container. Và nó thực sự đem lại rất nhiều lợi ích to lớn đối với các quản trị viên như:
+- Kubernetes đơn giản hóa rất nhiều vấn đề phức tạp trong công tác quản lý container. Và nó thực sự đem lại rất nhiều lợi ích to lớn đối với các quản trị viên như:
 
-    - Đơn giản hóa khai thác ứng dụng: Vì Kubernetes hiển thị tất cả các nút worker của mình như một nền tảng triển khai duy nhất, các nhà phát triển ứng dụng có thể bắt đầu triển khai các ứng dụng của riêng họ và không cần quan tâm nhiều về các thông số phần cứng phức tạp trên các máy chủ tạo nên cluster.
+    - Đơn giản hóa khai thác ứng dụng: Vì Kubernetes hiển thị tất cả các nút worker của mình như một nền tảng triển khai duy nhất, các nhà phát triển ứng dụng có thể bắt đầutriển khai các ứng dụng của riêng họ và không cần quan tâm nhiều về các thông số phần cứng phức tạp trên các máy chủ tạo nên cluster.
 
-    - Tối ưu hóa phần cứng: Kubernetes sẽ tự động chọn nút thích hợp nhất để chạy ứng dụng của bạn dựa trên mô tả về các yêu cầu tài nguyên của ứng dụng với các tài nguyên có sẵn trên mỗi nút. Nếu triển khai thủ công bạn sẽ chủ động triển khai ứng dụng trên một máy cố định nào đó, điều này không tối ưu hóa được phần cứng trong suốt quá trình phát triển ứng dụng. Nhưng Kubernetes sẽ tự động phân tích mức độ yêu cầu tài nguyên của mỗi giai đoạn và cho ứng dụng chạy trên máy có lượng tài nguyên đáp ứng, vì vậy ở các thời điểm phát triển khác nhau ứng dụng có thể chạy trên các nút khác nhau.
+    - Tối ưu hóa phần cứng: Kubernetes sẽ tự động chọn nút thích hợp nhất để chạy ứng dụng của bạn dựa trên mô tả về các yêu cầu tài nguyên của ứng dụng với các tài nguyên cósẵn trên mỗi nút. Nếu triển khai thủ công bạn sẽ chủ động triển khai ứng dụng trên một máy cố định nào đó, điều này không tối ưu hóa được phần cứng trong suốt quá trìnhphát triển ứng dụng. Nhưng Kubernetes sẽ tự động phân tích mức độ yêu cầu tài nguyên của mỗi giai đoạn và cho ứng dụng chạy trên máy có lượng tài nguyên đáp ứng, vì vậy ởcác thời điểm phát triển khác nhau ứng dụng có thể chạy trên các nút khác nhau.
 
-    - Kiểm tra hóa và khắc phục lỗi: Kubernetes giám sát các thành phần ứng dụng và các nút chạy ứng dụng trên đó và tự động xử lý cho phép ứng dụng chạy trên một nút khác nếu nút đó bị lỗi. Trong thực tế để di chuyển một ứng dụng từ máy này sang máy khác là rất vất vả và mất rất nhiều thời gian. Nhưng Kubernetes thực hiện điều này một cách tự động và cực kỳ nhanh chóng. Thời gian downtime của ứng dụng gần như bằng 0.
-
-    - Tự động hóa mở rộng: Kubernetes giám sát lưu lượng truy cập vào ứng dụng. Và có thể điều chỉnh số lượng phiên bản đang chạy của mỗi ứng dụng. Kubernetes có thể tự động điều chỉnh kích thước toàn bộ cluster lên hoặc xuống dựa trên nhu cầu của các ứng dụng đã triển khai. Đây là một điểm mạnh về khả năng mở rộng của Kubernetes so với Docker swarm.
-
-    - Đơn giản hóa phát triển ứng dụng: Kubernetes hỗ trợ phát hiện lỗi của ứng dụng. Điều này đồng nghĩa với việc giảm rủi ro khi đưa ra ứng dụng và giảm thời khắc phục lỗi giúp việc phát triển ứng dụng giảm bớt công việc áp lực của nhà phát triển ứng dụng, tăng độ tin tưởng của người dùng với ứng dụng và nhà phát triển. Thông thường, ứng dụng chỉ tra cứu một số biến môi trường nhất định hoặc thực hiện tra cứu DNS nhưng Kubernetes hỗ trợ ứng dụng có thể truy vấn trực tiếp máy chủ Kubernetes API để lấy một số thông tin khác.
+    - Kiểm tra hóa và khắc phục lỗi: Kubernetes giám sát các thành phần ứng dụng và các nút chạy ứng dụng trên đó và tự động xử lý cho phép ứng dụng chạy trên một nút khác nếunút đó bị lỗi. Trong thực tế để di chuyển một ứng dụng từ máy này sang máy khác là rất vất vả và mất rất nhiều thời gian. Nhưng Kubernetes thực hiện điều này một cách tựđộng và cực kỳ nhanh chóng. Thời gian downtime của ứng dụng gần như bằng 0.
+    
+    - Tự động hóa mở rộng: Kubernetes giám sát lưu lượng truy cập vào ứng dụng. Và có thể điều chỉnh số lượng phiên bản đang chạy của mỗi ứng dụng. Kubernetes có thể tự độngđiều chỉnh kích thước toàn bộ cluster lên hoặc xuống dựa trên nhu cầu của các ứng dụng đã triển khai. Đây là một điểm mạnh về khả năng mở rộng của Kubernetes so với Dockerswarm.
+    
+    - Đơn giản hóa phát triển ứng dụng: Kubernetes hỗ trợ phát hiện lỗi của ứng dụng. Điều này đồng nghĩa với việc giảm rủi ro khi đưa ra ứng dụng và giảm thời khắc phục lỗigiúp việc phát triển ứng dụng giảm bớt công việc áp lực của nhà phát triển ứng dụng, tăng độ tin tưởng của người dùng với ứng dụng và nhà phát triển. Thông thường, ứng dụngchỉ tra cứu một số biến môi trường nhất định hoặc thực hiện tra cứu DNS nhưng Kubernetes hỗ trợ ứng dụng có thể truy vấn trực tiếp máy chủ Kubernetes API để lấy một sốthông tin khác.
 
 ### II. Kiến trúc Kubernetes
 
