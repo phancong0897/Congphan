@@ -26,6 +26,8 @@ Kubernetes là một hệ sinh thái lớn và phát triển nhanh chóng. Các 
 
 ### II. Kiến trúc Kubernetes
 
+### 2.1. Kiến trúc tổng quan một cluster
+
 - Kiến trúc cluster cơ bản
 
 <h3 align="center"><img src="../Images/1.png"></h3>
