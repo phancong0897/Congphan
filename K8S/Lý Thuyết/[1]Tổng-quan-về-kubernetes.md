@@ -99,7 +99,7 @@ Mặt khác, trên một cụm Kubernetes có nhiều worker, lưu lượng mạ
 
     - Container Runtime (môi trường chạy của container)
 
-    Mặc dù Kubernetes được thiết kế như một engine có khả năng điều phối container, nó lại không có khả năng để có thể xử lý trực tiếp các container. Để quản lý vòng đời của một container, Kubernetes cần có container runtime trên nuts mà một Pod và các container của nó được lập lịch. Kubernetes hỗ trợ các môi trường runtime sau:
+    Mặc dù Kubernetes được thiết kế như một engine có khả năng điều phối container, nó lại không có khả năng để có thể xử lý trực tiếp các container. Để quản lý vòng đời của một container, Kubernetes cần có container runtime trên nút mà một Pod và các container của nó được lập lịch. Kubernetes hỗ trợ các môi trường runtime sau:
 
         Docker - container runtime phổ biến nhất được sử dụng với Kubernetes (nhưng k8s đã ngừng hỗ trợ tại thời điểm gần đây)
 
