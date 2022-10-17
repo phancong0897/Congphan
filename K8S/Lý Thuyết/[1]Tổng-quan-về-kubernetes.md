@@ -72,8 +72,6 @@ Với ở dạng stacked topology, các bản sao HA của nút master đảm b�
 
     Bộ lập lịch có khả năng cấu hình và tùy chỉnh cực kì cao dựa trên các scheduling policies, plugins, and profiles. Tiếp đó, các bộ lập lịch tùy chỉnh bổ sung có thể cũng được hỗ trợ, do đó các dữ liệu cấu hình (objects' configuration data) nên bao gồm tên của bộ lập lịch tùy chỉnh mong muốn để có những quyết định lập lịch phù hợp với cài đặt của chúng. Nếu không có bất kỳ dữ liệu nào được cung cấp, bộ lập lịch mặc định sẽ được sử dụng.
 
-    Một bộ lập lịch thường cực kì quan trọng và phức tạp trong một cụm Kubernetes có nhiều nút. Tuy nhiên trong các cụm chỉ có duy nhất một nút, chẳng hạn như cụm được sử dụng làm ví dụ trong khóa học này, công việc của bộ lập lịch về cơ bản khá đơn giản.
-
     - Controller Managers (Trình quản lý các controller)
     
     controller managers là các thành phần của control plane trên nút master, thứ mà chạy các controller để điều tiết trạng thái của cụm Kubernetes. Các controller luôn trong qúa trình liên tục lặp lại việc quan sát để có thể chạy và so sánh trạng thái đã được miêu tả (được cung cấp bởi các objects' configuration data) và trạng thái hiện tại của nó (thu thập từ dữ liệu của etcd lưu trữ thông qua API server) TRong trường hợp xảy ra sự nhầm lẫn nào đó, hành động sửa lỗi được thực hiện trong cụm cho đến khi trạng thái hiện tại đúng với trạng thái được mô tả.
@@ -86,9 +84,8 @@ Với ở dạng stacked topology, các bản sao HA của nút master đảm b�
     
     etcd là kho dữ liệu dạng key/value phân tán và có có tính nhất quán cao được sử dụng để đảm bảo tính bền bỉ của trạng thái của cụm Kubernetes. Dữ liệu mới được ghi vào kho lưu trữ chỉ bằng cách thêm vào cuối nó bởi vậy nên dữ liệu sẽ không bao giờ bị thay đổi trong đây. Dữ liệu lỗi thời được nén định kỳ để giảm thiểu dung lượng của kho dữ liệu.
 
-    etcd's CLI management tool - etcdctl, provides backup, snapshot, and restore capabilities which come in handy especially for a single etcd instance Kubernetes cluster - common in Development and learning environments. However, in Stage and Production environments, it is extremely important to replicate the data stores in HA mode, for cluster configuration data resiliency.
 
-    Công cụ quản lý dưới dạng CLI cuar etcd - etcdctl cung cấp khả năng backup, snapshot, and restore, những thứ đặc biệt tiện dụng đối với một cụm Kubernetes có một etcd duy nhất - thường thấy trong trong môi trường Phát triển. Tuy nhiên, trong môi trường Staging và Production, điều cực kỳ quan trọng là phải sao chép các kho dữ liệu ở chế độ HA, để có khả năng phục hồi dữ liệu cấu hình cụm.
+    Công cụ quản lý dưới dạng CLI của etcd - etcdctl cung cấp khả năng backup, snapshot, and restore, những thứ đặc biệt tiện dụng đối với một cụm Kubernetes có một etcd duy nhất - thường thấy trong trong môi trường Phát triển. Tuy nhiên, trong môi trường Staging và Production, điều cực kỳ quan trọng là phải sao chép các kho dữ liệu ở chế độ HA, để có khả năng phục hồi dữ liệu cấu hình cụm.
 
 Trong tất cả các thành phần của control plane, chỉ có API Server là có khả năng giao tiếp với kho dữ liệu etcd
 
