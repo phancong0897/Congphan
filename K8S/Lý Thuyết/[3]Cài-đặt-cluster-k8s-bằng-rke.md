@@ -22,7 +22,7 @@ Việc cài đặt sẽ được thực hiện trên 3 máy chủ có IP lần l
 sudo swapoff -a \
     && sudo cp -f /etc/fstab /etc/fstab.bak \
     && sudo sed -e '/swap/ s/^#*/#/' -i /etc/fstab
-    
+
 ```
 
 ### Tiến hành tạo user userdeploy
@@ -462,7 +462,7 @@ Thực hiện giải nén file docker_Ubuntu_20_04.zip
 
     - Kết quả chúng ta thấy 3 node đang ở trạng thái sẵn sàng.
 
-    <h3 align="center"><img src="../Images/3.png"></h3>
+    <h3 align="center"><img src="../Images/11.png"></h3>
 
 Lưu ý ta chỉ thực hiện các câu lệnh trên server cài đặt rke.
 
