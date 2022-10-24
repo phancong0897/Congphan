@@ -34,7 +34,7 @@ sudo swapoff -a \
 
 ### Cài đặt Docker trên các node
 
-Thực hiện giải nén file docker_Ubuntu_20_04.zip
+- Thực hiện giải nén file docker_Ubuntu_20_04.zip
 
     ```
 
@@ -46,11 +46,11 @@ Thực hiện giải nén file docker_Ubuntu_20_04.zip
     
     systemctl status containerd
 
-    <h3 align="center"><img src="../Images/9.png"></h3>
+<h3 align="center"><img src="../Images/9.png"></h3>
 
     docker -v
 
-    <h3 align="center"><img src="../Images/8.png"></h3>
+<h3 align="center"><img src="../Images/8.png"></h3>
 
     ```
 
@@ -68,7 +68,7 @@ Thực hiện giải nén file docker_Ubuntu_20_04.zip
 
     rke version
 
-    <h3 align="center"><img src="../Images/8.png"></h3>
+<h3 align="center"><img src="../Images/8.png"></h3>
 
     ```
 
@@ -451,6 +451,7 @@ Thực hiện giải nén file docker_Ubuntu_20_04.zip
 
     ```
 
+
 - Sau khi đã hoàn tất sẽ có 1 file kubeconfig được tạo ra dùng để access tới hệ thống Kubernetes là kube_config_cluster-kubernetes.yml.
 
 - Thực hiện lệnh export sau:
@@ -463,7 +464,7 @@ Thực hiện giải nén file docker_Ubuntu_20_04.zip
 
     - Kết quả chúng ta thấy 3 node đang ở trạng thái sẵn sàng.
 
-    <h3 align="center"><img src="../Images/11.png"></h3>
+<h3 align="center"><img src="../Images/11.png"></h3>
 
 Lưu ý ta chỉ thực hiện các câu lệnh trên server cài đặt rke.
 
