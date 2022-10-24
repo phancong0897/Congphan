@@ -15,6 +15,7 @@ Việc cài đặt sẽ được thực hiện trên 3 máy chủ có IP lần l
 
     ```
 
+    <h3 align="center"><img src="../Images/11.png"></h3>
 
 ### Tắt swap trên các node
 
