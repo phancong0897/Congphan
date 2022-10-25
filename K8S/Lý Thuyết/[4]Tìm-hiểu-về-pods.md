@@ -14,6 +14,10 @@ Pod có thể có nhiều container, tùy vào chức năng của nó được t
 
 Pod có thể được tạo trực tiếp bằng lệnh kubect gọi tới api của k8s, hoặc có thể định nghĩa dưới dạng file yaml và được apply vào k8s.
 
+Cấu trúc của Pods:
+
+<h3 align="center"><img src="../Images/14.png"></h3>
+
 Ta sẽ cùng xem một ví dụ mẫu thông tin khai báo Pod dưới dạng yaml như sau:
 
 ```
@@ -191,4 +195,3 @@ spec:
 - Với cách này ta có thể thử câu lệnh để kiểm tra cú pháp, có thể thêm các tham số mới thoải mái. Mỗi lần chạy lệnh sẽ gen ra file yaml, tới khi nào ta thấy ok rồi thì mới tạo lên hệ thống bằng cú pháp:
 
     ` kubect apply -f [pod-yaml-file] `
-    
