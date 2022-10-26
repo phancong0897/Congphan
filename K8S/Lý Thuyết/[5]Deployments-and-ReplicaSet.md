@@ -29,7 +29,7 @@
 
 - Về mặt ý tưởng, khi ta tạo mới deployment như trên, thì kubernetes sẽ tạo ra 1 replicaset và replicaset này sẽ tạo ra 03 Pod (tương ứng với tham số replicas: 3) với cấu hình như khai báo trong phần template.
 
-### Cách Deploymnet update Pod
+### Cách Deployment update Pod
 
 - Nếu ta update cấu hình của Deployment, ví dụ như thay đổi thông tin image từ nginx:v1.0 thành nginx:v2.0 thì lúc này hệ thống sẽ sinh ra 1 replicaset mới, nó cũng sẽ tạo ra 03 Pod mới (tương ứng với tham số replicas: 3) với cấu hình như khai báo trong phần template nhưng lúc này tham số image đã thay đổi thành nginx:v2.0.
 
@@ -37,4 +37,48 @@
 
 <h3 align="center"><img src="../Images/18.png"></h3>
 
+### ReplicaSet là gì
+
+ReplicaSet cũng là một tài nguyên trên K8S có mục đích là để duy trì một trạng thái ổn định của một bộ các Pod ở một thời điểm nhất định. ReplicaSet có 2 thành phần quan trọng là “thông tin cấu hình của Pod” (tương ứng với thông tin trong mục template) và “số lượng Pod” mong muốn (tương ứng với tham số replicas). ReplicaSet Controller sẽ làm nhiệm vụ đảm bảo số lượng Pod được khai báo trong ReplicaSet này luôn đảm bảo đúng bằng số lượng Pod mong muốn.
+
+ReplicaSet có thể được tạo thủ công bằng cách khai báo các file yaml. Nó cũng được tự động tạo ra khi ta tạo hay update Deployment.
+
+### Các trường hợp ứng dụng của Deployment
+
+- Một số trường hợp thường dùng tới deployment:
+
+    - Tạo Deployment để triển khai một ReplicaSet
+    
+    - Khai báo trạng thái mới của Pod.
+    
+    - Scale up/down số lượng Pod của một ứng dụng
+    
+    - Rollout/rollback một ứng dụng..
+
+### Cơ chế quản lý ReplicaSet và Pod của Deployment
+
+- Khi tạo một Deployment, ta sẽ phải định nghĩa các ReplicaSet/Pod được quản lý bởi Deployment như thế nào.
+
+- Như trong ví dụ đang nêu trong bài, thì tất cả các resource được gán nhãn “app=my-app” đều được hiểu là được quản lý bởi Deployment này. Việc này được khai báo trong tham số selector:
+
+```
+selector:
+  matchLabels:
+    app: nginx
+
+```
+
+- Đồng thời, với các ReplicaSet/Pod được sinh ra, chúng cũng sẽ được gán một nhãn theo khai báo trong phần template của Pod:
+
+```
+template:
+  metadata:
+    name: nginx-congpv
+    labels:
+      app: nginx
+
+```
+Như vậy phải luôn lưu ý 2 config này phải match với nhau.
+
+Tiếp theo sau khi Deployment tạo ra ReplicaSet, thì ReplicaSet sẽ làm nhiệm vụ tạo Pod. Lúc này cơ chế mà ReplicaSet quản lý Pod cũng giống như cách Deployment quản lý ReplicaSet.
 
