@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-congpv
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      name: nginx-congpv
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx-congpv
+        image: nginx
+        ports:
+          - containerPort: 80
