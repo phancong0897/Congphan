@@ -195,3 +195,30 @@ spec:
 - Với cách này ta có thể thử câu lệnh để kiểm tra cú pháp, có thể thêm các tham số mới thoải mái. Mỗi lần chạy lệnh sẽ gen ra file yaml, tới khi nào ta thấy ok rồi thì mới tạo lên hệ thống bằng cú pháp:
 
     ` kubect apply -f [pod-yaml-file] `
+
+### Một số lệnh thao tác với pods
+
+- Xem thông tin chi tiết của Pod
+
+  ` kubectl describe pod/namepod `
+
+- Tra cứu log của Pod
+
+  ` kubectl logs pod/podname `
+
+- Thi hành một lệnh của Pod
+
+  ` kubectl exec podname command [arg] `
+
+- Chạy tiến trình trong Pod và gắn vào terminal
+
+  ` kubectl exec -it mypod bash `
+
+- Xóa Pod
+
+  ` kubectl delete pod/mypod `
+
+  hoặc
+
+  ` kubectl delete -f firstpod.yaml `
+
