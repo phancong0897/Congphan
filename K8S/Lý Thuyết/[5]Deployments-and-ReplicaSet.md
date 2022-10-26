@@ -37,4 +37,4 @@
 
 <h3 align="center"><img src="../Images/18.png"></h3>
 
-- Và ReplicaSet cũ sẽ không bị xóa, mà trong trường này thuộc tính replicas của nó sẽ được cập nhật lại là 0. Vì sao ReplicaSet cũ không bị xóa thì nó sẽ có vai trò là ở trong quá trình mà ta update version mới của ứng dụng, và ta phát hiện version mới nó bị lỗi, ta muốn rollback lại version trước, thì ReplicaSet cũ của ta vẫn ở đó, ta sẽ rollback lại dễ dàng hơn.
+
