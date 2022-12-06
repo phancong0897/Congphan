@@ -15,7 +15,20 @@ Việc cài đặt sẽ được thực hiện trên 3 máy chủ có IP lần l
 
     ```
 
-    <h3 align="center"><img src="../Images/11.png"></h3>
+<h3 align="center"><img src="../Images/11.png"></h3>
+
+
+### Copy SSH key
+
+- SSH vào server 192.168.88.175 để gen key
+
+    - ssh-keygen
+
+    - ssh-copy-id congpv@192.168.88.176
+
+    - ssh-copy-id congpv@192.168.88.178
+
+    - ssh-copy-id congpv@192.168.88.181
 
 ### Tắt swap trên các node
 
@@ -36,7 +49,7 @@ sudo swapoff -a \
 
 - Thực hiện giải nén file docker_Ubuntu_20_04.zip
 
-    ```
+```
 
     cd docker
     
@@ -46,13 +59,17 @@ sudo swapoff -a \
     
     systemctl status containerd
 
-<h3 align="center"><img src="../Images/9.png"></h3>
+
 
     docker -v
 
+```
+
+<h3 align="center"><img src="../Images/9.png"></h3>
+
 <h3 align="center"><img src="../Images/8.png"></h3>
 
-    ```
+
 
 ### Chuẩn bị file cấu hình RKE Cluster
 
@@ -60,7 +77,7 @@ sudo swapoff -a \
 
 - Copy binary vừa download được và chỉnh sửa tên của nó thành rke
 
-    ```
+```
 
     mv rke_linux-amd64 rke && chmod +x rke
 
@@ -68,9 +85,9 @@ sudo swapoff -a \
 
     rke version
 
-<h3 align="center"><img src="../Images/8.png"></h3>
 
-    ```
+```
+<h3 align="center"><img src="../Images/8.png"></h3>
 
 - Sử dụng RKE CLI với lệnh sau để bắt đầu tạo file cấu hình cho RKE Cluster. RKE CLI sẽ tạo ra một file có cluster.yml với các options để cấu hình K8s node: Cấu hình đăng nhập qua SSH, k8s network plugin gì, vai trò của các node là gì...
 
@@ -451,8 +468,16 @@ sudo swapoff -a \
 
     ```
 
+- Cài đặt công cụ kubectl
+
+    - curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+
+    - mv kubectl /usr/bin/
+
+    - chmod +x /usr/bin/kubectl
 
 - Sau khi đã hoàn tất sẽ có 1 file kubeconfig được tạo ra dùng để access tới hệ thống Kubernetes là kube_config_cluster-kubernetes.yml.
+
 
 - Thực hiện lệnh export sau:
 
