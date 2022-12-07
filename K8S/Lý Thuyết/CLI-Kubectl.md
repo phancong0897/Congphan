@@ -35,3 +35,29 @@
 - Start the nginx pod using a different command and custom arguments
 
     ` kubectl run nginx --image=nginx --command -- <cmd> <arg1> ... <argN> `
+
+### kubectl rollout
+
+- Rollback to the previous deployment
+
+    ` kubectl rollout undo deployment/abc `
+
+- Check the rollout status of a daemonset
+
+    ` kubectl rollout status daemonset/foo `
+
+- Restart a deployment
+
+    ` kubectl rollout restart deployment/abc `
+
+- Restart deployments with the app=nginx label
+
+    ` kubectl rollout restart deployment --selector=app=nginx `
+
+- View the rollout history of a deployment
+
+    ` kubectl rollout history deployment/abc `
+
+- View the details of daemonset revision 3
+
+    ` kubectl rollout history daemonset/abc --revision=3 `
