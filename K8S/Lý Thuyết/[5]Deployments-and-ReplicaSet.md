@@ -1,5 +1,35 @@
 # Deployments and ReplicaSet
 
+### Cập nhật một ứng dụng đang chạy trong pods
+
+Bắt đầu với một ví dụ là ta đang có một ứng dụng đang chạy, ta deploy nó bằng ReplicaSet, với replicas = 3, nó sẽ chạy 3 Pod đằng sau, và ta deploy một Service để expose traffic của nó ra cho client bên ngoài.
+
+<h3 align="center"><img src="../Images/25.png"></h3>
+
+Bây giờ các dev trong team đã viết xong tính năng mới, ta build lại image với code mới, và ta muốn update lại các Pod đang chạy này với image mới. Ta sẽ làm như thế nào? Thì trong quá trình deploy, sẽ có rất nhiều chiến lược để làm, nhưng có 2 cách thông dụng nhất là: Recreate and RollingUpdate.
+
+- Recreate
+
+Ở cách deploy này, đầu tiên là sẽ xóa toàn bộ phiên bản (version) cũ của ứng dụng trước, sau đó ta sẽ deploy một version mới lên. Đối với kubernes thì đầu tiên ta sẽ cập nhật Pod template của ReplicaSet, sau đó ta xóa toàn bộ Pod hiện tại, để ReplicaSet tạo ra Pod với image mới.
+
+<h3 align="center"><img src="../Images/26.png"></h3>
+
+Với cách deploy này thì quá trình deploy quá dễ dàng, nhưng ta sẽ gặp một vấn đề rất lớn, đó là ứng dụng của chúng ta sẽ downtime với client, client không thể request tới ứng dụng của ta trong quá trình version mới được deploy lên.
+
+Với những hệ thống ít client thì dù bạn downtime 1 phút 2 phút hoặc 1 tiếng cũng không ảnh hưởng nhiều lắm, nhưng với những hệ thống với số lượng request lớn tầm 1000-3000 request trên giây, đặt biệt là với hệ thống ngân hàng thì quá trình downtime dù chỉ 1s thì cũng không được. Nên mới sinh ra cách deploy thứ hai là RollingUpdate
+
+- RollingUpdate
+
+Ở cách này, ta sẽ deploy từng version mới của ứng dụng lên, chắc chắn rằng nó đã chạy, ta dẫn request tới version mới của ứng dụng này, lặp lại quá trình này cho tới khi toàn bộ version mới của ứng dụng được deploy và version cũ đã bị xóa. Đối với kubernetes, ta sẽ lần lượt xóa từng Pod và ReplicaSet sẽ tạo Pod mới cho ta.
+
+<h3 align="center"><img src="../Images/27.png"></h3>
+
+Thì ở cách deploy này, điểm mạnh là ta sẽ giảm thời gian downtime của ứng dụng đối với client, còn điểm yếu là ta sẽ có version mới và version cũ của ứng dụng chạy chung một lúc. Và khó nhất là ta phải viết script để thực hiện quá trình này, test script này chạy đúng không, rất mất thời gian và công sức. Với các hệ thống lớn thì để viết một cái script test được quá trình deploy này thì không dễ chút nào.
+
+Để chọn cách deploy nào cho ứng dụng thì còn tùy vào tình huống và nhu cầu, nếu ứng dụng ta có thể chạy nhiều version của ứng dụng cùng lúc không ảnh hưởng thì ta sẽ chọn RollingUpdate. Còn nếu ứng dụng chúng ta downtime không ảnh hưởng gì, thì ta sẽ cách Recreate để deploy. Còn cách một cách nữa là không có downtime và không có nhiều version của ứng dụng chạy cùng một lúc nữa là Bule-Green update. Thì ở đây mình không nói về cách deploy này. Các bạn có thể đọc thêm ở đây.
+
+Nếu ta chỉ dùng những resource bình thường, thì vấn đề đầu tiên ta gặp phải là quá trình cập nhật version mới của ứng dụng và cần phải script để thực hiện một số thao tác như xóa Pod cũ. Vấn đề thứ hai ta sẽ gặp là ta phát hiện version mới của chúng ta chạy sai hoặc có bug, ta muốn lùi lại phiên bản trước đó thì làm sao?
+
 ### Deployment là gì
 
 - Trong phần trước chúng ta đã tìm hiểu về thành phần Pod trên kubernetes và các tạo/quản lý nó. Tuy nhiên trong thực tế thì ít khi chúng ta triển khai ứng dụng cách cách tạo Pod trực tiếp như vậy mà các ứng dụng sẽ được triển khai dưới một trong các dạng triển khai như Deployment, StatefulSet, DaemonSet hay Job/Cronjob.
