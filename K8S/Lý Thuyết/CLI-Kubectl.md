@@ -14,6 +14,10 @@
 
     ` kubectl get replicationcontroller web `
 
+- List all replication controllers and services together in ps output format
+
+kubectl get rc,services
+
 ### kubectl run
 
 - Start a nginx pod
