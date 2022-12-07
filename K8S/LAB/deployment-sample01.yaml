@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment-sample1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      name: busybox-deployment
+  template:
+    metadata:
+      labels:
+        name: busybox-deployment
+    spec:
+      containers:
+      - name: busybox-container
+        image: busybox
+        resources:
+          limits:
+            cpu: 200m
+            memory: 50Mi
+          requests:
+            cpu: 100m
+            memory: 40Mi
+        command:
+        - sh
+        - "-c"
+        - echo Hello Kubernetes! && sleep 3600
