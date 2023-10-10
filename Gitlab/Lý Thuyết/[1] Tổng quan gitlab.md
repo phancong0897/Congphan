@@ -1,3 +1,5 @@
+<h3 align="center"><img src="../Images/3.png"></h3>
+
 ### 1. GitLab là gì?
 
 Trước khi đến với giải thích GitLab là gì, bạn cần tìm hiểu khái niệm về Git trước. Đây là hệ thống quản lý phiên bản phân tán, được người dùng ưa chuộng. Nhờ việc ứng dụng giúp máy tính lưu trữ được các version khác nhau của mã nguồn.
