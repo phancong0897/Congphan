@@ -6,7 +6,13 @@
 
 ```
 
-Infrastructure as Code nhầm giải quyết bài toán khi setup kiến trúc hạ tầng cho hệ thống sẽ cần trải qua nhiều bước, với nhiều môi trường khác nhau. Điều này dẫn tới việc khó quản lý, cũng như khi có sự thay đổi hoặc tạo mới hạ tầng có thể sẽ có những sai sót trong quá trình thực hiện. Tính chất của code đó chính là bất biến có thể lưu trữ được, dễ theo dõi, kiểm soát và chia sẻ. Khi triển khai kiến trúc hạ tầng trên môi trường mới. Engineer chỉ cần tiến hành apply lại code là có thể triển khai hạ tầng mới.
+Infrastructure as Code nhầm giải quyết bài toán khi setup kiến trúc hạ tầng cho hệ thống sẽ cần trải qua nhiều bước, với nhiều 
+
+môi trường khác nhau. Điều này dẫn tới việc khó quản lý, cũng như khi có sự thay đổi hoặc tạo mới hạ tầng có thể sẽ có những sai 
+
+sót trong quá trình thực hiện. Tính chất của code đó chính là bất biến có thể lưu trữ được, dễ theo dõi, kiểm soát và chia sẻ. 
+
+Khi triển khai kiến trúc hạ tầng trên môi trường mới. Engineer chỉ cần tiến hành apply lại code là có thể triển khai hạ tầng mới.
 
 ```
 
