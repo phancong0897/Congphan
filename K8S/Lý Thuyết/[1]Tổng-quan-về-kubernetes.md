@@ -51,6 +51,8 @@ Kiến trúc của minikube khá đặc biệt khi toàn bộ control plane và 
 
 ### 2.2. Các thành phần trong cluster cơ bản
 
+<h3 align="center"><img src="../Images/28.png"></h3>
+
 - Nút master cung cấp môi trường cho control plane chịu trách nhiệm quản lý trạng thái của các cụm Kubernetes và nó là đầu não đằng sau mọi quá trình vận hành trong cụm.Thành phần control plane với vai trò vô cùng đặc thù trong bộ quản lý cụm. Để có thể giao tiếp với cụm Kubernetes, người sử dụng gửi các requests đến controlplane thông qua các công cụ Command Line Interface (CLI), một Dashboard dưới dạng giao diện người dùng web (Web UI) , hoặc các API (Application Programming Interface).
 
 - Việc giữ control plane chạy bằng mọi giá là tối quan trọng. Việc control plane ngừng hoạt động có thể dẫn đến downtime, thứ mà gây ra việc các dịch vụ gián đoạn và khôngthể cung cấp cho người dùng và có thể làm kinh doanh thua lỗ. Để đảm bảo cho khả năng chịu lỗi của control plane, các bản sao của nút master được thêm vào cụm, được cấuhình ở chế độ HA (High-Availability, độ khả dụng cao). Trong khi chỉ một trong nút master được chuyên biệt để quản lý chủ động cụm, các thành phần control plane giữ trạngthái đồng bộ giữa các bản sao của nút master. Chính loại cấu hình này đã cung cấp khả năng tự phục hồi cho control plane của cụm, thứ có thể cho phép nút master đang ởtrạng thái active xảy ra lỗi ở mức độ nào đó.
