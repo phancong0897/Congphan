@@ -1,4 +1,4 @@
-# Variables
+# Variables - Biến
 
 ### Biến là gì
 
