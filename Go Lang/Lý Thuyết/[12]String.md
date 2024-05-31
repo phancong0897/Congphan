@@ -49,6 +49,8 @@ func main() {
 }
 ```
 
+- Để hiểu rõ hơn về string, các bạn cần hiểu một cách cơ bản về Unicode và UTF-8. Các bạn có thể đọc thêm về Unicode và UTF tại naveenr.net.
+
 ### Rune
 
 - Một rune là một kiểu dữ liệu có sẵn trong Go, một cách gọi khác của kiểu dữ liệu int32. Rune đại diện cho một điểm mã trong Go. Không quan trọng điểm mã chứa bao nhiêu byte, nó có thể đại diện bởi một rune. Chúng ta hãy sửa ví dụ trên để in ra ký tự sử dụng rune:
