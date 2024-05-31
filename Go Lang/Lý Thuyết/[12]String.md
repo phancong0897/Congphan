@@ -127,6 +127,7 @@ func main() {
 }
 ```
 
+- Có thể đổi từ unicode sang dạng hexadecimal bằng tool trực tuyến : https://onlinetools.com/unicode/convert-unicode-to-hex
 ### Tạo string từ slice chứa các rune
 
 ```
