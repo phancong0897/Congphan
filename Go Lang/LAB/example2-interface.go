@@ -1,3 +1,4 @@
+//Interface rỗng và switch
 package main
 
 import (
