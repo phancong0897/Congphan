@@ -1,3 +1,4 @@
+// Ví dụ thực tế về interface
 package main
 
 import (
