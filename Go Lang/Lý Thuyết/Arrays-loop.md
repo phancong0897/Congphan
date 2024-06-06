@@ -79,3 +79,32 @@ func demoSlice(){
 	fmt.Println(a[1:3])
 }
 ```
+
+/*
+remove item Slice
+*/
+
+```go
+// Xóa phần tử ưu tiên tốc độ, không theo thứ tự
+func removeItemSliceNotKeepOrder(a []string, i int)[]string{
+	a[i] = a[len(a)-1]
+	a[len(a)-1] = ""
+	return a[:len(a)-1]
+}
+```
+
+```go
+// Xóa phần tử giữ nguyên thứ tự
+// cách 1
+func removeItemSliceKeepOrder(a []string, i int)[]string{
+	copy(a[1:], a[i+1:])
+	a[len(a)-1]= ""
+	a = a[:len(a)-1]
+	return a
+}
+// cách 2
+func removeItemSliceKeepOrder2(a []string, i int) []string {
+	return append(a[:i], a[i+1:]...)
+}
+```
+
