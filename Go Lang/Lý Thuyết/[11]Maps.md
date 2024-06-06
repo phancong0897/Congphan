@@ -8,6 +8,10 @@ Một map được khởi tạo bằng cách truyền kiểu dữ liệu của k
 
 `personSalary := make(map[string]int)`
 
+- Khởi tạo ngắn gọn
+```go
+dict := map[string]string{}
+```
 ### Thêm phần tử vào map
 Cú pháp để thêm phần tử mới vào map cũng tương tự như với array. Chương trình dưới đây thêm một số phần tử mới vào map personSalary.
 
